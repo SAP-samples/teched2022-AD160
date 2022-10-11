@@ -1,0 +1,37 @@
+# Run and deploy Business Process
+
+In this exercise, we will learn:
+- how deploy and release Business Process
+
+## Run and deploy Business Process
+
+After completing Modify Automation exercise your process looks like this:
+
+<br>![](/exercises/Run-release-deploy/images/301.png)
+
+1. **Release** the project.
+
+<br>![](/exercises/Run-release-deploy/images/302.png)
+
+2. Choose the **Version** and confirm **Release**.
+
+<br>![](/exercises/Run-release-deploy/images/303.png)
+
+3. Choose **Deploy** the project.
+
+<br>![](/exercises/Run-release-deploy/images/304.png)
+
+
+4. Once you have successfully [configured Document Management Repository and Destination in SAP BTP Cockpit] (https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/3da3846d0da94d96a4f38688cd2e936a.html?locale=en-US&version=Cloud) in the **Deploy a project** window:
+
+    - Under Set Variables choose **No trigger creation**,
+    - Under Destination choose `SPA_DMS`,
+    - **Confirm** and **Deploy** a project.
+
+<br>![](/exercises/Run-release-deploy/images/305.png)
+
+## Summary
+
+You've now ...
+
+Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
