@@ -3,7 +3,7 @@
 In this exercise you will learn:
 - How to modify and add an automation
 
-## 1. Modify the Project
+## 1. Modify the Automation
 
 
 1. Once the dependency is completed, go to **Extract Invoice Data**, select three dots, and choose **Open Editor**
@@ -74,12 +74,14 @@ In this exercise you will learn:
 
   ![05](./images/024a.png)
 
-19. Select **Invoice Approval form** and map Inputs:
+## 2. Modify the Process.
+
+1. Select **Invoice Approval form** and map Inputs:
 - map **Employee Name** with **employeeName**.
 
   ![05](./images/025a.png)
 
-17. **Save** changes.
+2. **Save** changes.
 
   ![05](./images/026.png)
 
