@@ -1,8 +1,8 @@
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
-- [Acquire a Template Project from the Store <a name="section1"></a>](#Acquire-a-Template-Project-from-the-Store-)
-- [Explore the store <a name="section2"></a>](#Explore-the-Store-)
-- [Acquire a Project <a name="section3"></a>](#Acquire-a-Project-)
+- [Acquire a Template Project from the Store <a name="section1"></a>](#acquire-a-template-project-from-the-store-)
+ - [Explore the store <a name="section2"></a>](#explore-the-store-)
+ - [Acquire a Project <a name="section3"></a>](#acquire-a-project-)
 
 
 # 1. Acquire a Template Project from the Store <a name="section1"></a>
@@ -15,7 +15,7 @@ In this exercise, you will learn:
 
 ## 1. Explore the store <a name="section2"></a>
 
->The Store offers predefined content for your automation. Packages are categorized by catalog which let you choose between Business Content, Learning Content and SAP Intelligent RPA SDK.
+>The Store offers predefined content for your automation. Packages are categorized by catalog which let you choose between Business Content, Learning Content and Automation SDK.
 
 1.	Navigate to the store in your SPA Tenant, to find project template.
 
@@ -31,7 +31,7 @@ In this exercise, you will learn:
 
 2.	Create a Business Process Project:
 - Under Project Name field type: **Invoice Approval Process AD160-XXX** (replace `XXX` with your User ID to identify project later),
-- Under Short Description: Provide your own description,
+- Under Short Description: Invoice Approval Process
 - Choose **Create**.
 
   ![03](./images/003.png)
