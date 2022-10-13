@@ -7,7 +7,7 @@ In this exercise you will learn:
 
 1. Open your project. Choose process **Get Invoice Details**
 
-    <br>![](/exercises/Modify-automation/images/005.png)
+  ![05](./images//005.png)
 
 2. From the **Editable** version of the go to the **Invoice Request Form**, choose 3 dots and choose **Remove** to delete the form.
 
