@@ -51,11 +51,11 @@ In this exercise you will learn:
 
  ![04](./images/014.png)
 
-    Select **Add** button and close the Project Properties window.
+8. Select **Add** button.
 
  ![04](./images/015a.png)
 
-8. Close the window.
+8. **Close** the Project Properties window.
 
  ![04](./images/015b.png)
 
