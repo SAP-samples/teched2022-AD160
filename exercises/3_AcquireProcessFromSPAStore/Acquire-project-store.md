@@ -1,11 +1,17 @@
-# Acquire a Template Project from the Store
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Acquire a Template Project from the Store <a name="section1"></a>](#Acquire-a-Template-Project-from-the-Store-)
+ - [Open Excel Instance <a name="section4-excel1"></a>](#open-excel-instance-)
+ - [Excel Cloud Link <a name="section4-excel2"></a>](#excel-cloud-link-)
+
+
+
+# 1. Acquire a Template Project from the Store <a name="section1"></a>
 
 
 In this exercise, you will learn:
 - How to explore content in the SAP Process Automation Store.
-- How to acquire the Project using UI5 application package from SAP Process Automation’s Store.
 - How to reuse a package from the Store in the Application Development.
-
 
 
 ## 1. Explore the store
