@@ -63,4 +63,4 @@ In this exercise you will learn:
 
 You've now created API Triggers.
 
-Continue to - [06](../ex3/run-release-deploy.md)
+Continue to - [05](../ex3/run-release-deploy.md)
