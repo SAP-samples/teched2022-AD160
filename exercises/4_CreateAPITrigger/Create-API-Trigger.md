@@ -59,6 +59,8 @@ In this exercise you will learn:
 
  ![04](./images/015b.png)
 
+> With this pacakage you can automate some operations on your Document Management Service repository.
+
 ## Summary
 
 You've now created API Triggers.

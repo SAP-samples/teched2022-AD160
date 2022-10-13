@@ -1,4 +1,4 @@
-# Add an automation to the process
+# Modify the automation
 
 In this exercise you will learn:
 - How to modify and add an automation
@@ -6,65 +6,82 @@ In this exercise you will learn:
 ## 1. Modify the Project
 
 
-10. Once the dependency is completed, go to **Extract Invoice Data**, select three dots, and choose **Open Editor**
+1. Once the dependency is completed, go to **Extract Invoice Data**, select three dots, and choose **Open Editor**
 
-  ![05](./images/010a.png)
+  ![05](./images/010b.png)
 
-11. Modify parameters in **Input/Output**.
+2. Modify parameters in **Input/Output**.
 - Rename **FilePath** to **fileName**
 - Select **Add new input parameter** and name it **folderName**
 
-  ![05](./images/016.png)
+  ![05](./images/016a.png)
 
     After changes the parameters should look like this:
+
   ![05](./images/017.png)
 
-12. Go to the **Tools**, select **Automations** and drag and drop **Download document**.
+3. Go to the **Tools**, select **Automations** and drag and drop **Download document**.
 
   ![05](./images/018.png)
 
-13. Map Input Parameters.
-- Select **Edit Expression**
+4. Select Download Document automation and Map Input Parameters.
+
+5. Select **Edit Expression** next to **uploadedFileName** field.
+
   ![05](./images/019.png)
-- Under **Variables** map accordingly and select **Save Expression**:
-|  **Name**    | **Type**
-|  :------------- | :-------------
-|  `uploadedFileName`       | `fileName`
-|  `folderName`     | `folderName`
 
-  ![05](./images/020.png)
-- outputPath needs to hard-coded: "C:\\Users\\Public\\" + Step0.FileName
+6. Map with Variable **fileName** and select **Save Expression**.
 
-14. Click on the **Canvas** in the background.
+  ![05](./images/098.png)
+
+7. Select **Edit Expression** next to **folderFileName** field.
+
+    ![05](./images/097.png)
+
+8. Map with Variable **folderName** and select **Save Expression**.
+
+    ![05](./images/099.png)
+
+9. The **outputPath** needs to hard-coded: "C:\\Users\\Public\\" + Step0.FileName
+
+    ![05](./images/096.png)
+
+10. Click on the **Canvas** in the background.
 
   ![05](./images/021.png)
 
-15. Under **Tools** search for the Activity **Delete File**, drag and drop it.
+11. Under **Tools** search for the Activity **Delete File**, drag and drop it.
 
   ![05](./images/022.png)
 
-16. Under **Delete File** Step edit Input Parameters:
-- map fileName with fileName
-- under remotePath type: C:\Users\Public\
+12. Select the Activity **Delete File**.
 
-  ![05](./images/023.png)
+  ![05](./images/095.png)
 
-17. Map Inputs under Extract **Invoice Data**.
+13. Under **Delete File** Step edit Input Parameters:
+- map **fileName** with **fileName**
+- under **remotePath** type: C:\Users\Public\
 
-    |  **Name**    | **Type**
-    |  :------------- | :-------------
-    |  `fileName`       | `fileName`
-    |  `folderName`     | `folderName`
+  ![05](./images/023a.png)
 
-  ![05](./images/024.png)
+14. Go to the process Tab **Get Invoice Details**.
 
-19. Map Inputs under Under **Invoice Approval form**.
+  ![05](./images/094.png)
 
-  ![05](./images/025.png)
+15. Select **Extract Invoice Data** and map Inputs:
+- map **fileName** with **fileName**,
+- map **folderName** with **folderName**.
+
+  ![05](./images/024a.png)
+
+19. Select **Invoice Approval form** and map Inputs:
+- map **Employee Name** with **employeeName**.
+
+  ![05](./images/025a.png)
 
 17. **Save** changes.
 
-  ![05](./images/026a.png)
+  ![05](./images/026.png)
 
 ## Summary
 
