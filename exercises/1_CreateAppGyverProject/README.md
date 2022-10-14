@@ -1,26 +1,24 @@
-# Level 1 Heading
+
+# Create an AppGyver Project
 
 In this exercise, you will...
 
-## Level 2 Heading
+## Create a New Project
 
-After completing these steps you will have....
+1. Within the application development lobby, click <b>Create</b> and then select <b><i>AppGyver Project</i></b>.
+![Create the project](images/Create_AppGyver_Project.png)
 
-1.	Click here.
-<br>![](/exercises/ex0/images/00_00_0010.png)
+2. Under Project Name, enter <b><i>"Company Name Invoice Approval"</b></i>. For example, <i>Cafe Invoice Approval</i>.
+Enter a short description for your reference. <b><i>"An application to Scan or upload invoice”</b></i>. <br>
+Click on <b>Create</b> to start building your application.
 
-2.	Insert this code.
-``` abap
- DATA(params) = request->get_form_fields(  ).
- READ TABLE params REFERENCE INTO DATA(param) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-```
+![Name the project](images/02.png)
+
+
+## Create a Home Page
+
 
 ## Summary
 
-Now that you have ... 
+Now that you have ...
 Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
