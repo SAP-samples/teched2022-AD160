@@ -18,8 +18,8 @@ The requirements to follow the exercises in this repository is to know basic of 
 - [Exercise 2 - Test AppGyver Project](/exercises/2_PublishActionProject)
 - [Exercise 3 - Import Sample Business Process From Store](/exercises/3_ImportSampleProcess)
 - [Exercise 4 - Create an API trigger](/exercises/4_CreateAPITrigger)
-- [Exercise 5 - Modify Automation](/exercises/5_AddAction)
-- [Exercise 6 - Release, Deploy and Test Business Process](/exercises/6_ReleaseAndDeployProcess)
+- [Exercise 5 - Modify Automation](/exercises/5_ModifyAutomation)
+- [Exercise 6 - Release, Deploy and Test Business Process](/exercises/6_ReleaseDeployProcess)
 - [Exercise 7 - Test AppGyver and Business Process](/exercises/7_E2ETesting)
 
 
