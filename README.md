@@ -1,37 +1,35 @@
-# Session ID - Session Title
+# AD160 - Build Robust Apps Enhanced with Process Automation and Low-Code Tooling
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2022 session called [AD160 - Build Robust Apps Enhanced with Process Automation and Low-Code Tooling](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198448374001X6GH)
 
 ## Overview
 
-This session introduces attendees to...
+This session introduces attendees how to build apps and processes with workflows and extract the invoice data  with RPA bots. Leverage pre-build sample content package and enhance the sample process to integrate with Apps. Finally test your integrated scenario .
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements to follow the exercises in this repository is to know basic of SAP Process Automation. Attend this virtual workshop to learn how to build  process, decisions and extract the data from documents with RPA bots from scratch [AI180 - Automate Your Invoice Processing with SAP Process Automation](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198041428001ExKO)
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+- [Exercise 1 - Create AppGyver Project](/exercises/1_CreateAppGyverProject)
+- [Exercise 2 - Test AppGyver Project](/exercises/2_PublishActionProject)
+- [Exercise 3 - Import Sample Business Process From Store](/exercises/3_ImportSampleProcess)
+- [Exercise 4 - Create an API trigger](/exercises/4_CreateAPITrigger)
+- [Exercise 5 - Modify Automation](/exercises/5_AddAction)
+- [Exercise 6 - Release, Deploy and Test Business Process](/exercises/6_ReleaseAndDeployProcess)
+- [Exercise 7 - Test AppGyver and Business Process](/exercises/7_E2ETesting)
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
 
-  
 **OR** Link to the Tutorial Navigator for example...
 
 Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
 
 **IMPORTANT**
 
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder.
 
 ## How to obtain support
 
