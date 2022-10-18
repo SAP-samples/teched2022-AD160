@@ -15,7 +15,7 @@ Click on <b>Create</b> to start building your application.
 ![Name the project](images/02.png)
 
 
-## Create a Home Page
+## Create UI 
 1. You will be redirected to AppGyver Composer, which is like an IDE for AppGyver. In the canvas, you can already see a <b>Title</b> and <b>Text</b> component.
 
 ![home page](images/01.png)
@@ -130,6 +130,42 @@ Click on <b>SAVE</b>.
 27. Click on <b>SAVE</b> on the top right corner to the save the UI created so far.
 ![](images/27.png)
 
+## Data Connection
+
+## Create Logic
+
+1. Open the logic composer for <b>Upload</b> button by click on the grey bar in the bottom
+![](images/28.png)
+
+2. By default, the trigger event will be <b>Component tap</b>.<br>
+Now we are going to download a new component from the <b>MARKETPLACE</b>.
+
+<b>MARKETPLACE</b> contains hundreds of pre-built visual and logic components, which can be installed and used with minimum or no customisation.
+ 
+more information on <a href="https://docs.appgyver.com/docs/marketplace?highlight=Market%20place">MARKETPLACE</a> 
+
+![](images/29.png)
+
+3. In the search bar, search for “<i>pick image</i>”.<br> Now, select the <b>Pick image from library</b>component.
+
+![](images/30.png)
+
+4. Click on <b>Install</b> to install the logic component in the library.
+
+![](images/31.png)
+
+5. Drag and drop the <b>Pick image from library</b> under Installed tab to the logic canvas.<br>
+Connect output node of the <b>Component tap</b> logic component with the <b>Pick image
+from library</b>.
+
+![](images/32.png)
+
+6. From the Core tab of the component library drag and drop the <b>Set app variable</b> component and connect the node of <b>Pick image from library</b> and <b>Set app variable</b>.
+
+![](images/33.png)
+
+7. In the properties tab of the <b>Set app variable</b>, select the variable <b>Invoicescan</b>.
+![](images/34.png)
 ## Summary
 
 Now that you have ...
