@@ -58,7 +58,7 @@ In <b>Variables view</b>, you can create variables which can store information t
 
 ![create another variable](images/10.png)
 
-11. Change the <b>Variable Value Type</b> of <b>Invoicescan</b> to <b>Local Systemfile path</b>.
+11. Change the <b>Variable Value Type</b> of <b>Invoicescan</b> to <b>Local filesystem path</b>.
 
 ![variable type](images/11.png)
 
@@ -75,17 +75,60 @@ In <b>Variables view</b>, you can create variables which can store information t
 ![binding menu ](images/14.png)
 
 15. Select <b> App Variable</b>.
+
 ![app variable inbind menu](images/15.png)
 
 16. Now, select <b>name</b> in the list of App variables available.
+
 ![name of app vairble](images/16.png)
 
 17. Click on <b>SAVE</b> button to the save the binding to the component value.
+
 ![SAVE button](images/17.png)
 
-18. 
+18. A variable can be binded to this image component. Open the binding menu of the image under properties on the right-hand side.
+
 ![bind menu](images/18.png)
 
+19. The binding menu will be pop-up. Select <b>Data and Variables</b>.
+
+![bind image](images/19.png)
+
+20. Select <b>App Variables</b>.
+
+![app variables](images/20.png)
+
+21. Now select <b>Invoicescan</b> under the list of available app variables and click on <b>SAVE</b> to save the binding to the image component.
+
+![variable](images/21.png)
+
+22. Drag and drop another <b>Button</b> component from component library to the canvas and rename the label to <b>Submit</b>.
+
+![Submit ](images/22.png)
+
+23. The submit button should be visible only after the invoice is selected. Click on <b>ADDVANCED PROPERTIES</b> to change the visibility properties of the button. Open the binding menu for the visibility properites.
+
+![](images/23.png)
+
+24. Select the <b>Formula</b>.
+
+![](images/24.png)
+
+25. In the formula bar enter the following formula.
+<pre>IF(IS_EMPTY(pageVars.InvoiceScan),false,true)</pre>
+This formula checks if the <b>InvoiceScan</b> page variable is empty, then the output will be false and component will
+be disabled. If the <b>InvoiceScan</b> page variable have some value, the output will change to
+true, and component will be displayed.<br>
+Click on <b>SAVE</b>.
+
+![](images/25.png)
+
+26. Click on <b>SAVE</b>.
+
+![](images/26.png)
+
+27. Click on <b>SAVE</b> on the top right corner to the save the UI created so far.
+![](images/27.png)
 
 ## Summary
 
