@@ -1,9 +1,14 @@
-# Run and deploy Business Process
+- [Overview](#overview)
+- [Release and deploy Business Process](#releaseDeploy)
+- [Summary](#summary)
 
-In this exercise, we will learn:
-- how deploy and release Business Process
+### Overview <a name="overview"></a>
 
-## Run and deploy Business Process
+In this exercise you will learn:
+- How to modify and add an automation
+
+
+## Release and deploy Business Process <a name="releaseDeploy"></a>
 
 After completing Modify Automation exercise your process looks like this:
 
@@ -30,7 +35,7 @@ After completing Modify Automation exercise your process looks like this:
 
 <br>![](/exercises/Run-release-deploy/images/305.png)
 
-## Summary
+## Summary <a name="summary"></a>
 
 You've now ...
 

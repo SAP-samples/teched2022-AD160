@@ -1,9 +1,15 @@
-# Modify the automation
+## Table of Contents
+ - [Overview](#overview)
+ - [Modify the Automation](#modifyAutomation)
+ - [Map Automation parameters to Process parameters](#mapParameters)
+ - [Summary](#summary)
+
+### Overview <a name="overview"></a>
 
 In this exercise you will learn:
 - How to modify and add an automation
 
-## 1. Modify the Automation
+## 1. Modify the Automation <a name="modifyAutomation"></a>
 
 
 1. Once the dependency is completed, go to **Extract Invoice Data**, select three dots, and choose **Open Editor**
@@ -74,7 +80,7 @@ In this exercise you will learn:
 
   ![05](./images/024a.png)
 
-## 2. Modify the Process.
+## 2. Map Automation parameters to Process parameters <a name="mapParameters"></a>
 
 1. Select **Invoice Approval form** and map Inputs:
 - map **Employee Name** with **employeeName**.
@@ -85,8 +91,8 @@ In this exercise you will learn:
 
   ![05](./images/026.png)
 
-## Summary
+## Summary <a name="summary"></a>
 
 You've now modified the project.
 
-Continue to - [06](../ex3/run-release-deploy.md)
+Continue to - [Exercise 6 - Release and Deploy Process](../6_ReleaseDeployProcess/run-release-deploy.md)

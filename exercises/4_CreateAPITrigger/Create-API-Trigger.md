@@ -1,15 +1,15 @@
 ## Table of Contents
- - [Overview](#section1)
- - [Explore the store](#section2)
- - [Acquire a Project](#section3)
+ - [Overview](#overview)
+ - [Modify the Project](#modifyProject)
+ - [Configure the Inputs ](#configureInputs)
  - [Summary](#summary)
 
-# Create the API Trigger
+### Overview <a name="overview"></a>
 
 In this exercise you will learn:
 - how to create an API Trigger
 
-## 1. Modify the Project
+## 1. Modify the Project <a name="modifyProject"></a>
 
 1. Open your project. Choose process **Get Invoice Details**.
 
@@ -19,7 +19,7 @@ In this exercise you will learn:
 
  ![04](./images//006.png)
 
-## 2. Configure the Inputs
+## 2. Configure the Inputs <a name="configureInputs"></a>
 
 1. Click on the **Canvas** in the background.
 
@@ -45,7 +45,7 @@ In this exercise you will learn:
 
  ![04](./images/011a.png)
 
-5. Choose **Configure Agent Version** and select Agent 3.7 and **Save**.
+5. Choose **Configure Agent Version** and select Agent 3.7.XX and **Save**.
 
  ![04](./images/012a.png)
 
@@ -67,8 +67,8 @@ In this exercise you will learn:
 
 > With this pacakage you can automate some operations on your Document Management Service repository.
 
-## Summary
+## Summary <a name="summary"></a>
 
-You've now created API Triggers.
+You've now created API Triggers for the Business Process.
 
-Continue to - [05](../ex3/run-release-deploy.md)
+Continue to - [Exercise 5 - Modify the Automation](../5_ModifyAutomation/Modify-automation.md)
