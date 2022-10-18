@@ -71,4 +71,4 @@ In this exercise you will learn:
 
 You've now created API Triggers for the Business Process.
 
-Continue to - [Exercise 5 - Modify the Automation](../5_ModifyAutomation/Modify-automation.md)
+Continue to - [Exercise 5 - Modify the Automation](../5_Modify-automation/Modify-automation.md)
