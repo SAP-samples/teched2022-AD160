@@ -14,13 +14,13 @@ The requirements to follow the exercises in this repository is to know basic of 
 
 ## Exercises
 
-- [Exercise 1 - Create AppGyver Project](/exercises/1_CreateAppGyverProject)
-- [Exercise 2 - Test AppGyver Project](/exercises/2_PublishActionProject)
+- [Exercise 1 - Create SAP Build Apps Project](/exercises/1_CreateAppGyverProject)
+- [Exercise 2 - Test SAP Build Apps Project](/exercises/2_PublishActionProject)
 - [Exercise 3 - Import Sample Business Process From Store](/exercises/3_ImportSampleProcess)
 - [Exercise 4 - Create an API trigger](/exercises/4_CreateAPITrigger)
 - [Exercise 5 - Modify Automation](/exercises/5_ModifyAutomation)
 - [Exercise 6 - Release, Deploy and Test Business Process](/exercises/6_ReleaseDeployProcess)
-- [Exercise 7 - Test AppGyver and Business Process](/exercises/7_E2ETesting)
+- [Exercise 7 - Test SAP Build Apps and Business Process](/exercises/7_E2ETesting)
 
 
 **OR** Link to the Tutorial Navigator for example...
