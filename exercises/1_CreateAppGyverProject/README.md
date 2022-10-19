@@ -1,11 +1,11 @@
 
-# Create an AppGyver Project
+# Create an SAP Build Apps Project
 
-In this exercise, you will create a new AppGyver Project to start creating the application.
+In this exercise, you will create a new SAP Build Apps Project to start creating the application.
 
 ## Create a New Project
 
-1. Within the application development lobby, click <b>Create</b> and then select <b><i>AppGyver Project</i></b>.
+1. Within the application development lobby, click <b>Create</b> and then select <b><i>SAP Build Apps Project</i></b>.
 ![Create the project](images/Create_AppGyver_Project.png)
 
 2. Under Project Name, enter <b><i>"Company Name Invoice Approval"</b></i>. For example, <i>Cafe Invoice Approval</i>.
@@ -16,7 +16,7 @@ Click on <b>Create</b> to start building your application.
 
 
 ## Create UI 
-1. You will be redirected to AppGyver Composer, which is like an IDE for AppGyver. In the canvas, you can already see a <b>Title</b> and <b>Text</b> component.
+1. You will be redirected to SAP Build Apps Composer, which is like an IDE for SAP Build Apps. In the canvas, you can already see a <b>Title</b> and <b>Text</b> component.
 
 ![home page](images/01.png)
 
