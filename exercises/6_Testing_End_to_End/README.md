@@ -1,43 +1,50 @@
-# Exercise 1 - Exercise 1 Description.
 
-In this exercise, we will create...
-
-## Exercise 1.1 Sub Exercise 1 Description
-
-After completing these steps you will have created...
-
-1. Click here.
-<br>![](/exercises/ex1/images/01_01_0010.png)
-
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello World! | ).
-```
+## Testing the End to End Scnerio.
 
 
+1. Open the <b>Application lobby</b> again. <br>
+    Open the <b>Monitor</b> tab.
+![](images/ss1.png)
 
-## Exercise 1.2 Sub Exercise 2 Description
+2. Click on <b>Process and Workflow</b> Instances in the <b>Manage section</b>.
+![](images/ss3.png)
 
-After completing these steps you will have...
+3. Find your process and copy its <b>Definition ID</b>.
+![](images/ss2.png)
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
+4. Now, Open your AppGyver Project and click on <b>DATA</b> tab.
+![](images/ss4.png)
 
-```
+5. Select the <b>SendtoSPA</b> data entity.
+![](images/ss5.png)
 
-2.	Click here.
-<br>![](/exercises/ex1/images/01_02_0010.png)
+6. In the <b>create</b> tab, open the bindng menu for <b> Request body mapper</b>.
+![](images/ss6.png)
 
+7. Open the formula editor. Enter the following formula.
+<pre>ENCODE_JSON({  "definitionId": "<b>Your Definition ID copied from SPA</b> ",  "context":  query.record })  </pre>
+and click on <b>SAVE</b>.
+![](images/ss7.png)
 
-## Summary
+8. Click on <b>SAVE</b>.
+![](images/ss8.png)
 
-You've now ...
+9. Now <b>SAVE DATA RESOURCE</b>.
+![](images/ss9.png)
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+10. Click on <b>SAVE</b> on the top right corner to the save the changes.
+![](images/ss10.png)
+
+11. Now, open the <b>Launch</b> tab.
+![](images/ss11.png)
+
+12. Click on <b> OPEN APP PREVIEW PORTAL</b>. 
+![](images/ss12.png)
+
+13. Select the AppGyver project you created.
+
+![](images/ss13.png)
+
+14. Enter the name and upload the invoice to test the process.
+The invoice can be downloaded here <a href="">Inovice</a>.
+![](images/ss14.png)
