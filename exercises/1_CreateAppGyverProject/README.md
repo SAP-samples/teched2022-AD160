@@ -62,9 +62,13 @@ In <b>Variables view</b>, you can create variables which can store information t
 
 ![variable type](images/11.png)
 
+12. Add another <b>App variable</b> and rename it to <b>filename</b>.
+![variable type](images/71.png)
+
+
 12. Switch back to <b>VIEW</b>.
 
-![View](images/12.png)
+![View](images/VIEW.png)
 
 13. Under the properties tab of <b>Input field component</b>, open the binding menu for <b>Value</b> by clickin on "<b>X</b>" icon.
 
