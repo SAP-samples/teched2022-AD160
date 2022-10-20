@@ -1,11 +1,11 @@
 
-# Create an SAP Build Apps Project
+# Create an AppGyver Project
 
-In this exercise, you will create a new SAP Build Apps Project to start creating the application.
+In this exercise, you will create a new AppGyver Project to start creating the application.
 
 ## Create a New Project
 
-1. Within the application development lobby, click <b>Create</b> and then select <b><i>SAP Build Apps Project</i></b>.
+1. Within the application development lobby, click <b>Create</b> and then select <b><i>AppGyver Project</i></b>.
 ![Create the project](images/Create_AppGyver_Project.png)
 
 2. Under Project Name, enter <b><i>"Company Name Invoice Approval"</b></i>. For example, <i>Cafe Invoice Approval</i>.
@@ -16,7 +16,7 @@ Click on <b>Create</b> to start building your application.
 
 
 ## Create UI 
-1. You will be redirected to SAP Build Apps Composer, which is like an IDE for SAP Build Apps. In the canvas, you can already see a <b>Title</b> and <b>Text</b> component.
+1. You will be redirected to AppGyver Composer, which is like an IDE for AppGyver. In the canvas, you can already see a <b>Title</b> and <b>Text</b> component.
 
 ![home page](images/01.png)
 
@@ -131,6 +131,98 @@ Click on <b>SAVE</b>.
 ![](images/27.png)
 
 ## Data Connection
+
+Now, your application will be connected to Document Management System and SAP Process Automation. first you should enable BTP authentication to connect your app to SAP Process Automation via Destinations. 
+
+1. Click on <b>AUTH</b> tab on the top of the screen 
+![](images/36.png)
+
+2. Click on <b>Enable Authentication</b>. 
+
+![](images/37.png)
+
+3. Select <b>SAP BTP authentication</b>.
+![](images/38.png)
+
+4. Click on <b>OK</b> button to enable the BTP authentication to your application.
+![](images/39.png)
+
+5. Click on <b>DATA</b> tab now.
+![](images/40.png)
+
+
+6. Click on <b>CREATE DATA ENTITY</b> and select <b>SAP BTP destination REST API integration</b>.
+
+![](images/41.png)
+
+7. In <b>BTP destination name</b>, select <b>AppgGyver_SPA</b>.
+
+![](images/42.png)
+
+8.  Under <b> Data resource name</b>, a name can be given to this data connection, like "<i>SendtoSPA</i>".
+
+![](images/43.png)
+
+9. Under <b>Resource schema</b>, click on <b>+ ADD NEW</b> to create a schema. Name the new schema as "<i>filename</i>" and select the field type to <b>Text</b>
+
+Schema is structure of the data. A schema is created which is similar to the Data base. In this scenerio the data base is Document Management System(DMS), and schema should be created matching the schema in DMS. 
+
+![](images/44.png)
+
+10. Similarily, add three other schema with the following names. <br> "<i>foldername</i>"<br>"<i>employeename</i>"<br>"<i>employeemail</i>" <br>
+select the field type for all of them as <b>Text</b>.
+![](images/newdata.png)
+
+11. Select the <b>create</b> tab, and enable it.
+
+![](images/46.png)
+
+12. Open the binding menu for <b>Request Headers</b> by clicking on <b>X</b> icon.
+
+![](images/47.png)
+
+13. In the binding menu, select <b>List of values</b>
+![](images/48.png)
+
+14. Click on <b>Add value</b>, and enter the following values. <br>
+<b>Header name</b>: <i> Content-Type</i><br>
+<b>Header value</b>:<i> application/json</i>
+
+Click on <b>SAVE</b>.
+
+![](images/49.png)
+
+15. <b>Request body mapper</b> value will be binded after creating the process using SAP PROCEESS AUTOMATION>. Now, Click on <b>SAVE DATA RESOURCES</b>.
+![](images/53.png)
+
+
+16. Now add another Data entity to store the invoice in Document Management Service.
+Click on <b> CREATE DATA ENTITY</b> and now select <b>REST API direct integration</b>.
+![](images/54.png)
+
+17. In the <b>BASE</b> tab of the API configuration enter the following values.<br><br>
+<b>Resource ID</b> : Documentupload<br><br>
+<b>Resource URL</b>: https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/httpjsonv2/docrepouploadteched<br>
+
+![](images/55.png)
+
+18. Now select the <b>CREATE RECORD</b> tab and enable it.
+![](images/56.png)
+
+19. Switch to <b>SCHEMA</b> tab.<br>
+ Under <b>Create record (POST) request schema</b> use the drop down list and select <b>Custom schema</b>.
+![](images/57.png)
+
+20. Click on <b>ADD PROPERTY</b>.	<br>					
+Rename the key in the property to “<i>base64</i>”.
+![](images/58.png)
+
+21.  Add another property and rename it to “<i>fileName</i>”. and click on <b>SAVE DATA ENTITY</b>
+![](images/59.png)
+
+22. Click on <b>SAVE</b> on the top right corner of the screen.
+![](images/60.png)
+
 
 ## Create Logic
 
