@@ -6,13 +6,13 @@ In this exercise, you will create a new AppGyver Project to start creating the a
 ## Create a New Project
 
 1. Within the application development lobby, click <b>Create</b> and then select <b><i>AppGyver Project</i></b>.
-![Create the project](images/Create_AppGyver_Project.png)
+![Create the project](images/011.png)
 
-2. Under Project Name, enter <b><i>"Company Name Invoice Approval"</b></i>. For example, <i>Cafe Invoice Approval</i>.
-Enter a short description for your reference. <b><i>"An application to Scan or upload invoice”</b></i>. <br>
+2. Under Project Name, enter <b><i>"Invoice AD160-XX"</b></i>. For example, <i>"Invoice AD160-87"</i>.
+
 Click on <b>Create</b> to start building your application.
 
-![Name the project](images/02.png)
+![Name the project](images/012.png)
 
 
 ## Create UI 
