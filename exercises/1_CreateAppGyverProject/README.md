@@ -293,33 +293,33 @@ and <b>Install</b> it.
 
 4. Drag and drop <b>Convert file to base64</b> to the logic canvas.
 
-![Submit](Images/66.png)
+![Submit](images/66.png)
 
 5. Connect the nodes of <b>Component tap</b> and <b>Convert file to base64</b>.
 Open the binding menu for <b>Source file URL</b> of the <b>Convert file to base64</b> logic component.
 
-![Submit](Images/67.png)
+![Submit](images/67.png)
 
 6. In the binding menu select <b>Data and Variables</b> and select <b>App variable</b>.
 
-![Submit](Images/68.png)
+![Submit](images/68.png)
 
 7. Now select <b>Invoicescan</b> and click on <b>SAVE</b>.
 
-![Submit](Images/70.png)
+![Submit](images/70.png)
 
 8. Now drag and drop <b>Set app variable component</b> from the component library and connect the node with <b>Convert file to base64</b>.<br><br>
 
 In the properties tab, make sure the variable is <b>filename</b>, and now open the binding menu for the assigned value.
 
-![Submit](Images/72.png)
+![Submit](images/72.png)
 
 9. Select <b>Formula</b> in the in the binding menu.
-![Submit](Images/73.png)
+![Submit](images/73.png)
 
 10. Open the formula editor.<br>				
 Select App variable and double click on <b>appVars.name</b> to use the function.
-![Submit](Images/74.png)
+![Submit](images/74.png)
 
 11. Now add the following values.
 <pre>+TIMESTAMP()+".png"</pre>
@@ -327,21 +327,21 @@ The overall formula will look like.
 <pre>appVars.name+TIMESTAMP()+".png"</pre>
 Click on <b>SAVE</b>.
 
-![Submit](Images/75.png)
+![Submit](images/75.png)
 
 12. Drag and drop <b>Create record</b> logic component to logic canvas.<br>				
 In the properties tab of the logic component check if the <b>Resource name</b> is <b>Documentupload</b>,<br>
 Open the binding menu of <b>Record properties</b>. 
 
-![Submit](Images/76.png)
+![Submit](images/76.png)
 
 13. In the binding menu, select <b>Object with properties</b>.
 
-![Submit](Images/77.png)
+![Submit](images/77.png)
 
 14.  Open the binding menu for <b>base64</b>.
 
-![Submit](Images/78.png)
+![Submit](images/78.png)
 
 15. In the binding menu select <b>Formula</b> and open the formula editor.<br>				
 In the formula editor, enter the following formula.
@@ -349,64 +349,64 @@ In the formula editor, enter the following formula.
 <pre>REPLACE_ALL(outputs["Convert file to base64"].base64,"data:image/png;base64,","")</pre>
 Click on <b>SAVE</b> button. 
 
-![Submit](Images/79.png)
+![Submit](images/79.png)
 
 16. Now, open the binding menu for <b>filename</b>.
 
-![Submit](Images/80.png)
+![Submit](images/80.png)
 
 17. In the binding menu, select <b>Data and Variables</b> and select <b>Page variable</b>. <br>Now select the variable <b>filename</b> and click on <b>SAVE</b>.
 
-![Submit](Images/81.png)
+![Submit](images/81.png)
 
 18. Save the bindings now.
 
-![Submit](Images/82.png)
+![Submit](images/82.png)
 
 19. Drag and drop another <b>Create record</b> logic component to the logic canvas.
 Change the resource name <b>SendtoSPA</b>.						
 Open the binding menu for <b>Record properties</b>. 
 
-![Submit](Images/83.png)
+![Submit](images/83.png)
 
 20. In the binding menu, select <b>Object with properties</b>.
 
-![Submit](Images/84.png)
+![Submit](images/84.png)
 
 21. Open the binding menu for <b>filename</b>.
 
-![Submit](Images/85.png)
+![Submit](images/85.png)
 
 22. In the binding menu, select <b>Data and Variables</b> and select <b>Page variable</b> and select the variable <b>filename</b>.<br>
 Click on <b>SAVE</b>.	
 
-![Submit](Images/86.png)
+![Submit](images/86.png)
 
 23. The folder name will be static, enter the value “<i>Invoices</i>”.
-![Submit](Images/87.png)
+![Submit](images/87.png)
 
 24. Now, open the binding menu for the <b>employeename</b>.
 
-![Submit](Images/88.png)
+![Submit](images/88.png)
 
 25. In the binding menu select <b>Data and Variables</b>, Select <b>App variables</b> and then select <b>name</b>
 
-![Submit](Images/89.png)
+![Submit](images/89.png)
 
 26. The employeemail will be static, enter the email provided to you.
 
-![Submit](Images/90.png)
+![Submit](images/90.png)
 
 27. Save the bindings.
 
-![Submit](Images/91.png)
+![Submit](images/91.png)
 
 28. Now Drag and drop a <b>Toast</b> component. this component displays a message.<br>
 
 Connet the nodes of <b>Create record</b> and <b>toast</b>.<br>
 Under properties of Toast component, Enter "<i>Your Invoice has been submitted</i>" under toast message. 
 
-![Submit](Images/92.png)
+![Submit](images/92.png)
 
 
 ## Summary
