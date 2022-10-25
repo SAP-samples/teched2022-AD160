@@ -8,8 +8,7 @@
 ### Overview <a name="section1"></a>
 
 In this exercise, you will learn:
-- How to acquire Sample Process from the Store
-- How to explore content in the SAP Process Automation Store.
+- How to acquire Sample Process and explore content in SAP Process Automation Store
 
 
 ## 1. Explore the store <a name="section2"></a>
