@@ -7,9 +7,15 @@
 
 ### Overview <a name="section1"></a>
 
-In this exercise, you will learn:
-- How to acquire Sample Process and explore content in SAP Process Automation Store
+In this exercise, you will  acquire Invoice Sample Process and from SAP Process Automation Store.
+This sample content helps users to get started in automating a simple invoice approval process that includes the extraction of data from documents and approval steps required to approve the invoice.
+Included in this sample process is the following:
+- Sample request form to start the invoice processing
+- An automation (and respective data types) to extract the data from an invoice
+- An approval step to decide for approval or rejection of the invoice.
+- Confirmation and rejection forms to notify the requester about the decision
 
+  ![Process](./images/Business Process.png)
 
 ## 1. Explore the store <a name="section2"></a>
 
@@ -23,12 +29,6 @@ In this exercise, you will learn:
 ## 2. Acquire a Project <a name="section3"></a>
 
 1. Acquire the Invoice Approval Process - Sample application package:
-> This sample content helps users to get started in automating a simple invoice approval process that includes the extraction of data from documents and approval steps required to approve the invoice.
-Included in this sample process is the following:
--Sample request form to start the invoice processing
--An automation (and respective data types) to extract the data from an invoice
--An approval step to decide for approval or rejection of the invoice.
--Confirmation and rejection forms to notify the requester about the decision
 
   - Search for **Invoice Approval Process - Sample**,
   - Select **Create from Template** button.
