@@ -425,6 +425,7 @@ Under properties of Toast component, Enter "<i>Your Invoice has been submitted</
 ##Summary <a name="summary"></a>
 
 Now, you have build app and completed the below steps.
+
 ![Summary](images/Scenario_summary.png)
 
 Continue to - [Exercise 2 - Install and configure Desktop Agent 3](../2_InstallDesktopAgent3/Install-Desktop-Agent.md) and get started with SAP Build Process Automation.
