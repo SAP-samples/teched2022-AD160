@@ -1,9 +1,18 @@
 
-# Create an AppGyver Project
+## Table of Contents
+- [Overview](#overview)
+- [Summary](#summary)
 
-In this exercise, you will create a new AppGyver Project to start creating the application.
 
-## Create a New Project
+# Overview <a name="overview"></a>
+
+
+In this exercise, you will build your app in SAP Appgyver to scan/upload invoices.
+
+![Sceanrio](images/sceanrio_appgyver.png)
+
+
+## Create a New AppGyver Project
 
 1. Within the application development lobby, click <b>Create</b> and then select <b><i>AppGyver Project</i></b>.
 ![Create the project](images/011.png)
@@ -15,7 +24,7 @@ Click on <b>Create</b> to start building your application.
 ![Name the project](images/012.png)
 
 
-## Create UI 
+## Create UI
 1. You will be redirected to AppGyver Composer, which is like an IDE for AppGyver. In the canvas, you can already see a <b>Title</b> and <b>Text</b> component.
 
 ![home page](images/01.png)
@@ -45,8 +54,8 @@ where you can modify this component.<br> Under <b>Content</b>, enter “<i>Invoi
 7. Drag and drop an <b>Image</b> component, to the canvas.
 ![Image](images/07.png)
 
-8. Switch to <b>Variables</b> view. 
-In <b>Variables view</b>, you can create variables which can store information temporarily. 
+8. Switch to <b>Variables</b> view.
+In <b>Variables view</b>, you can create variables which can store information temporarily.
 
 ![Variables](images/08.png)
 
@@ -136,12 +145,12 @@ Click on <b>SAVE</b>.
 
 ## Data Connection
 
-Now, your application will be connected to Document Management System and SAP Process Automation. first you should enable BTP authentication to connect your app to SAP Process Automation via Destinations. 
+Now, your application will be connected to Document Management System and SAP Process Automation. first you should enable BTP authentication to connect your app to SAP Process Automation via Destinations.
 
-1. Click on <b>AUTH</b> tab on the top of the screen 
+1. Click on <b>AUTH</b> tab on the top of the screen
 ![](images/36.png)
 
-2. Click on <b>Enable Authentication</b>. 
+2. Click on <b>Enable Authentication</b>.
 
 ![](images/37.png)
 
@@ -169,7 +178,7 @@ Now, your application will be connected to Document Management System and SAP Pr
 
 9. Under <b>Resource schema</b>, click on <b>+ ADD NEW</b> to create a schema. Name the new schema as "<i>filename</i>" and select the field type to <b>Text</b>
 
-Schema is structure of the data. A schema is created which is similar to the Data base. In this scenerio the data base is Document Management System(DMS), and schema should be created matching the schema in DMS. 
+Schema is structure of the data. A schema is created which is similar to the Data base. In this scenerio the data base is Document Management System(DMS), and schema should be created matching the schema in DMS.
 
 ![](images/44.png)
 
@@ -237,8 +246,8 @@ Rename the key in the property to “<i>base64</i>”.
 Now we are going to download a new component from the <b>MARKETPLACE</b>.
 
 <b>MARKETPLACE</b> contains hundreds of pre-built visual and logic components, which can be installed and used with minimum or no customisation.
- 
-more information on <a href="https://docs.appgyver.com/docs/marketplace?highlight=Market%20place">MARKETPLACE</a> 
+
+more information on <a href="https://docs.appgyver.com/docs/marketplace?highlight=Market%20place">MARKETPLACE</a>
 
 ![](images/29.png)
 
@@ -335,7 +344,7 @@ Click on <b>SAVE</b>.
 
 12. Drag and drop <b>Create record</b> logic component to logic canvas.<br>				
 In the properties tab of the logic component check if the <b>Resource name</b> is <b>Documentupload</b>,<br>
-Open the binding menu of <b>Record properties</b>. 
+Open the binding menu of <b>Record properties</b>.
 
 ![Submit](images/76.png)
 
@@ -351,7 +360,7 @@ Open the binding menu of <b>Record properties</b>.
 In the formula editor, enter the following formula.
 
 <pre>REPLACE_ALL(outputs["Convert file to base64"].base64,"data:image/png;base64,","")</pre>
-Click on <b>SAVE</b> button. 
+Click on <b>SAVE</b> button.
 
 ![Submit](images/79.png)
 
@@ -369,7 +378,7 @@ Click on <b>SAVE</b> button.
 
 19. Drag and drop another <b>Create record</b> logic component to the logic canvas.
 Change the resource name <b>SendtoSPA</b>.						
-Open the binding menu for <b>Record properties</b>. 
+Open the binding menu for <b>Record properties</b>.
 
 ![Submit](images/83.png)
 
@@ -382,7 +391,7 @@ Open the binding menu for <b>Record properties</b>.
 ![Submit](images/85.png)
 
 22. In the binding menu, select <b>Data and Variables</b> and select <b>Page variable</b> and select the variable <b>filename</b>.<br>
-Click on <b>SAVE</b>.	
+Click on <b>SAVE</b>.
 
 ![Submit](images/86.png)
 
@@ -407,13 +416,15 @@ Click on <b>SAVE</b>.
 
 28. Now Drag and drop a <b>Toast</b> component. this component displays a message.<br>
 
-Connet the nodes of <b>Create record</b> and <b>toast</b>.<br>
-Under properties of Toast component, Enter "<i>Your Invoice has been submitted</i>" under toast message. 
+Connect the nodes of <b>Create record</b> and <b>toast</b>.<br>
+Under properties of Toast component, Enter "<i>Your Invoice has been submitted</i>" under toast message.
 
 ![Submit](images/92.png)
 
 
-## Summary
+##Summary <a name="summary"></a>
 
-Now that you have ...
+Now that you have build app and completed the below steps.
+![Summary](images/Scenario_summary.png)
+
 Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)

@@ -15,21 +15,13 @@ The requirements to follow the exercises in this repository is to know basic of 
 ## Exercises
 
 - [Exercise 1 - Create SAP Build Apps Project](/exercises/1_CreateAppGyverProject)
-- [Exercise 2 - Test SAP Build Apps Project](/exercises/2_PublishActionProject)
-- [Exercise 3 - Import Sample Business Process From Store](/exercises/3_ImportSampleProcess)
-- [Exercise 4 - Create an API trigger](/exercises/4_CreateAPITrigger)
+- [Exercise 2 - Install Desktop Agent 3](/exercises/7_7_Install_Desktop_Agent)
+- [Exercise 3 - Import Sample Business Process From SAP Build Process Automation Store](/exercises/3_ImportSampleProcess)
+- [Exercise 4 - Modify the Process](/exercises/4_CreateAPITrigger)
 - [Exercise 5 - Modify Automation](/exercises/5_ModifyAutomation)
 - [Exercise 6 - Release, Deploy and Test Business Process](/exercises/6_ReleaseDeployProcess)
 - [Exercise 7 - Test SAP Build Apps and Business Process](/exercises/7_E2ETesting)
 
-
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder.
 
 ## How to obtain support
 
