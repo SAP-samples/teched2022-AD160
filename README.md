@@ -19,12 +19,12 @@ The requirements to follow the exercises in this repository is to know basic of 
 ## Exercises
 
 - [Exercise 1 - Create SAP Build Apps Project](/exercises/1_CreateAppGyverProject)
-- [Exercise 2 - Install Desktop Agent 3](/exercises/7_7_Install_Desktop_Agent)
+- [Exercise 2 - Install Desktop Agent 3](/exercises/2_InstallDesktopAgent3)
 - [Exercise 3 - Import Sample Business Process From SAP Build Process Automation Store](/exercises/3_ImportSampleProcess)
-- [Exercise 4 - Modify the Process](/exercises/4_CreateAPITrigger)
+- [Exercise 4 - Modify the Process](/exercises/4_TriggerProcess)
 - [Exercise 5 - Modify Automation](/exercises/5_ModifyAutomation)
 - [Exercise 6 - Release, Deploy and Test Business Process](/exercises/6_ReleaseDeployProcess)
-- [Exercise 7 - Test SAP Build Apps and Business Process](/exercises/7_E2ETesting)
+- [Exercise 7 - Test SAP Build Apps and Business Process](/exercises/7_TestingEndToEndScenario)
 
 
 ## How to obtain support

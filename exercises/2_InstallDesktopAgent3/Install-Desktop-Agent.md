@@ -8,20 +8,14 @@
 
 ### Overview <a name="overview"></a>
 
-The Desktop Agent 3 is an on-premise component of SAP Process Automation that is installed locally on user desktops. It executes automation projects that launch and run applications of various kinds, read information from screens, enter data, click options, and process data.
-The very first time you launch the Desktop Agent 3 on your workstations, you will be prompted to log in. If you are unsure of your login details, please ask an administrator.
+The Desktop Agent 3 is an on-premise component of SAP Build Process Automation that is installed locally on user desktops. It executes automation projects that launch and run applications of various kinds, read information from screens, enter data, click options, and process data.
 
 In this exercise you will learn:
 - How to install the Desktop Agent 3 to run your automations
 - How to register a tenant in the Desktop Agent 3
 
 
-## 1. Prerequisites <a name="prerequisites"></a>
- - A Windows PC
- - If you are using a MAC, please install a VDI
-
-
-## 2. Download the Desktop Agent 3 <a name="download"></a>
+## 1. Download the Desktop Agent 3 <a name="download"></a>
 
 The setup program is provided in the form of an industry standard Windows MSI installer.
 
@@ -34,7 +28,7 @@ The setup program is provided in the form of an industry standard Windows MSI in
   ![07](./images/agent3-a004.png)
 
 
-## 3. Install the Desktop Agent 3 <a name="install"></a>
+## 2. Install the Desktop Agent 3 <a name="install"></a>
 
 When you install the Desktop Agent 3, it will automatically set up the SAP Process Automation web browser extension for Google Chrome and Edge.
 
@@ -69,7 +63,7 @@ When you install the Desktop Agent 3, it will automatically set up the SAP Proce
   ![07](./images/agent3-a006.png)
 
 
-## 4. Register the Desktop Agent on your Tenant <a name="register"></a>
+## 3. Register the Desktop Agent on your Tenant <a name="register"></a>
 
 Once the installation steps of the SAP Robotic Process Automation setup wizard are completed, you need to register your agent and connect it to a SAP Process Automation tenant in order to execute automations.
 
@@ -114,6 +108,6 @@ Once the installation steps of the SAP Robotic Process Automation setup wizard a
 
 ## Summary <a name="summary"></a>
 
-You've now ...
+You've now have successfully installed and configured your Desktop Agent 3
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+Continue to - [Exercise 4 - Exercise 2 Description](../ex2/README.md)

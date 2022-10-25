@@ -23,6 +23,13 @@ In this exercise, you will learn:
 ## 2. Acquire a Project <a name="section3"></a>
 
 1. Acquire the Invoice Approval Process - Sample application package:
+> This sample content helps users to get started in automating a simple invoice approval process that includes the extraction of data from documents and approval steps required to approve the invoice.
+Included in this sample process is the following:
+-Sample request form to start the invoice processing
+-An automation (and respective data types) to extract the data from an invoice
+-An approval step to decide for approval or rejection of the invoice.
+-Confirmation and rejection forms to notify the requester about the decision
+
   - Search for **Invoice Approval Process - Sample**,
   - Select **Create from Template** button.
 
@@ -44,4 +51,4 @@ In this exercise, you will learn:
 
 You've now acquired Invoice Sample Process from the SAP Process Automation Store.
 
-Continue to - [Exercise 4 - Create an API Trigger](../4_CreateAPITrigger/Create-API-Trigger.md)
+Continue to - [Exercise 4 - Trigger Process](../4_TriggerProcess/Create-API-Trigger.md)

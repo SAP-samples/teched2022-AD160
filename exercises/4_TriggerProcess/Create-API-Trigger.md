@@ -1,17 +1,19 @@
 ## Table of Contents
  - [Overview](#overview)
  - [Modify the Project](#modifyProject)
- - [Configure the Inputs ](#configureInputs)
+ - [Create an API Trigger for Process](#configureInputs)
  - [Summary](#summary)
 
 ### Overview <a name="overview"></a>
 
 In this exercise you will learn:
-- how to create an API Trigger
+
+- Configure the API Call to Trigger Process
+- Modify the Process to map the other artifacts
 
 ## 1. Modify the Project <a name="modifyProject"></a>
 
-1. Open your project. Choose process **Get Invoice Details**.
+1. Open your project Invoice Approval Process AD160-XXX. Choose process **Get Invoice Details**.
 
  ![04](./images//005.png)
 
@@ -19,7 +21,7 @@ In this exercise you will learn:
 
  ![04](./images//006.png)
 
-## 2. Configure the Inputs <a name="configureInputs"></a>
+## 2. Create an API Trigger for Process <a name="configureInputs"></a>
 
 1. Click on the **Canvas** in the background.
 
@@ -65,7 +67,7 @@ In this exercise you will learn:
 
  ![04](./images/015b.png)
 
-> With this pacakage you can automate some operations on your Document Management Service repository.
+> With this package you can automate some operations on your Document Management Service repository.
 
 ## Summary <a name="summary"></a>
 

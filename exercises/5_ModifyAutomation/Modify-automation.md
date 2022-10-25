@@ -7,7 +7,10 @@
 ### Overview <a name="overview"></a>
 
 In this exercise you will learn:
-- How to modify and add an automation
+- How to modify and add an automation as a dependency.
+- Map Automation and Process parameters.
+
+The pre-built automation extracts the data from the Invoice document using AI.
 
 ## 1. Modify the Automation <a name="modifyAutomation"></a>
 

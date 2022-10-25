@@ -5,7 +5,8 @@
 ### Overview <a name="overview"></a>
 
 In this exercise you will learn:
-- How to modify and add an automation
+- How to Release and deploy Business Process
+
 
 
 ## Release and deploy Business Process <a name="releaseDeploy"></a>
@@ -33,10 +34,12 @@ After completing Modify Automation exercise your process looks like this:
     - Under Destination choose `SPA_DMS`,
     - **Confirm** and **Deploy** a project.
 
-<br>![](/exercises/Run-release-deploy/images/305.png)
+    ![07](./images/305.png)
 
 ## Summary <a name="summary"></a>
 
-You've now ...
+You've now  successfully released and deployed your project and completed the below steps in your process
 
-Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
+  ![Summary](./images/Summary.png)
+
+Continue to - [Exercise 7 - Exercise 2 Description](../7_TestingEndToEndScenario/README.md)
