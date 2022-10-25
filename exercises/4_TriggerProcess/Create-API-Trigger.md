@@ -10,6 +10,7 @@ In this exercise you will learn:
 
 - Configure the API Call to Trigger Process
 - Modify the Process to map the other artifacts
+- Map Automation and Process parameters.
 
 ## 1. Modify the Project <a name="modifyProject"></a>
 
@@ -38,6 +39,7 @@ In this exercise you will learn:
     |  `fileName`       | string
     |  `folderName`     | string
     |  `employeeName`   | string
+    |  `employeeMail`   | string
 
     **Apply** changes.
 
@@ -68,6 +70,29 @@ In this exercise you will learn:
  ![04](./images/015b.png)
 
 > With this package you can automate some operations on your Document Management Service repository.
+
+## 3. Map Automation parameters to Process parameters <a name="mapParameters"></a>
+
+1. Select **Invoice Approval form** and map:
+- under General: map **employeeMail** with Users
+
+  ![05](./images/025.png)
+
+- under Inputs: map **Employee Name** with **employeeName**.
+
+  ![05](./images/025a.png)
+
+2. Select **Invoice Approval Notification Form** under General: map **employeeMail** with Users.
+
+  ![05](./images/027.png)
+
+3. Select **Invoice Reject Notification Form** under General: map **employeeMail** with Users.
+
+  ![05](./images/028.png)
+
+4. **Save** changes.
+
+  ![05](./images/026.png)
 
 ## Summary <a name="summary"></a>
 

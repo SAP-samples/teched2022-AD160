@@ -8,7 +8,7 @@
 
 In this exercise you will learn:
 - How to modify and add an automation as a dependency.
-- Map Automation and Process parameters.
+
 
 The pre-built automation extracts the data from the Invoice document using AI.
 
@@ -83,16 +83,7 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
   ![05](./images/024a.png)
 
-## 2. Map Automation parameters to Process parameters <a name="mapParameters"></a>
 
-1. Select **Invoice Approval form** and map Inputs:
-- map **Employee Name** with **employeeName**.
-
-  ![05](./images/025a.png)
-
-2. **Save** changes.
-
-  ![05](./images/026.png)
 
 ## Summary <a name="summary"></a>
 
