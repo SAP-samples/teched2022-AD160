@@ -77,7 +77,7 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
   ![05](./images/094.png)
 
-## 3. Map API parameters to Process parameters <a name="mapParameters"></a>
+## 3. Map Automation parameters to Process parameters <a name="mapParameters"></a>
 
  Select **Extract Invoice Data** and map Inputs:
 
