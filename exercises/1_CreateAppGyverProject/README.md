@@ -34,43 +34,33 @@ where you can modify this component.<br> Under <b>Content</b>, enter “<i>Invoi
 
 4. Drag and drop a <b>Input field</b> from the <b>UI Component</b> library to the canvas. <br><br>![input component](images/04.png)
 
-5. Under the properties of the Input field, clear the <b>Label</b> and change the placeholder text to "<i>Enter your name</i>".
+5. Under the properties of the Input field, clear the <b>Label</b> and change the placeholder text to "<i>Enter your name</i>".<br><br>![input properties](images/05.png)
 
-![input properties](images/05.png)
+6. Drag and drop a <b>Button</b> component from the component library on the left-hand side to the canvas. <br>Change the <b>Label</b> on the button in the properties tab of the button component to “<i>Upload your Invoice</i>”.<br><br>![Button](images/06.png)
 
-6. Drag and drop a <b>Button</b> component from the component library on the left-hand side to the canvas. <br>Change the <b>Label</b> on the button in the properties tab of the button component to “<i>Upload your Invoice</i>”.
-
-![Button](images/06.png)
-
-7. Drag and drop an <b>Image</b> component, to the canvas.
+7. Drag and drop an <b>Image</b> component, to the canvas.<br><br>
 ![Image](images/07.png)
 
 8. Switch to <b>Variables</b> view.
-In <b>Variables view</b>, you can create variables which can store information temporarily.
+In <b>Variables view</b>, you can create variables which can store information temporarily.<br><br>![Variables](images/08.png)
 
-![Variables](images/08.png)
-
-9. Create an App Variable by clicking on <b>ADD APP VARIABLE</b> and rename it to "<i>name</i>".
-
+9. Create an App Variable by clicking on <b>ADD APP VARIABLE</b> and rename it to "<i>name</i>".<br><br>
 ![create variable](images/09.png)
 
-10. Add another <b>App Variable</b> and rename it to "<i>Invoicescan</i>".
-
+10. Add another <b>App Variable</b> and rename it to "<i>Invoicescan</i>".<br><br>
 ![create another variable](images/10.png)
 
-11. Change the <b>Variable Value Type</b> of <b>Invoicescan</b> to <b>Local filesystem path</b>.
-
+11. Change the <b>Variable Value Type</b> of <b>Invoicescan</b> to <b>Local filesystem path</b>.<br><br>
 ![variable type](images/11.png)
 
-12. Add another <b>App variable</b> and rename it to <b>filename</b>.
+12. Add another <b>App variable</b> and rename it to <b>filename</b>.<br><br>
 ![variable type](images/71.png)
 
 
-12. Switch back to <b>VIEW</b>.
-
+12. Switch back to <b>VIEW</b>. <br><br>
 ![View](images/VIEW.png)
 
-13. Under the properties tab of <b>Input field component</b>, open the binding menu for <b>Value</b> by clickin on "<b>X</b>" icon.
+13. Under the properties tab of <b>Input field component</b>, open the binding menu for <b>Value</b> by clickin on "<b>X</b>" icon.<br><br>
 
 ![bind menu](images/13.png)
 
