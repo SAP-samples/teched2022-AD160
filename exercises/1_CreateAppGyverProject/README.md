@@ -3,6 +3,8 @@
 - [Overview](#overview)
 - [Create New Project](#create-a-build-apps-project)
 - [Data Connection](#data-connection)
+- [Logic for Upload button](#create-logic-for-upload-button)
+- [Logic for Submit Button](#create-logic-for-submit-button)
 - [Summary](#Summary)
 
 
