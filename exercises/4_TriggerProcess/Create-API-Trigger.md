@@ -74,20 +74,26 @@ In this exercise you will learn:
 
 ## 3. Map API parameters to Process parameters <a name="mapParameters"></a>
 
-1. Select **Invoice Approval form** and map:
-- under General: map **employeeMail** with Users
+1. Map parameters for **Invoice Approval form**
 
-  ![05](./images/025.png)
+    Select **Invoice Approval form** and map:
+    - under General: map **employeeMail** with Users
 
-- under Inputs: map **Employee Name** with **employeeName**.
+    ![05](./images/025.png)
+
+    - under Inputs: map **Employee Name** with **employeeName**.
 
   ![05](./images/025a.png)
 
-2. Select **Invoice Approval Notification Form** under General: map **employeeMail** with Users.
+2. Map parameters for **Invoice Approval Notification Form**
+
+  Select **Invoice Approval Notification Form** under General: map **employeeMail** with Users.
 
   ![05](./images/027.png)
 
-3. Select **Invoice Reject Notification Form** under General: map **employeeMail** with Users.
+3. Map parameters for **Invoice Reject Notification Form**
+
+  Select **Invoice Reject Notification Form** under General: map **employeeMail** with Users.
 
   ![05](./images/028.png)
 
