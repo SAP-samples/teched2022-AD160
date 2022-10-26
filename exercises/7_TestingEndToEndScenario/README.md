@@ -61,7 +61,8 @@ and click on <b>SAVE</b>.<br><br>
 The invoice can be downloaded here <a href="https://github.com/SAP-samples/teched2022-AD160/blob/main/exercises/1_CreateAppGyverProject/images/Invoice.png?raw=true">Invoice</a>.
 ![](images/ss14.png)
 
+
 ## summary
 
-You
+Now, you have successfully connected your app and process and also tested it End-to-End.
 ![Summary](./images/Summary.png)
