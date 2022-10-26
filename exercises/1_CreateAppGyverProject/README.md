@@ -1,47 +1,38 @@
 
 ## Table of Contents
-- [Overview](#overview)
+- [Overview](#overview-a-nameoverviewa)
+- [Create New Project](#create-a-build-apps-project-a-namecreate-a-build-apps-projecta)
+- 
 - [Summary](#summary)
 
 
 # Overview <a name="overview"></a>
 
 
-In this exercise, you will build your app in SAP Appgyver to scan/upload invoices.
+In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
 ![Scenario](images/scenario_appgyver.png)
 
 
-## Create a New AppGyver Project
+## Create a Build Apps Project <a name="Create a Build Apps Project"></a>
 
-1. Within the application development lobby, click <b>Create</b> and then select <b><i>AppGyver Project</i></b>.
-![Create the project](images/011.png)
+1. Within the application development lobby, click <b>Create</b> and then select <b><i>Build Apps Project</i></b>.<br>
+<br>![Create the project](images/011.png)
 
-2. Under Project Name, enter <b><i>"Invoice AD160-XXX"</b></i>. For example, <i>"Invoice AD160-087"</i>.
-
-Click on <b>Create</b> to start building your application.
-
-![Name the project](images/New%20project.png)
+2. Under Project Name, enter <b><i>"Invoice AD160-XXX"</b></i>. For example, <i>"Invoice AD160-087"</i>.<br>Click on <b>Create</b> to start building your application.
+<br><br>![Name the project](images/New%20project.png)
 
 
 ## Create UI
-1. You will be redirected to AppGyver Composer, which is like an IDE for AppGyver. In the canvas, you can already see a <b>Title</b> and <b>Text</b> component.
-
-![home page](images/01.png)
+1. You will be redirected to Build Apps Composer, which is like an IDE for SAP Build Apps. In the canvas, you can already see a <b>Title</b> and <b>Text</b> component.<br><br>![home page](images/01.png)
 
 2. Click on “<i>Headline</i>” on the canvas to select the <b>Title</b> component.
 Now, the properties tab on the right-hand side will show the properties of the Title component
-where you can modify this component.<br> Under <b>Content</b>, enter “<i>Invoice Approval</i>”
+where you can modify this component.<br> Under <b>Content</b>, enter “<i>Invoice Approval</i>”<br><br>![Title component](images/02%202.png)
 
-![Title component](images/02%202.png)
+3. Select the <b>Text</b>, modify the content of the component under the properties on right-hand side to "<i>Enter your name and upload your invoice</i>".<br><br>![text component](images/03.png)
 
-3. Select the <b>Text</b>, modify the content of the component under the properties on right-hand side to "<i>Enter your name and upload your invoice</i>".
-
-![text component](images/03.png)
-
-4. Drag and drop a <b>Input field</b> from the <b>UI Component</b> library to the canvas.
-
-![input component](images/04.png)
+4. Drag and drop a <b>Input field</b> from the <b>UI Component</b> library to the canvas. <br><br>![input component](images/04.png)
 
 5. Under the properties of the Input field, clear the <b>Label</b> and change the placeholder text to "<i>Enter your name</i>".
 
