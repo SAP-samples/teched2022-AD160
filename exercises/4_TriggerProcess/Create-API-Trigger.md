@@ -2,6 +2,7 @@
  - [Overview](#overview)
  - [Modify the Project](#modifyProject)
  - [Create an API Trigger for Process](#configureInputs)
+ - [Map API parameters to Process parameters](#mapParameters)
  - [Summary](#summary)
 
 ### Overview <a name="overview"></a>
@@ -71,7 +72,7 @@ In this exercise you will learn:
 
 > With this package you can automate some operations on your Document Management Service repository.
 
-## 3. Map Automation parameters to Process parameters <a name="mapParameters"></a>
+## 3. Map API parameters to Process parameters <a name="mapParameters"></a>
 
 1. Select **Invoice Approval form** and map:
 - under General: map **employeeMail** with Users
@@ -98,4 +99,4 @@ In this exercise you will learn:
 
 You've now created API Triggers for the Business Process.
 
-Continue to - [Exercise 5 - Modify the Automation](../5_Modify-automation/Modify-automation.md)
+Continue to - [Exercise 5 - Modify the Automation](../5_ModifyAutomation/Modify-automation.md)

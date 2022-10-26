@@ -22,7 +22,7 @@ Included in this sample process is the following:
 >The Store offers predefined content for your automation. Packages are categorized by catalog which let you choose between Business Content, Learning Content and Automation SDK.
 
 1. Open [SAP Process Automation - Application Development Workbench Lobby](https://da160-96ork4sc-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/lobby).
-  Navigate to the store in your SPA Tenant, to find project template.
+  Navigate to the store in your Tenant, to find sample content.
 
   ![03](./images/001.png)
 
@@ -49,6 +49,6 @@ Included in this sample process is the following:
 
 ## Summary<a name="summary"></a>
 
-You've now acquired Invoice Sample Process from the SAP Process Automation Store.
+You've now acquired Invoice Sample Process from the SAP Build Process Automation Store.
 
 Continue to - [Exercise 4 - Trigger Process](../4_TriggerProcess/Create-API-Trigger.md)

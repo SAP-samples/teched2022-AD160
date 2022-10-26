@@ -42,4 +42,4 @@ You've now  successfully released and deployed your project and completed the be
 
   ![Summary](./images/Summary.png)
 
-Continue to - [Exercise 7 - Exercise 2 Description](../7_TestingEndToEndScenario/README.md)
+Continue to - [Exercise 7 - Test End to End Scenario](../7_TestingEndToEndScenario/README.md)
