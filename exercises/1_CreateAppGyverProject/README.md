@@ -2,6 +2,7 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Create New Project](#create-a-build-apps-project)
+- [Create UI](#create-ui)
 - [Data Connection](#data-connection)
 - [Logic for Upload button](#create-logic-for-upload-button)
 - [Logic for Submit Button](#create-logic-for-submit-button)
@@ -16,7 +17,7 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 ![Scenario](images/scenario_appgyver.png)
 
 
-## Create a Build Apps Project <a name="Create a Build Apps Project"></a>
+## Create a Build Apps Project <a name="buildapps"></a>
 
 1. Within the application development lobby, click <b>Create</b> and then select <b><i>Build Apps Project</i></b>.<br>
 <br>![Create the project](images/011.png)
@@ -109,7 +110,7 @@ Click on <b>SAVE</b>.<br><br>
 27. Click on <b>SAVE</b> on the top right corner to the save the UI created so far.<br><br>
 ![](images/27.png)
 
-## Data Connection <a name="Data Connection"></a>
+## Data Connection <a name="Data"></a>
 
 Now, your application will be connected to Document Management System and SAP Process Automation. first you should enable BTP authentication to connect your app to SAP Process Automation via Destinations.
 
@@ -190,7 +191,7 @@ Rename the key in the property to “<i>base64</i>”.<br><br>
 ![](images/60.png)
 
 
-## Create Logic for Upload button <a name="Create Logic for Upload Button"></a>
+## Create Logic for Upload button <a name="upload"></a>
 
 1. Select the <b>upload</b> button and click on the grey bar in the bottom to open the logic composer. <br><br>
 ![](images/28.png)
@@ -233,7 +234,7 @@ path</b>.<br><br>
 
 
 
-## Create logic for Submit button. <a name="Create Logiv for Submit"></a>
+## Create logic for Submit button. <a name="submit"></a>
 
 1. Select the <b>Submit</b> button and click on the grey bar in the bottom to open the logic composer.<br><br>
 ![](images/63.png)
