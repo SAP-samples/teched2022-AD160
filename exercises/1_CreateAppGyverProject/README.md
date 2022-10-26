@@ -1,11 +1,11 @@
 
 ## Table of Contents
 - [Overview](#overview)
-- [Create New Project](#create-a-build-apps-project)
-- [Create UI](#create-ui)
-- [Data Connection](#data-connection)
-- [Logic for Upload button](#create-logic-for-upload-button)
-- [Logic for Submit Button](#create-logic-for-submit-button)
+- [Create New Project](#buildapps)
+- [Create UI](#UI)
+- [Data Connection](#data)
+- [Logic for Upload button](#upload)
+- [Logic for Submit Button](#submit)
 - [Summary](#Summary)
 
 
@@ -26,7 +26,7 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 <br><br>![Name the project](images/New%20project.png)
 
 
-## Create UI
+## Create UI <a name="UI"></a>
 1. You will be redirected to Build Apps Composer, which is like an IDE for SAP Build Apps. In the canvas, you can already see a <b>Title</b> and <b>Text</b> component.<br><br>![home page](images/01.png)
 
 2. Click on “<i>Headline</i>” on the canvas to select the <b>Title</b> component.
@@ -160,11 +160,12 @@ select the field type for all of them as <b>Text</b>.<br><br>
 <b>Header value</b>:<i> application/json</i><br><br>Click on <b>SAVE</b>.<br><br>
 ![](images/49.png)
 
-15. <b>Request body mapper</b> value will be binded after creating the process using SAP PROCEESS AUTOMATION.<br> Now, Click on <b>SAVE DATA RESOURCES</b>.<br><br>
+15. <b>Request body mapper</b> value will be binded after creating the process using SAP BUILD PROCEESS AUTOMATION.<br> Now, Click on <b>SAVE DATA RESOURCES</b>.<br>
+Now the a connection between your Application and Process is created using Destinations. <br>
 ![](images/53.png)
 
 
-16. Now add another Data entity to store the invoice in Document Management Service.
+16. Now add another Data entity to store the invoice in Document Management Service. For this data connection, Destinations are not used because, the response from Document Management Service is in XML format. AppGyver can only read JSON responses.<br> Because of this reason Document Management Service is connected using DIRECT REST API. <br><br>
 Click on <b> CREATE DATA ENTITY</b> and now select <b>REST API direct integration</b>. <br><br>
 ![](images/54.png)<br><br>
 
