@@ -17,11 +17,11 @@ In this exercise, you will build your app in SAP Appgyver to scan/upload invoice
 1. Within the application development lobby, click <b>Create</b> and then select <b><i>AppGyver Project</i></b>.
 ![Create the project](images/011.png)
 
-2. Under Project Name, enter <b><i>"Invoice AD160-XX"</b></i>. For example, <i>"Invoice AD160-87"</i>.
+2. Under Project Name, enter <b><i>"Invoice AD160-XXX"</b></i>. For example, <i>"Invoice AD160-087"</i>.
 
 Click on <b>Create</b> to start building your application.
 
-![Name the project](images/012.png)
+![Name the project](images/New%20project.png)
 
 
 ## Create UI
@@ -406,7 +406,7 @@ Click on <b>SAVE</b>.
 
 ![Submit](images/89.png)
 
-26. The employeemail will be static, enter the email provided to you.
+26. The employeemail will be static, enter the email provided to you "ad160-XXX@education.cloud.sap".  For example: "<i>ad160-087@education.cloud.sap</i>" 
 
 ![Submit](images/90.png)
 
@@ -425,7 +425,6 @@ Under properties of Toast component, Enter "<i>Your Invoice has been submitted</
 ##Summary <a name="summary"></a>
 
 Now, you have build app and completed the below steps.
-
 ![Summary](images/Scenario_summary.png)
 
 Continue to - [Exercise 2 - Install and configure Desktop Agent 3](../2_InstallDesktopAgent3/Install-Desktop-Agent.md) and get started with SAP Build Process Automation.
