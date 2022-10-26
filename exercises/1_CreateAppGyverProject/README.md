@@ -1,9 +1,9 @@
 
 ## Table of Contents
 - [Overview](#overview-a-nameoverviewa)
-- [Create New Project](#create-a-build-apps-project-a-namecreate-a-build-apps-projecta)
-- 
-- [Summary](#summary)
+- [Create New Project](#create-a-build-apps-project)
+- [Data Connection](#data-connection)
+- [Summary](#Summary)
 
 
 # Overview <a name="overview"></a>
@@ -57,55 +57,42 @@ In <b>Variables view</b>, you can create variables which can store information t
 ![variable type](images/71.png)
 
 
-12. Switch back to <b>VIEW</b>. <br><br>
+13. Switch back to <b>VIEW</b>. <br><br>
 ![View](images/VIEW.png)
 
-13. Under the properties tab of <b>Input field component</b>, open the binding menu for <b>Value</b> by clickin on "<b>X</b>" icon.<br><br>
-
+14. Under the properties tab of <b>Input field component</b>, open the binding menu for <b>Value</b> by clickin on "<b>X</b>" icon.<br><br>
 ![bind menu](images/13.png)
 
-14. The binding menu will pop-up. Select <b> Data and Variables</b>.
+15. The binding menu will pop-up. Select <b> Data and Variables</b>.<br><br>![binding menu ](images/14.png)
 
-![binding menu ](images/14.png)
-
-15. Select <b> App Variable</b>.
-
+16. Select <b> App Variable</b>.<br><br>
 ![app variable inbind menu](images/15.png)
 
-16. Now, select <b>name</b> in the list of App variables available.
-
+17. Now, select <b>name</b> in the list of App variables available.<br><br>
 ![name of app vairble](images/16.png)
 
-17. Click on <b>SAVE</b> button to the save the binding to the component value.
-
+18. Click on <b>SAVE</b> button to the save the binding to the component value.<br><br>
 ![SAVE button](images/17.png)
 
-18. A variable can be binded to this image component. Open the binding menu of the image under properties on the right-hand side.
-
+19. A variable can be binded to this image component. Open the binding menu of the image under properties on the right-hand side.<br><br>
 ![bind menu](images/18.png)
 
-19. The binding menu will be pop-up. Select <b>Data and Variables</b>.
-
+20. The binding menu will be pop-up. Select <b>Data and Variables</b>.<br><br>
 ![bind image](images/19.png)
 
-20. Select <b>App Variables</b>.
-
+21. Select <b>App Variables</b>.<br><br>
 ![app variables](images/20.png)
 
-21. Now select <b>Invoicescan</b> under the list of available app variables and click on <b>SAVE</b> to save the binding to the image component.
-
+22. Now select <b>Invoicescan</b> under the list of available app variables and click on <b>SAVE</b> to save the binding to the image component.<br><br>
 ![variable](images/21.png)
 
-22. Drag and drop another <b>Button</b> component from component library to the canvas and rename the label to <b>Submit</b>.
-
+23. Drag and drop another <b>Button</b> component from component library to the canvas and rename the label to <b>Submit</b>.<br><br>
 ![Submit ](images/22.png)
 
-23. The submit button should be visible only after the invoice is selected. Click on <b>ADDVANCED PROPERTIES</b> to change the visibility properties of the button. Open the binding menu for the visibility properites.
-
+24. The submit button should be visible only after the invoice is selected. Click on <b>ADDVANCED PROPERTIES</b> to change the visibility properties of the button. Open the binding menu for the visibility properites.<br><br>
 ![](images/23.png)
 
-24. Select the <b>Formula</b>.
-
+25. Select the <b>Formula</b>.<br><br>
 ![](images/24.png)
 
 25. In the formula bar enter the following formula.
@@ -113,18 +100,16 @@ In <b>Variables view</b>, you can create variables which can store information t
 This formula checks if the <b>InvoiceScan</b> page variable is empty, then the output will be false and component will
 be disabled. If the <b>InvoiceScan</b> page variable have some value, the output will change to
 true, and component will be displayed.<br>
-Click on <b>SAVE</b>.
-
+Click on <b>SAVE</b>.<br><br>
 ![](images/25.png)
 
-26. Click on <b>SAVE</b>.
-
+26. Click on <b>SAVE</b>.<br><br>
 ![](images/26.png)
 
-27. Click on <b>SAVE</b> on the top right corner to the save the UI created so far.
+27. Click on <b>SAVE</b> on the top right corner to the save the UI created so far.<br><br>
 ![](images/27.png)
 
-## Data Connection
+## Data Connection <a name="Data Connection"></a>
 
 Now, your application will be connected to Document Management System and SAP Process Automation. first you should enable BTP authentication to connect your app to SAP Process Automation via Destinations.
 
