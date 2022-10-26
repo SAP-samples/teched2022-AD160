@@ -10,7 +10,8 @@ This session introduces attendees how to build apps, processes with workflows an
 
 Scenario : Invoice Approval with SAP Build Apps & SAP Build Process Automation
 
-![Overview](exercises/4_TriggerProcess/images/Overview.png)
+
+  ![Overview](exercises/4_TriggerProcess/images/Overview.png)
 
 ## Requirements
 

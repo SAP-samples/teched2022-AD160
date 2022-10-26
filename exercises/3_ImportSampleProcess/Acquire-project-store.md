@@ -15,7 +15,7 @@ Included in this sample process is the following:
 - An approval step to decide for approval or rejection of the invoice.
 - Confirmation and rejection forms to notify the requester about the decision
 
-  ![Process](./images/Business Process.png)
+    ![Process](./images/BusinessProcess.png)
 
 ## 1. Explore the store <a name="section2"></a>
 
