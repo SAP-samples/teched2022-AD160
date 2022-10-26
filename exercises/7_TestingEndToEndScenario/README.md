@@ -38,7 +38,7 @@ and click on <b>SAVE</b>.
 11. Now, open the <b>Launch</b> tab.
 ![](images/ss11.png)
 
-12. Click on <b> OPEN APP PREVIEW PORTAL</b>. 
+12. Click on <b> OPEN APP PREVIEW PORTAL</b>.
 ![](images/ss12.png)
 
 13. Select the AppGyver project you created.
@@ -48,3 +48,5 @@ and click on <b>SAVE</b>.
 14. Enter the name and upload the invoice to test the process.
 The invoice can be downloaded here <a href="https://github.com/SAP-samples/teched2022-AD160/blob/main/exercises/1_CreateAppGyverProject/images/Invoice.png?raw=true">Invoice</a>.
 ![](images/ss14.png)
+
+# summary
