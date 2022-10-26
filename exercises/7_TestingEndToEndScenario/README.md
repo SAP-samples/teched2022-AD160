@@ -49,4 +49,6 @@ and click on <b>SAVE</b>.
 The invoice can be downloaded here <a href="https://github.com/SAP-samples/teched2022-AD160/blob/main/exercises/1_CreateAppGyverProject/images/Invoice.png?raw=true">Invoice</a>.
 ![](images/ss14.png)
 
-# summary
+## summary
+
+![Summary](./images/Summary.png)
