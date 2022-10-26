@@ -68,7 +68,7 @@ The pre-built automation extracts the data from the Invoice document using AI.
   ![05](./images/095.png)
 
 13. Under **Delete File** Step edit Input Parameters:
-- map **fileName** with **fileName**
+- Map **fileName** with **fileName**
 - under **remotePath** type: C:\Users\Public\
 
   ![05](./images/023a.png)
@@ -77,12 +77,14 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
   ![05](./images/094.png)
 
-15. Select **Extract Invoice Data** and map Inputs:
-- map **fileName** with **fileName**,
-- map **folderName** with **folderName**.
+## 3. Map API parameters to Process parameters <a name="mapParameters"></a>
+
+ Select **Extract Invoice Data** and map Inputs:
+
+- Map **fileName** with **fileName**.
+- Map **folderName** with **folderName**.
 
   ![05](./images/024a.png)
-
 
 
 ## Summary <a name="summary"></a>
