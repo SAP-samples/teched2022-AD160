@@ -9,7 +9,7 @@
 
 In this exercise, you will build your app in SAP Appgyver to scan/upload invoices.
 
-![Sceanrio](images/sceanrio_appgyver.png)
+![Scenario](images/scenario_appgyver.png)
 
 
 ## Create a New AppGyver Project
@@ -406,7 +406,7 @@ Click on <b>SAVE</b>.
 
 ![Submit](images/89.png)
 
-26. The employeemail will be static, enter the email provided to you "ad160-XXX@education.cloud.sap".  For example: "<i>ad160-087@education.cloud.sap</i>" 
+26. The employeemail will be static, enter the email provided to you "ad160-XXX@education.cloud.sap".  For example: "<i>ad160-087@education.cloud.sap</i>"
 
 ![Submit](images/90.png)
 
