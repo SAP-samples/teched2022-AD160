@@ -68,13 +68,13 @@ and click on <b>SAVE</b>.<br><br>
 ![](images/App.png)
 
 4. Enter the name and upload the invoice to test the process.
-The invoice can be downloaded here <a href="https://github.com/SAP-samples/teched2022-AD160/blob/main/exercises/1_CreateAppGyverProject/images/Invoice.png?raw=true">Invoice</a>.
+The invoice can be downloaded here <a href="https://github.com/SAP-samples/teched2022-AD160/blob/main/exercises/1_CreateAppGyverProject/images/Invoice.png?raw=true">Invoice</a>.<br><br>
 ![](images/ss14.png)
 
-5. After uploading the invoice, click on Submit button.
+5. After uploading the invoice, click on Submit button.<br><br>
 ![](images/Submit%20.png)
 
-6. If the invoice is submitted succesfully, you should recieve a success toast message.
+6. If the invoice is submitted succesfully, you should recieve a success toast message.<br><br>
 ![](images/Successs%20s.png)
 
 7. Start in the **Lobby** and open the **My Inbox** application by selecting the button ![Inbox](images/02_Inbox_Icon.png) at the top right corner.
