@@ -73,7 +73,7 @@ The invoice can be downloaded here <a href="https://github.com/SAP-samples/teche
 
 8. After opening the **My Inbox** application, you will see on the left-hand side all the tasks listed. Select the task with the invoice number with which you triggered the process.
 
-    ![My Inbox Actions](imAGES/03_MyInbox_Actions.png)
+    ![My Inbox Actions](images/03_MyInbox_Actions.png)
 
 9. Move on with one of the actions:
 
