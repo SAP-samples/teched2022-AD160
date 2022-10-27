@@ -61,6 +61,36 @@ and click on <b>SAVE</b>.<br><br>
 The invoice can be downloaded here <a href="https://github.com/SAP-samples/teched2022-AD160/blob/main/exercises/1_CreateAppGyverProject/images/Invoice.png?raw=true">Invoice</a>.
 ![](images/ss14.png)
 
+5. After uploading the invoice, click on Submit button.
+![](images/Submit%20.png)
+
+6. If the invoice is submitted succesfully, you should recieve a success toast message. 
+![](images/Successs%20s.png)
+
+7. Start in the **Lobby** and open the **My Inbox** application by selecting the button ![Inbox](images/02_Inbox_Icon.png) at the top right corner.
+
+    ![Lobby](images/inbox'.png)
+
+8. After opening the **My Inbox** application, you will see on the left-hand side all the tasks listed. Select the task with the invoice number with which you triggered the process.
+
+    ![My Inbox Actions](imAGES/03_MyInbox_Actions.png)
+
+9. Move on with one of the actions:
+
+    ![Task Actions](images/04_TaskActions.png)
+
+      - **Approve**, **Reject**, **Show Log** (to see what has been done so far),
+      - **Claim** (to reserve this task for you) or
+      - **Mail** (to forward this task via email).
+
+10. You could also **sort**, **filter** or **group** the tasks at the bottom of the task list with these buttons:
+
+    ![My Inbox Filter](images/05_MyInbox_Filter.png)
+
+11. Depending on your selected actions and the information you have provided at the start of the process, the next task would be to **Approve** the invoice.
+
+    ![Confirmation Form](images/06_ConfirmationForm.png)
+
 
 ## summary
 
