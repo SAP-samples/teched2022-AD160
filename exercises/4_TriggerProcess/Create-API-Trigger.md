@@ -25,15 +25,26 @@ In this exercise you will learn:
 
 ## 2. Create an API Trigger for Process <a name="configureInputs"></a>
 
-1. Click on the **Canvas** in the background.
+1. In the process builder canvas, on the Trigger tile, select **+**. Then choose **API** and **New Api Trigger**.
 
- ![04](./images/007a.png)
+ ![04](./images//029.png)
 
-2. Choose **Configure Inputs** in **Inputs** to configure inputs.
+2. In the Create API Trigger window:
+- eneter the name: API Trigger
+- choose **Crerate**.
+> The identifier is generated based on the name.
+
+ ![04](./images//030.png)
+
+3. Click on the **Canvas** in the background.
+
+ ![04](./images/007b.png)
+
+4. In Process Details side panel, choose **Configure Inputs** in **Inputs** to configure inputs.
 
  ![04](./images/008a.png)
 
-3. Configure three inputs. Enter the names and choose types.
+5. Configure four inputs. Enter the names and choose types.
 
     |  **Name**    | **Type**
     |  :------------- | :-------------
@@ -46,27 +57,27 @@ In this exercise you will learn:
 
  ![04](./images/009a.png)
 
-4. Select Project Properties.
+6. Select Project Properties.
 
- ![04](./images/011a.png)
+ ![04](./images/011b.png)
 
-5. Choose **Configure Agent Version** and select Agent 3.7.XX and **Save**.
+7. Choose **Configure Agent Version** and select Agent 3.7.XX and **Save**.
 
  ![04](./images/012a.png)
 
-6. Choose **Dependencies** and select **Add Dependency** button.
+8. Choose **Dependencies** and select **Add Dependency** button.
 
  ![04](./images/013.png)
 
-7. Under **Package** select **Document Management Repository**.
+9. Under **Package** select **Document Management Repository**.
 
  ![04](./images/014.png)
 
-8. Select **Add** button.
+10. Select **Add** button.
 
  ![04](./images/015a.png)
-
-8. **Close** the Project Properties window.
+ 
+11. **Close** the Project Properties window.
 
  ![04](./images/015b.png)
 
