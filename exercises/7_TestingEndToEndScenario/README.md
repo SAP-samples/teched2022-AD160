@@ -7,7 +7,7 @@
 ## Testing the End to End Scnerio. <a name="overview"></a>
 Although, your application is connected to SAP Build Process Automation service, it is not connected to the process you created yet. In this stage, you will see how to connect your app and process.
 
-## Copy Definition ID from SAP BUILD PROCESS AUTOMATION <a name="SPA"></a>
+## Copy Definition ID from SAP Build Process Automation <a name="SPA"></a>
 1. Open the <b>Application lobby</b> again. <br>
     Open the <b>Monitor</b> tab.<br><br>
 ![](images/ss1.png)
