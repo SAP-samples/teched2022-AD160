@@ -13,11 +13,11 @@ In this exercise you will learn:
 
 After completing Modify Automation exercise your process looks like this:
 
-  ![06](./images/301.png)
+  ![06](./images/301a.png)
 
 1. **Release** the project.
 
-  ![06](./images/302.png)
+  ![06](./images/302a.png)
 
 2. Choose the **Version** and confirm **Release**.
 
