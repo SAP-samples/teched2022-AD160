@@ -98,7 +98,7 @@ In <b>Variables view</b>, you can create variables which can store information t
 25. Select the <b>Formula</b>.<br><br>
 ![](images/24.png)
 
-26. In the formula bar enter the following formula.<br><br><pre>IF(IS_EMPTY(pageVars.InvoiceScan),false,true)</pre> This formula checks if the <b>InvoiceScan</b> page variable is empty, then the output will be false and component will
+26. In the formula bar enter the following formula.<br><br><pre>IF(IS_EMPTY(appVars.Imagescan),false,true)</pre> This formula checks if the <b>InvoiceScan</b> page variable is empty, then the output will be false and component will
 be disabled. If the <b>InvoiceScan</b> page variable have some value, the output will change to
 true, and component will be displayed.<br>
 Click on <b>SAVE</b>.<br><br>
@@ -134,7 +134,7 @@ Now, your application will be connected to Document Management System and SAP Pr
 ![](images/41.png)
 
 7. In <b>BTP destination name</b>, select <b>AppgGyver_SPA</b>.<br><br>
-![](images/42.png)
+![](images/Destination.png)
 
 8.  Under <b> Data resource name</b>, a name can be given to this data connection, like "<i>SendtoSPA</i>".<br><br>
 ![](images/43.png)
