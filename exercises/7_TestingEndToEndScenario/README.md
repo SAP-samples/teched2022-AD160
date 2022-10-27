@@ -3,6 +3,7 @@
 - [Definition ID from SAP BUILD PROCESS AUTOMATION](#SPA)
 - [Definition ID to SAP BUILD APPS](#build)
 - [Testing the Scenerio](#Test)
+- [Monitoring the process](#name)
 
 ## Testing the End to End Scnerio. <a name="overview"></a>
 Although, your application is connected to SAP Build Process Automation service, it is not connected to the process you created yet. In this stage, you will see how to connect your app and process.
@@ -92,7 +93,24 @@ The invoice can be downloaded here <a href="https://github.com/SAP-samples/teche
     ![Confirmation Form](images/06_ConfirmationForm.png)
 
 
-## summary
+## Monitoring the Process <a name="name"></a>
+ 
+ 1. Navigate to the **Monitor** tab and choose **Process and Workflow Instances**.
 
-Now, you have successfully connected your app and process and also tested it End-to-End.
+    ![Monitor](images/01_Monitor.png)
+
+2. Choose **Get Invoice Details** instance to check the status of the **CONTEXT** and **EXECUTION LOG**.
+
+    ![Monitor](images/02_Process_and_Workflow.png)
+
+
+    Notice how the process instance progresses further to the approval step in the business process.
+
+    ![Monitor](images/05_Monitor_Process_and_Workflow.png)
+
+
+
+## Summary
+
+Congratulations!!! You have successfully completed the excercise by connecting your app and process and also tested it End-to-End.
 ![Summary](./images/Summary.png)
