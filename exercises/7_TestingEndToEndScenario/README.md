@@ -1,12 +1,21 @@
 ## Table of Contents
 - [Overview](#overview)
+- [Desktop Agent Management Settings](#AgentSettings)
 - [Definition ID from SAP BUILD PROCESS AUTOMATION](#SPA)
 - [Definition ID to SAP BUILD APPS](#build)
-- [Testing the Scenerio](#Test)
+- [Testing the Scenario](#Test)
 - [Monitoring the process](#name)
 
 ## Testing the End to End Scnerio. <a name="overview"></a>
 Although, your application is connected to SAP Build Process Automation service, it is not connected to the process you created yet. In this stage, you will see how to connect your app and process.
+
+
+## Desktop Agent Management Settings <a name="AgentSettings"></a>
+Follow below steps to execute the process with an automation with specific registered Desktop Agent.
+You will create an **Agent Attribute** in the tenant to add it to your agent and project
+**Agent attributes** allow you to sort agents registered within the same tenant and make sure that a specific agent executes the job of your choice.
+
+Follow this tutorial on [Agent Management Settings](https://developers.sap.com/tutorials/spa-run-agent-settings.html)
 
 ## Copy Definition ID from SAP Build Process Automation <a name="SPA"></a>
 1. Open the <b>Application lobby</b> again. <br>
@@ -65,7 +74,7 @@ The invoice can be downloaded here <a href="https://github.com/SAP-samples/teche
 5. After uploading the invoice, click on Submit button.
 ![](images/Submit%20.png)
 
-6. If the invoice is submitted succesfully, you should recieve a success toast message. 
+6. If the invoice is submitted succesfully, you should recieve a success toast message.
 ![](images/Successs%20s.png)
 
 7. Start in the **Lobby** and open the **My Inbox** application by selecting the button ![Inbox](images/02_Inbox_Icon.png) at the top right corner.
@@ -94,7 +103,7 @@ The invoice can be downloaded here <a href="https://github.com/SAP-samples/teche
 
 
 ## Monitoring the Process <a name="name"></a>
- 
+
  1. Navigate to the **Monitor** tab and choose **Process and Workflow Instances**.
 
     ![Monitor](images/01_Monitor.png)
