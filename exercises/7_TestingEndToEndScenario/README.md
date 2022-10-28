@@ -3,8 +3,8 @@
 - [Desktop Agent Management Settings](#AgentSettings)
 - [Definition ID from SAP Build Process Automation](#SPA)
 - [Definition ID to SAP Build Apps](#build)
-- [Testing the Scenario](#Test)
-- [Monitoring the process](#name)
+- [Testing the app](#Test)
+- [Monitoring and approving the process](#name)
 
 ## Testing the End to End Scnerio. <a name="overview"></a>
 Although, your application is connected to SAP Build Process Automation service, it is not connected to the process you created yet. In this stage, you will see how to connect your app and process.
