@@ -7,6 +7,7 @@ In the interest of time of this session, destinations have been pre-configured i
 
 
 Destination to connect SAP Build Process Automation with SAP Build Apps. <br>
+Change the authentication to <b>OAuth2ClientCredentials</b>. Client ID, Client Secret and Token Service URL can retrieved from the SAP Build Process Automation Instance from your tenant.
 
 Add these Additional Properties for this destination to work in SAP Build Apps.<br>
 <b>AppgyverEnabled</b><br>
@@ -18,10 +19,14 @@ Add these Additional Properties for this destination to work in SAP Build Apps.<
 
 ![](images/Screenshot%202022-10-28%20at%2013.23.50.png)
 
+
+
+Destination to connect SAP Document Management Service to SAP Process Automation Service.<br>
+Change the authentication to <b>OAuth2ClientCredentials</b>. Client ID, Client Secret and Token Service URL can retrieved from the Document Management Service Instance from your tenant.
+
 Add these Additional Properties for this destination to work in SAP Build Process Automation.<br>
 <b>sap.processautomation.enabled<b>
-
-Destination to connect SAP Document Management Service to SAP Process Automation Service.<br><br>
+<br>
 
 ![](images/Screenshot%202022-10-28%20at%2013.24.47.png)
 
