@@ -17,7 +17,7 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
 1. Once the dependency is completed, go to **Extract Invoice Data**, select three dots, and choose **Open Editor**
 
-  ![05](./images/010b.png)
+  ![05](./images/010a.png)
 
 2. Modify parameters in **Input/Output**.
 - Rename **FilePath** to **fileName**
@@ -84,7 +84,7 @@ The pre-built automation extracts the data from the Invoice document using AI.
 - Map **fileName** with **fileName**.
 - Map **folderName** with **folderName**.
 
-  ![05](./images/024a.png)
+  ![05](./images/024.png)
 
 
 ## Summary <a name="summary"></a>
