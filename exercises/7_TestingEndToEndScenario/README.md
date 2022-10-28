@@ -1,8 +1,8 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Desktop Agent Management Settings](#AgentSettings)
-- [Definition ID from SAP BUILD PROCESS AUTOMATION](#SPA)
-- [Definition ID to SAP BUILD APPS](#build)
+- [Definition ID from SAP Build Process Automation](#SPA)
+- [Definition ID to SAP Build Apps](#build)
 - [Testing the Scenario](#Test)
 - [Monitoring the process](#name)
 
@@ -49,14 +49,27 @@ and click on <b>SAVE</b>.<br><br>
 5. Click on <b>SAVE</b>.<br><br>
 ![](images/ss8.png)
 
-6. Now <b>SAVE DATA RESOURCE</b>.<br><br>
-![](images/ss9.png)
+6. You can test if this Data connection is working.<br>
+Switch to <b>TEST</b> tab.<br>
+Enter the below values in the following fields to test the connection.<br>
+filename: <i>Test1666861993010.png</i><br>
+foldername: <i>Invoices</i><br>
+employeemail: <i>Test</i><br>
+employeename: <i>Test</i><br>
+Now click on <b>RUN TEST</b>. <br>
+<br><br>
+![](images/Test1.png)
 
-7. Click on <b>SAVE</b> on the top right corner to the save the changes.
+7. Scroll down and check the Status of the Response. If you are getting any error please recheck the steps 1-6, else request help from the presenters. If you get the response as <b>Status:OK</b>, then the connection is successful.<br>
+Now, <b>SAVE DATA RESOURCE</b>.<br><br>
+ ![](images/Test2.png)
+
+
+8. Click on <b>SAVE</b> on the top right corner to the save the changes.
 ![](images/ss10.png)
 
 
-## Testing the Scenerio <a name="Test"></a>
+## Testing the App <a name="Test"></a>
 
 1. Now, open the <b>Launch</b> tab.<br><br>
 ![](images/ss11.png)
@@ -77,11 +90,30 @@ The invoice can be downloaded here <a href="https://github.com/SAP-samples/teche
 6. If the invoice is submitted succesfully, you should recieve a success toast message.<br><br>
 ![](images/Successs%20s.png)
 
-7. Start in the **Lobby** and open the **My Inbox** application by selecting the button ![Inbox](images/02_Inbox_Icon.png) at the top right corner.
 
-    ![Lobby](images/inbox'.png)
 
-8. After opening the **My Inbox** application, you will see on the left-hand side all the tasks listed. Select the task with the invoice number with which you triggered the process.
+
+## Monitoring and approving the Process <a name="name"></a>
+
+1. Navigate to the **Monitor** tab and choose **Process and Workflow Instances**.
+
+    ![Monitor](images/01_Monitor.png)
+
+2. Choose **Get Invoice Details** instance to check the status of the **CONTEXT** to see the details of approval request and **EXECUTION LOG** to see the steps executed by the process.
+In the 
+
+    ![Monitor](images/BB1.png)
+
+
+    In the **EXECUTION LOG**, you can see how the process instance progresses further to the approval step in the business process.
+
+    ![Monitor](images/BB2.png)
+
+3. Open the **My Inbox** application by selecting the button ![Inbox](images/02_Inbox_Icon.png) at the top right corner.
+
+    ![Lobby](images/BB3.png)
+
+4. After opening the **My Inbox** application, you will see on the left-hand side all the tasks listed. Select the task with the invoice number with which you triggered the process.
 
     ![My Inbox Actions](images/03_MyInbox_Actions.png)
 
@@ -100,22 +132,7 @@ The invoice can be downloaded here <a href="https://github.com/SAP-samples/teche
 11. Depending on your selected actions and the information you have provided at the start of the process, the next task would be to **Approve** the invoice.
 
     ![Confirmation Form](images/06_ConfirmationForm.png)
-
-
-## Monitoring the Process <a name="name"></a>
-
- 1. Navigate to the **Monitor** tab and choose **Process and Workflow Instances**.
-
-    ![Monitor](images/01_Monitor.png)
-
-2. Choose **Get Invoice Details** instance to check the status of the **CONTEXT** and **EXECUTION LOG**.
-
-    ![Monitor](images/02_Process_and_Workflow.png)
-
-
-    Notice how the process instance progresses further to the approval step in the business process.
-
-    ![Monitor](images/05_Monitor_Process_and_Workflow.png)
+ 
 
 
 
