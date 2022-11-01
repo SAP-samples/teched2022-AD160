@@ -49,6 +49,6 @@ Included in this sample process is the following:
 
 ## Summary<a name="summary"></a>
 
-You've now acquired Invoice Sample Process from the SAP Build Process Automation Store.
+You have now acquired Invoice Sample Process from the SAP Build Process Automation Store.
 
 Continue to - [Exercise 4 - Trigger Process](../4_TriggerProcess/Create-API-Trigger.md)

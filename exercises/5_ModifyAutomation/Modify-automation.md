@@ -79,16 +79,17 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
 ## 3. Map Automation parameters to Process parameters <a name="mapParameters"></a>
 
- Select **Extract Invoice Data** and map Inputs:
+1. Select **Extract Invoice Data** and map Inputs:
 
 - Map **fileName** with **fileName**.
 - Map **folderName** with **folderName**.
 
   ![05](./images/024.png)
 
+2. **Save** your work.
 
 ## Summary <a name="summary"></a>
 
-You've now modified the project.
+You have now modified the project.
 
 Continue to - [Exercise 6 - Release and Deploy Process](../6_ReleaseDeployProcess/run-release-deploy.md)

@@ -19,7 +19,7 @@ In this exercise you will learn:
 
  ![04](./images//005.png)
 
-2. From the **Editable** version of the go to the **Invoice Request Form**, choose 3 dots and choose **Remove** to delete the form.
+2. Go to the **Invoice Request Form**, choose 3 dots and choose **Remove** to delete the form.
 
  ![04](./images//006.png)
 
@@ -76,7 +76,7 @@ In this exercise you will learn:
 10. Select **Add** button.
 
  ![04](./images/015a.png)
- 
+
 11. **Close** the Project Properties window.
 
  ![04](./images/015b.png)
@@ -85,26 +85,18 @@ In this exercise you will learn:
 
 ## 3. Map API parameters to Process parameters <a name="mapParameters"></a>
 
-1. Map parameters for **Invoice Approval form**
+1. Map parameters for **Invoice Approval form**. Select **Invoice Approval form** and map:
+- under General map **employeeMail** with Users
+![05](./images/025.png)
 
-    Select **Invoice Approval form** and map:
-    - under General: map **employeeMail** with Users
-
-    ![05](./images/025.png)
-
-    - under Inputs: map **Employee Name** with **employeeName**.
-
+- under Inputs map **Employee Name** with **employeeName**.
   ![05](./images/025a.png)
 
-2. Map parameters for **Invoice Approval Notification Form**
-
-  Select **Invoice Approval Notification Form** under General: map **employeeMail** with Users.
+2. Map parameters for **Invoice Approval Notification Form**. Select **Invoice Approval Notification Form**, under General map **employeeMail** with Users.
 
   ![05](./images/027.png)
 
-3. Map parameters for **Invoice Reject Notification Form**
-
-  Select **Invoice Reject Notification Form** under General: map **employeeMail** with Users.
+3. Map parameters for **Invoice Reject Notification Form**. Select **Invoice Reject Notification Form**, under General map **employeeMail** with Users.
 
   ![05](./images/028.png)
 
@@ -114,6 +106,6 @@ In this exercise you will learn:
 
 ## Summary <a name="summary"></a>
 
-You've now created API Triggers for the Business Process.
+You have now created API Triggers for the Business Process.
 
 Continue to - [Exercise 5 - Modify the Automation](../5_ModifyAutomation/Modify-automation.md)
