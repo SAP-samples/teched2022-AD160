@@ -19,7 +19,7 @@ In this exercise you will learn:
 
 The setup program is provided in the form of an industry standard Windows MSI installer.
 
-1. You can install the Desktop Agent 3 from SAP Application Development. Navigate to the **Settings** on your tenant, choose **Agent Update** under **Agents**.
+1. You can install the Desktop Agent 3 from SAP Application Development. Navigate to the **Settings** on your tenant, choose **Agent Update** under **Agents**. Select **Go to Download Page** button.
 
   ![07](./images/agent3-a031.png)
 
@@ -85,7 +85,7 @@ Once the installation steps of the SAP Robotic Process Automation setup wizard a
 
   ![07](./images/agent3-a014.png)
 
-5. The Agent should be in **Idle** state, waiting to start a project. To check, go to **Settings**, and select **Agent List**.
+5. The Agent should be in **Idle** state, waiting to start a project. To check, go to **Settings**, and select **Agent**.
 
   ![07](./images/agent3-a013.png)
 
@@ -110,4 +110,4 @@ Once the installation steps of the SAP Robotic Process Automation setup wizard a
 
 You've now have successfully installed and configured your Desktop Agent 3
 
-Continue to - [Exercise 2 - Import Sample Process from SAP Build Process Automation Store](../3_ImportSampleProcess/Acquire-project-store.md)
+Continue to - [Exercise 3 - Import Sample Process from SAP Build Process Automation Store](../3_ImportSampleProcess/Acquire-project-store.md)
