@@ -160,7 +160,7 @@ select the field type for all of them as <b>Text</b>.<br><br>
 <b>Header value</b>:<i> application/json</i><br><br>Click on <b>SAVE</b>.<br><br>
 ![](images/49.png)
 
-15. <b>Request body mapper</b> value will be binded after creating the process using SAP BUILD PROCEESS AUTOMATION.<br> Now, Click on <b>SAVE DATA RESOURCES</b>.<br>
+15. <b>Request body mapper</b> value will be binded after creating the process using SAP BUILD PROCEESS AUTOMATION.<br> Now, click on <b>SAVE DATA RESOURCE</b>.<br>
 Now the a connection between your Application and Process is created using Destinations. <br>
 ![](images/53.png)
 
