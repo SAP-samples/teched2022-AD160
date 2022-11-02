@@ -361,7 +361,7 @@ Click on <b>SAVE</b>.<br><br>
   Connect the nodes of <b>Create record</b> and <b>toast</b>. Under properties of Toast component, enter "<i>Your Invoice has been submitted</i>" under toast message.<br><br>
 ![Submit](images/92.png)
 
-29. **Save** youer work.
+29. **Save** your work.
 
 ## Summary <a name="summary"></a>
 
