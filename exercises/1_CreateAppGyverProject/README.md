@@ -171,10 +171,10 @@ Now, your application will be connected to Document Management System and SAP Pr
 ![](images/48.png)
 
 14. Click on <b>Add value</b>, and enter the following values:
-  - <b>Header name</b>: <i> Content-Type</i><br>
-  - <b>Header value</b>:<i> application/json</i><br><br>
-  Click on <b>SAVE</b>.<br><br>
-![](images/49.png)
+    - <b>Header name</b>: <i> Content-Type</i><br>
+    - <b>Header value</b>:<i> application/json</i><br><br>
+    Click on <b>SAVE</b>.<br><br>
+    ![](images/49.png)
 
 
 15. <b>Request body mapper</b> value will be binded after creating the process using SAP BUILD PROCEESS AUTOMATION.
