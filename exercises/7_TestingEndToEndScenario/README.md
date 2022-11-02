@@ -15,17 +15,16 @@ Follow below steps to execute the process with an automation with specific regis
 You will create an **Agent Attribute** in the tenant to add it to your agent and project
 **Agent attributes** allow you to sort agents registered within the same tenant and make sure that a specific agent executes the job of your choice.
 
-Follow this tutorial on [Agent Management Settings](https://developers.sap.com/tutorials/spa-run-agent-settings.html)
+Follow this tutorial on [Agent Management Settings](https://developers.sap.com/tutorials/spa-run-agent-settings.html).
 
 ## Copy Definition ID from SAP Build Process Automation <a name="SPA"></a>
-1. Open the <b>Application lobby</b> again. <br>
-    Open the <b>Monitor</b> tab.<br><br>
+1. Open the <b>Application lobby</b> again. Open the <b>Monitor</b> tab.<br><br>
 ![](images/ss1.png)
 
 2. Click on <b>Process and Workflow</b> under the <b>Manage </b> section.<br><br>
 ![](images/Processes%20and%20Workflows.png)
 
-3. Search for your project name under <b>Project</b>. Select the project you created with the ID provided to you. Ex: <b>Invoice Process AD160-XXX</b>.<br><br>
+3. Search for your project name under <b>Project</b>. Select the project you created with the ID provided to you. For exmaple: <b>Invoice Process AD160-XXX</b>.<br><br>
 ![](images/Search%20invoice.png)
 
 4. After you find your process, copy its <b>Definition ID</b>.<br><br>
@@ -33,7 +32,7 @@ Follow this tutorial on [Agent Management Settings](https://developers.sap.com/t
 
 ## Enter the Definition ID in SAP Build Apps. <a name="build"></a>
 
-1. Now, Open your AppGyver Project and click on <b>DATA</b> tab. <br><br>
+1. Open your AppGyver Project and click on <b>DATA</b> tab. <br><br>
 ![](images/ss4.png)
 
 2. Select the <b>SendtoSPA</b> data entity.<br><br>
@@ -42,36 +41,42 @@ Follow this tutorial on [Agent Management Settings](https://developers.sap.com/t
 3. In the <b>create</b> tab, open the bindng menu for <b> Request body mapper</b>.<br><br>
 ![](images/ss6.png)
 
-4. Open the formula editor. Enter the following formula.<br><pre>ENCODE_JSON({  "definitionId": "<b>Your Definition ID copied from SPA</b> ",  "context":  query.record })  </pre>
-and click on <b>SAVE</b>.<br><br>
+4. Open the formula editor. Enter the following formula: <br><pre>ENCODE_JSON({  "definitionId": "<b>Your Definition ID copied from SPA</b> ",  "context":  query.record })  </pre>
+Click on <b>SAVE</b>.<br><br>
 ![](images/ss7.png)
 
 5. Click on <b>SAVE</b>.<br><br>
 ![](images/ss8.png)
 
-6. You can test if this Data connection is working.<br>
-Switch to <b>TEST</b> tab.<br>
-Enter the below values in the following fields to test the connection.<br>
-filename: <i>Test1666861993010.png</i><br>
-foldername: <i>Invoices</i><br>
-employeemail: <i>Test</i><br>
-employeename: <i>Test</i><br>
-Now click on <b>RUN TEST</b>. <br>
-<br><br>
-![](images/Test1.png)
+6. You can test if this Data connection is working. Switch to <b>TEST</b> tab.<br>
+Enter the below values in the following fields to test the connection:
+    - filename: <i>Test1666861993010.png</i>
+    - foldername: <i>Invoices</i>
+    - employeemail: <i>Test</i>
+    - employeename: <i>Test</i><br>
 
-7. Scroll down and check the Status of the Response. If you are getting any error please recheck the steps 1-6, else request help from the presenters. If you get the response as <b>Status:OK</b>, then the connection is successful.<br>
-Now, <b>SAVE DATA RESOURCE</b>.<br><br>
- ![](images/Test2.png)
+    Click on <b>RUN TEST</b>.
+
+    ![](images/Test1.png)
+
+7. Scroll down and check the Status of the Response.
+
+    > If you are getting any error please recheck the steps 1-6, else request help from the presenters.
+If you get the response as <b>Status:OK</b>, then the connection is successful.<br>
+
+    Select **SAVE DATA RESOURCE**.
+
+    ![](images/Test2.png)
 
 
 8. Click on <b>SAVE</b> on the top right corner to the save the changes.
-![](images/ss10.png)
+
+    ![](images/ss10.png)
 
 
 ## Testing the App <a name="Test"></a>
 
-1. Now, open the <b>Launch</b> tab.<br><br>
+1. Open the <b>Launch</b> tab.<br><br>
 ![](images/ss11.png)
 
 2. Click on <b> OPEN APP PREVIEW PORTAL</b>.<br><br>
@@ -81,10 +86,11 @@ Now, <b>SAVE DATA RESOURCE</b>.<br><br>
 ![](images/App.png)
 
 4. Enter the name and upload the invoice to test the process.
-The invoice can be downloaded here <a href="https://github.com/SAP-samples/teched2022-AD160/blob/main/exercises/1_CreateAppGyverProject/images/Invoice.png?raw=true">Invoice</a>.<br><br>
-![](images/ss14.png)
+The invoice can be downloaded <a href="https://github.com/SAP-samples/teched2022-AD160/blob/main/exercises/1_CreateAppGyverProject/images/Invoice.png?raw=true">**HERE**</a>.
 
-5. After uploading the invoice, click on Submit button.<br><br>
+    ![](images/ss14.png)
+
+5. After uploading the invoice, click on **Submit** button.<br><br>
 ![](images/Submit%20.png)
 
 6. If the invoice is submitted succesfully, you should recieve a success toast message.<br><br>
@@ -100,16 +106,14 @@ The invoice can be downloaded here <a href="https://github.com/SAP-samples/teche
     ![Monitor](images/01_Monitor.png)
 
 2. Choose **Get Invoice Details** instance to check the status of the **CONTEXT** to see the details of approval request and **EXECUTION LOG** to see the steps executed by the process.
-In the 
 
     ![Monitor](images/BB1.png)
-
 
     In the **EXECUTION LOG**, you can see how the process instance progresses further to the approval step in the business process.
 
     ![Monitor](images/BB2.png)
 
-3. Open the **My Inbox** application by selecting the button ![Inbox](images/02_Inbox_Icon.png) at the top right corner.
+3. Open the **My Inbox** application by selecting the button at the top right corner.
 
     ![Lobby](images/BB3.png)
 
@@ -117,13 +121,12 @@ In the
 
     ![My Inbox Actions](images/03_MyInbox_Actions.png)
 
-9. Move on with one of the actions:
-
-    ![Task Actions](images/04_TaskActions.png)
-
+5. Move on with one of the actions:
       - **Approve**, **Reject**, **Show Log** (to see what has been done so far),
       - **Claim** (to reserve this task for you) or
       - **Mail** (to forward this task via email).
+
+      ![Task Actions](images/04_TaskActions.png)
 
 10. You could also **sort**, **filter** or **group** the tasks at the bottom of the task list with these buttons:
 
@@ -132,11 +135,12 @@ In the
 11. Depending on your selected actions and the information you have provided at the start of the process, the next task would be to **Approve** the invoice.
 
     ![Confirmation Form](images/06_ConfirmationForm.png)
- 
+
 
 
 
 ## Summary
 
-Congratulations!!! You have successfully completed the excercise by connecting your app and process and also tested it End-to-End.
+Congratulations!!! You have successfully completed the excercise, by connecting your app with process and also tested it End-to-End.
+
 ![Summary](./images/Summary.png)
