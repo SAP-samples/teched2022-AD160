@@ -19,19 +19,18 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
 ## Create a Build Apps Project <a name="buildapps"></a>
 
-1. Within the application development lobby, click <b>Create</b> and then select <b>Build Apps Project</b>.
+1. Within the application development lobby, click <b>Create</b> and then select <b>Build Apps Project</b>.<br>
+<br>![Create the project](images/011.png)
 
-  ![Create the project](images/011.png)
-
-2. Under Project Name, enter <b>"Invoice AD160-XXX"</b>, replace XXX with you user ID. For example, <i>"Invoice AD160-087"</i>.<br>Click on <b>Create</b> to start building your application.
+2. Under Project Name, enter <b><i>"Invoice AD160-XXX"</b></i>, replace XXX with your user ID. For example, <i>"Invoice AD160-087"</i>.<br>Click on <b>Create</b> to start building your application.
 <br><br>![Name the project](images/New%20project.png)
 
 
 ## Create UI <a name="UI"></a>
 1. You will be redirected to Build Apps Composer, which is like an IDE for SAP Build Apps. In the canvas, you can already see a <b>Title</b> and <b>Text</b> component.<br><br>![home page](images/01.png)
 
-2. Click on **Headline** on the canvas to select the <b>Title</b> component.
-The properties tab on the right-hand side will show the properties of the Title component,
+2. Click on “<i>Headline</i>” on the canvas to select the <b>Title</b> component.
+Now, the properties tab on the right-hand side will show the properties of the Title component
 where you can modify this component.<br> Under <b>Content</b>, enter “<i>Invoice Approval</i>”<br><br>![Title component](images/02%202.png)
 
 3. Select the <b>Text</b>, modify the content of the component under the properties on right-hand side to "<i>Enter your name and upload your invoice</i>".<br><br>![text component](images/03.png)
@@ -46,7 +45,9 @@ where you can modify this component.<br> Under <b>Content</b>, enter “<i>Invoi
 ![Image](images/07.png)
 
 8. Switch to <b>Variables</b> view.
-In <b>Variables view</b>, you can create variables which can store information temporarily.<br><br>![Variables](images/08.png)
+> In <b>Variables view</b>, you can create variables which can store information temporarily.
+
+  <br><br>![Variables](images/08.png)
 
 9. Create an App Variable by clicking on <b>ADD APP VARIABLE</b> and rename it to "<i>name</i>".<br><br>
 ![create variable](images/09.png)
@@ -99,11 +100,16 @@ In <b>Variables view</b>, you can create variables which can store information t
 25. Select the <b>Formula</b>.<br><br>
 ![](images/24.png)
 
-26. In the formula bar enter the following formula.<br><br><pre>IF(IS_EMPTY(appVars.Imagescan),false,true)</pre> This formula checks if the <b>InvoiceScan</b> page variable is empty, then the output will be false and component will
-be disabled. If the <b>InvoiceScan</b> page variable have some value, the output will change to
-true, and component will be displayed.<br>
-Click on <b>SAVE</b>.<br><br>
-![](images/25.png)
+26. In the formula bar enter the following formula:
+<br><br>
+
+  <pre>IF(IS_EMPTY(appVars.Invoicescan),false,true)</pre>
+
+  > This formula checks if the <b>InvoiceScan</b> page variable is empty, then the output will be false and component will be disabled. If the <b>InvoiceScan</b> page variable have some value, the output will change to true, and component will be displayed.<br>
+
+  Click on <b>SAVE</b>.
+
+  ![](images/25.png)
 
 26. Click on <b>SAVE</b>.<br><br>
 ![](images/26.png)
@@ -115,10 +121,10 @@ Click on <b>SAVE</b>.<br><br>
 
 Now, your application will be connected to Document Management System and SAP Process Automation. First, you should enable BTP authentication to connect your app to SAP Process Automation via Destinations.
 
-1. Click on <b>AUTH</b> tab on the top of the screen.<br><br>
+1. Chosse <b>AUTH</b> tab on the top of the screen.<br><br>
 ![](images/36.png)
 
-2. Click on <b>Enable Authentication</b>.<br><br>
+2. Select on <b>Enable Authentication</b>.<br><br>
 ![](images/37.png)
 
 3. Select <b>SAP BTP authentication</b>.
@@ -140,12 +146,20 @@ Now, your application will be connected to Document Management System and SAP Pr
 8.  Under <b> Data resource name</b>, a name can be given to this data connection, like "<i>SendtoSPA</i>".<br><br>
 ![](images/43.png)
 
-9. Under <b>Resource schema</b>, click on <b>+ ADD NEW</b> to create a schema. Name the new schema as "<i>filename</i>" and select the field type to <b>Text</b>.<br><br>Schema is structure of the data. A schema is created which is similar to the Data base. In this scenerio the data base is Document Management System(DMS), and schema should be created matching the schema in DMS.<br><br>
-![](images/44.png)
-<br><br>
-10. Similarily, add three other schema with the following names. <br> "<i>foldername</i>"<br>"<i>employeename</i>"<br>"<i>employeemail</i>" <br>
-select the field type for all of them as <b>Text</b>.<br><br>
-![](images/newdata.png)
+9. Under <b>Resource schema</b>, click on <b>+ ADD NEW</b> to create a schema. Name the new schema as "<i>filename</i>" and select the field type to <b>Text</b>.
+
+  > Schema is structure of the data. A schema is created which is similar to the Data base. In this scenerio the data base is Document Management System(DMS), and schema should be created matching the schema in DMS.
+
+  ![](images/44.png)<br><br>
+
+10. Similarily, add three other schema with the following names:
+  - "<i>foldername</i>"
+  - "<i>employeename</i>"
+  - "<i>employeemail</i>"
+
+  Select the field type for all of them as <b>Text</b>.
+
+    ![](images/newdata.png)
 
 11. Select the <b>create</b> tab, and enable it.<br><br>
 ![](images/46.png)
@@ -156,34 +170,41 @@ select the field type for all of them as <b>Text</b>.<br><br>
 13. In the binding menu, select <b>List of values</b>.<br><br>
 ![](images/48.png)
 
-14. Click on <b>Add value</b>, and enter the following values. <br>
-<b>Header name</b>: <i> Content-Type</i><br>
-<b>Header value</b>:<i> application/json</i><br><br>Click on <b>SAVE</b>.<br><br>
+14. Click on <b>Add value</b>, and enter the following values:
+  - <b>Header name</b>: <i> Content-Type</i><br>
+  - <b>Header value</b>:<i> application/json</i><br><br>
+  Click on <b>SAVE</b>.<br><br>
 ![](images/49.png)
 
-15. <b>Request body mapper</b> value will be binded after creating the process using SAP BUILD PROCEESS AUTOMATION.<br> Now, click on <b>SAVE DATA RESOURCE</b>.<br>
-Now the a connection between your Application and Process is created using Destinations. <br>
-![](images/53.png)
+
+15. <b>Request body mapper</b> value will be binded after creating the process using SAP BUILD PROCEESS AUTOMATION.
+
+  Click on <b>SAVE DATA RESOURCE</b>. The a connection between your Application and Process is created using Destinations.
+    ![](images/53.png)
 
 
-16. Now add another Data entity to store the invoice in Document Management Service. For this data connection, Destinations are not used because, the response from Document Management Service is in XML format. AppGyver can only read JSON responses.<br> Because of this reason Document Management Service is connected using DIRECT REST API. <br><br>
-Click on <b> CREATE DATA ENTITY</b> and now select <b>REST API direct integration</b>. <br><br>
-![](images/54.png)<br><br>
+16. Add another Data entity to store the invoice in Document Management Service.
 
-17. In the <b>BASE</b> tab of the API configuration enter the following values.<br>
-<b>Resource ID</b> : Documentupload<br>
-<b>Resource URL</b>: https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/httpjsonv2/docrepouploadteched<br><br>
-![](images/55.png)
-<br><br>
-18. Now select the <b>CREATE RECORD</b> tab and enable it.<br><br>
+  > For this data connection, Destinations are not used because, the response from Document Management Service is in XML format. AppGyver can only read JSON responses.<br> Because of this reason Document Management Service is connected using DIRECT REST API. <br><br>
+
+  Click on <b> CREATE DATA ENTITY</b> and now select <b>REST API direct integration</b>.
+
+  ![](images/54.png)<br><br>
+
+17. In the <b>BASE</b> tab of the API configuration enter the following values:
+  - <b>Resource ID</b> : Documentupload
+  - <b>Resource URL</b>: https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/httpjsonv2/docrepouploadteched
+
+  ![](images/55.png)
+
+18. Select the <b>CREATE RECORD</b> tab and enable it.<br><br>
 ![](images/56.png)
 
 19. Switch to <b>SCHEMA</b> tab.<br>
  Under <b>Create record (POST) request schema</b> use the drop down list and select <b>Custom schema</b>.<br><br>
 ![](images/57.png)
 
-20. Click on <b>ADD PROPERTY</b>.	<br>					
-Rename the key in the property to “<i>base64</i>”.<br><br>
+20. Click on <b>ADD PROPERTY</b>. Rename the key in the property to “<i>base64</i>”.<br><br>
 ![](images/58.png)
 
 21.  Add another property and rename it to “<i>fileName</i>”. and click on <b>SAVE DATA ENTITY</b>. <br><br>
@@ -195,22 +216,24 @@ Rename the key in the property to “<i>base64</i>”.<br><br>
 
 ## Create Logic for Upload button <a name="upload"></a>
 
-1. Select the <b>upload</b> button and click on the grey bar in the bottom to open the logic composer. <br><br>
+1. Go to the **UI Canvas**. Select the <b>upload</b> button and click on the grey bar in the bottom to open the logic composer. <br><br>
 ![](images/28.png)
 
 2. By default, the trigger event will be <b>Component tap</b>.<br>
-Now we are going to download a new component from the <b>MARKETPLACE</b>.<br><br>
-<b>MARKETPLACE</b> contains hundreds of pre-built visual and logic components, which can be installed and used with minimum or no customisation.<br><br>more information on <a href="https://docs.appgyver.com/docs/marketplace?highlight=Market%20place">MARKETPLACE</a>.<br><br>
-![](images/29.png)
+Now you will download a new component from the <b>MARKETPLACE</b>.
 
-3. In the search bar, search for “<i>pick image</i>”.<br> Now, select the <b>Pick image from library</b>component.<br><br>
+  > MARKETPLACE</b> contains hundreds of pre-built visual and logic components, which can be installed and used with minimum or no customisation.
+  Find more information on <a href="https://docs.appgyver.com/docs/marketplace?highlight=Market%20place">MARKETPLACE here</a>.
+
+  ![](images/29.png)
+
+3. In the search bar, search for “<i>pick image</i>”. Select the <b>Pick image from library </b>component.<br><br>
 ![](images/30.png)
 
 4. Click on <b>Install</b> to install the logic component in the library.<br><br>
 ![](images/31.png)
 
-5. Drag and drop the <b>Pick image from library</b> under Installed tab to the logic canvas.<br>
-Connect output node of the <b>Component tap</b> logic component with the <b>Pick image
+5. Drag and drop the <b>Pick image from library</b> under Installed tab to the logic canvas. Connect output node of the <b>Component tap</b> logic component with the <b>Pick image
 from library</b>.<br><br>
 ![](images/32.png)
 
@@ -226,7 +249,7 @@ from library</b>.<br><br>
 9. Select <b>Output value of another node</b>.<br><br>
 ![](images/102.png)
 
-10. You can see the available nodes in the canvas. Now select <b>Pick image from library</b> node. A list of outputs from node will appear. Select <b>
+10. You can see the available nodes in the canvas. Select <b>Pick image from library</b> node. A list of outputs from node will appear. Select <b>
 path</b>.<br><br>
 ![](images/103.png)
 
@@ -241,7 +264,7 @@ path</b>.<br><br>
 1. Select the <b>Submit</b> button and click on the grey bar in the bottom to open the logic composer.<br><br>
 ![](images/63.png)
 
-2. Now download a new component from the <b>MARKETPLACE</b>.<br><br>
+2. Download a new component from the <b>MARKETPLACE</b>.<br><br>
 ![](images/64.png)
 
 3. In the search bar, search for “<i>base64</i>” and select <b>Convert file to base64</b>
@@ -259,27 +282,26 @@ Open the binding menu for <b>Source file URL</b> of the <b>Convert file to base6
 6. In the binding menu select <b>Data and Variables</b> and select <b>App variable</b>.<br><br>
 ![Submit](images/68.png)
 
-7. Now select <b>Invoicescan</b> and click on <b>SAVE</b>.<br><br>
+7. Select <b>Invoicescan</b> and click on <b>SAVE</b>.<br><br>
 ![Submit](images/70.png)
 
-8. Now drag and drop <b>Set app variable component</b> from the component library and connect the node with <b>Convert file to base64</b>.<br><br>In the properties tab, make sure the variable is <b>filename</b>, and now open the binding menu for the assigned value.<br><br>
+8. Drag and drop <b>Set app variable component</b> from the component library and connect the node with <b>Convert file to base64</b>.
+<br>In the properties tab, make sure the variable is <b>filename</b>, and now open the binding menu for the assigned value.<br><br>
 ![Submit](images/72.png)
 
 9. Select <b>Formula</b> in the in the binding menu.<br><br>
 ![Submit](images/73.png)
 
-10. Open the formula editor.<br>				
-Select App variable and double click on <b>appVars.name</b> to use the function.<br><br>
+10. Open the formula editor. Select App variable and double click on <b>appVars.name</b> to use the function.<br><br>
 ![Submit](images/74.png)
 
-11. Now add the following values.<br><pre>+TIMESTAMP()+".png"</pre>
+11. Add the following values.
+<br><pre>+TIMESTAMP()+".png"</pre>
 The overall formula will look like.<br><pre>appVars.name+TIMESTAMP()+".png"</pre>
-Click on <b>SAVE</b>.<br><br>
-![Submit](images/75.png)
+Click on <b>SAVE</b>.
+<br><br>![Submit](images/75.png)
 
-12. Drag and drop <b>Create record</b> logic component to logic canvas.<br>				
-In the properties tab of the logic component check if the <b>Resource name</b> is <b>Documentupload</b>,<br>
-Open the binding menu of <b>Record properties</b>.<br><br>
+12. Drag and drop <b>Create record</b> logic component to logic canvas. In the properties tab of the logic component check if the <b>Resource name</b> is <b>Documentupload</b>. Open the binding menu of <b>Record properties</b>.<br><br>
 ![Submit](images/76.png)
 
 13. In the binding menu, select <b>Object with properties</b>.<br><br>
@@ -288,18 +310,18 @@ Open the binding menu of <b>Record properties</b>.<br><br>
 14.  Open the binding menu for <b>base64</b>.<br><br>
 ![Submit](images/78.png)
 
-15. In the binding menu select <b>Formula</b> and open the formula editor.<br>				
-In the formula editor, enter the following formula.<br><pre>REPLACE_ALL(outputs["Convert file to base64"].base64,"data:image/png;base64,","")</pre>
+15. In the binding menu select <b>Formula</b> and open the formula editor.In the formula editor, enter the following formula.
+<br><pre>REPLACE_ALL(outputs["Convert file to base64"].base64,"data:image/png;base64,","")</pre>
 Click on <b>SAVE</b> button.<br><br>
 ![Submit](images/79.png)
 
-16. Now, open the binding menu for <b>filename</b>.<br><br>
+16. Open the binding menu for <b>filename</b>.<br><br>
 ![Submit](images/80.png)
 
-17. In the binding menu, select <b>Data and Variables</b> and select <b>Page variable</b>. <br>Now select the variable <b>filename</b> and click on <b>SAVE</b>.<br><br>
+17. In the binding menu, select <b>Data and Variables</b> and select <b>App variable</b>. Select the variable <b>filename</b> and click on <b>SAVE</b>.<br><br>
 ![Submit](images/81.png)
 
-18. Save the bindings now.<br><br>
+18. Save the bindings.<br><br>
 ![Submit](images/82.png)
 
 19. Drag and drop another <b>Create record</b> logic component to the logic canvas.
@@ -313,17 +335,17 @@ Open the binding menu for <b>Record properties</b>.<br><br>
 21. Open the binding menu for <b>filename</b>.<Br><br>
 ![Submit](images/85.png)
 
-22. In the binding menu, select <b>Data and Variables</b> and select <b>Page variable</b> and select the variable <b>filename</b>.<br>
+22. In the binding menu, select <b>Data and Variables</b> and select <b>App variable</b> and select the variable <b>filename</b>.<br>
 Click on <b>SAVE</b>.<br><br>
 ![Submit](images/86.png)
 
 23. The folder name will be static, enter the value “<i>Invoices</i>”. <br><br>
 ![Submit](images/87.png)
 
-24. Now, open the binding menu for the <b>employeename</b>.<br><br>
+24. Open the binding menu for the <b>employeename</b>.<br><br>
 ![Submit](images/88.png)
 
-25. In the binding menu select <b>Data and Variables</b>, Select <b>App variables</b> and then select <b>name</b>.<br><br>
+25. In the binding menu select <b>Data and Variables</b>. Select <b>App variables</b> and then choose <b>name</b>.<br><br>
 ![Submit](images/89.png)
 
 26. The employeemail will be static, enter the email provided to you "ad160-XXX@education.cloud.sap".  For example: "<i>ad160-087@education.cloud.sap</i>"<br><br>
@@ -332,15 +354,19 @@ Click on <b>SAVE</b>.<br><br>
 27. Save the bindings.<br><br>
 ![Submit](images/91.png)
 
-28. Now Drag and drop a <b>Toast</b> component. this component displays a message.<br>
-Connect the nodes of <b>Create record</b> and <b>toast</b>.<br>
-Under properties of Toast component, Enter "<i>Your Invoice has been submitted</i>" under toast message.<br><br>
+28. Drag and drop a <b>Toast</b> component.
+
+  > This component displays a message.<br>
+
+  Connect the nodes of <b>Create record</b> and <b>toast</b>. Under properties of Toast component, enter "<i>Your Invoice has been submitted</i>" under toast message.<br><br>
 ![Submit](images/92.png)
 
+29. **Save** youer work.
 
 ## Summary <a name="summary"></a>
 
 Now, you have build app and completed the below steps.
+
 ![Summary](images/Scenario_summary.png)
 
 Continue to - [Exercise 2 - Install and configure Desktop Agent 3](../2_InstallDesktopAgent3/Install-Desktop-Agent.md) and get started with SAP Build Process Automation.
