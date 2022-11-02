@@ -6,7 +6,7 @@ This repository contains the material for the SAP TechEd 2022 session called [AD
 
 ## Overview
 
-This session introduces attendees to how to build apps, processes with workflows, and extract invoice data with BOTS. Leverage pre-built sample content package and enhance the sample process to integrate with Apps. Finally, test your integrated scenario.
+This session covers how to build apps, processes with workflows, and extract invoice data with BOTS. Leverage pre-built sample content package and enhance the sample process to integrate with Apps. Finally, test your integrated scenario.
 
 Scenario: Invoice Approval with SAP Build Apps & SAP Build Process Automation
 
