@@ -179,13 +179,12 @@ Now, your application will be connected to Document Management System and SAP Pr
 
 15. <b>Request body mapper</b> value will be binded after creating the process using SAP BUILD PROCEESS AUTOMATION.
 
-  Click on <b>SAVE DATA RESOURCE</b>. The a connection between your Application and Process is created using Destinations.
+    Click on <b>SAVE DATA RESOURCE</b>. The a connection between your Application and Process is created using Destinations.
     ![](images/53.png)
 
 
 16. Add another Data entity to store the invoice in Document Management Service.
-
-  > For this data connection, Destinations are not used because, the response from Document Management Service is in XML format. AppGyver can only read JSON responses.<br> Because of this reason Document Management Service is connected using DIRECT REST API. <br><br>
+    > For this data connection, Destinations are not used because, the response from Document Management Service is in XML format. AppGyver can only read JSON responses.<br> Because of this reason Document Management Service is connected using DIRECT REST API. <br><br>
 
   Click on <b> CREATE DATA ENTITY</b> and now select <b>REST API direct integration</b>.
 
@@ -365,7 +364,7 @@ Click on <b>SAVE</b>.<br><br>
 
 ## Summary <a name="summary"></a>
 
-Now, you have build app and completed the below steps.
+You have build app and completed the below steps.
 
 ![Summary](images/Scenario_summary.png)
 
