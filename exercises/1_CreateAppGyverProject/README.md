@@ -19,18 +19,19 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
 ## Create a Build Apps Project <a name="buildapps"></a>
 
-1. Within the application development lobby, click <b>Create</b> and then select <b><i>Build Apps Project</i></b>.<br>
-<br>![Create the project](images/011.png)
+1. Within the application development lobby, click <b>Create</b> and then select <b>Build Apps Project</b>.
 
-2. Under Project Name, enter <b><i>"Invoice AD160-XXX"</b></i>. For example, <i>"Invoice AD160-087"</i>.<br>Click on <b>Create</b> to start building your application.
+  ![Create the project](images/011.png)
+
+2. Under Project Name, enter <b>"Invoice AD160-XXX"</b>, replace XXX with you user ID. For example, <i>"Invoice AD160-087"</i>.<br>Click on <b>Create</b> to start building your application.
 <br><br>![Name the project](images/New%20project.png)
 
 
 ## Create UI <a name="UI"></a>
 1. You will be redirected to Build Apps Composer, which is like an IDE for SAP Build Apps. In the canvas, you can already see a <b>Title</b> and <b>Text</b> component.<br><br>![home page](images/01.png)
 
-2. Click on “<i>Headline</i>” on the canvas to select the <b>Title</b> component.
-Now, the properties tab on the right-hand side will show the properties of the Title component
+2. Click on **Headline** on the canvas to select the <b>Title</b> component.
+The properties tab on the right-hand side will show the properties of the Title component,
 where you can modify this component.<br> Under <b>Content</b>, enter “<i>Invoice Approval</i>”<br><br>![Title component](images/02%202.png)
 
 3. Select the <b>Text</b>, modify the content of the component under the properties on right-hand side to "<i>Enter your name and upload your invoice</i>".<br><br>![text component](images/03.png)
