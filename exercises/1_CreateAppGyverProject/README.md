@@ -157,9 +157,8 @@ Now, your application will be connected to Document Management System and SAP Pr
   - "<i>employeename</i>"
   - "<i>employeemail</i>"
 
-  Select the field type for all of them as <b>Text</b>.
-
-    ![](images/newdata.png)
+  Select the field type for all of them as <b>Text</b>.<br><br>
+  ![](images/newdata.png)
 
 11. Select the <b>create</b> tab, and enable it.<br><br>
 ![](images/46.png)
