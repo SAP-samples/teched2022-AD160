@@ -259,20 +259,19 @@ path</b>.<br><br>
 11. Click on <b>SAVE</b>.<br><br>
 ![](images/104.png)
 
-## Create logic for Submit button. <a name="submit"></a>
+## Create Logic for Submit button. <a name="submit"></a>
 
-1. Select the <b>Submit</b> button and click on the grey bar in the bottom to open the logic composer.<br><br>
+1. Select the <b>Submit</b> button and click on the grey bar on the bottom to open the logic composer.<br><br>
 ![](images/63.png)
 
-2. Download a new component from the <b>MARKETPLACE</b>.<br><br>
+2. You will download a new component from the <b>MARKETPLACE</b>.<br><br>
 ![](images/64.png)
 
 3. In the search bar, search for “<i>base64</i>” and select <b>Convert file to base64</b>
 and <b>Install</b> it. <br><br>
 ![](images/65.png)
 
-
-4. Drag and drop <b>Convert file to base64</b> to the logic canvas.<br><br>
+4. Drag and drop <b>Convert file to base64</b> into the logic canvas.<br><br>
 ![Submit](images/66.png)
 
 5. Connect the nodes of <b>Component tap</b> and <b>Convert file to base64</b>.
@@ -286,22 +285,22 @@ Open the binding menu for <b>Source file URL</b> of the <b>Convert file to base6
 ![Submit](images/70.png)
 
 8. Drag and drop <b>Set app variable component</b> from the component library and connect the node with <b>Convert file to base64</b>.
-<br>In the properties tab, make sure the variable is <b>filename</b>, and now open the binding menu for the assigned value.<br><br>
+<br>In the <b>PROPERTIES</b> tab, make sure the variable is <b>filename</b>, and now open the binding menu for the <b>Assigned value.</b><br><br>
 ![Submit](images/72.png)
 
-9. Select <b>Formula</b> in the in the binding menu.<br><br>
+9. Select <b>Formula</b> in the binding menu.<br><br>
 ![Submit](images/73.png)
 
-10. Open the formula editor. Select App variable and double click on <b>appVars.name</b> to use the function.<br><br>
+10. Open the formula editor. Select <b>App variables</b> and double click on <b>appVars.name</b> to use the function.<br><br>
 ![Submit](images/74.png)
 
 11. Add the following values.
 <br><pre>+TIMESTAMP()+".png"</pre>
-The overall formula will look like.<br><pre>appVars.name+TIMESTAMP()+".png"</pre>
+The overall formula will look like the following: <br><pre>appVars.name+TIMESTAMP()+".png"</pre>
 Click on <b>SAVE</b>.
 <br><br>![Submit](images/75.png)
 
-12. Drag and drop <b>Create record</b> logic component to logic canvas. In the properties tab of the logic component check if the <b>Resource name</b> is <b>Documentupload</b>. Open the binding menu of <b>Record properties</b>.<br><br>
+12. Drag and drop <b>Create record</b> logic component into the logic canvas. In the <b>PROPERTIES</b> tab of the logic component check if the <b>Resource name</b> is <b>Documentupload</b>. Open the binding menu of <b>Record properties</b>.<br><br>
 ![Submit](images/76.png)
 
 13. In the binding menu, select <b>Object with properties</b>.<br><br>
@@ -310,12 +309,12 @@ Click on <b>SAVE</b>.
 14.  Open the binding menu for <b>base64</b>.<br><br>
 ![Submit](images/78.png)
 
-15. In the binding menu select <b>Formula</b> and open the formula editor.In the formula editor, enter the following formula.
+15. In the binding menu select <b>Formula</b> and open the formula editor. In the formula editor, enter the following formula:
 <br><pre>REPLACE_ALL(outputs["Convert file to base64"].base64,"data:image/png;base64,","")</pre>
 Click on <b>SAVE</b> button.<br><br>
 ![Submit](images/79.png)
 
-16. Open the binding menu for <b>filename</b>.<br><br>
+16. Open the binding menu for <b>fileName</b>.<br><br>
 ![Submit](images/80.png)
 
 17. In the binding menu, select <b>Data and Variables</b> and select <b>App variable</b>. Select the variable <b>filename</b> and click on <b>SAVE</b>.<br><br>
@@ -324,9 +323,9 @@ Click on <b>SAVE</b> button.<br><br>
 18. Save the bindings.<br><br>
 ![Submit](images/82.png)
 
-19. Drag and drop another <b>Create record</b> logic component to the logic canvas.
-Change the resource name <b>SendtoSPA</b>.						
-Open the binding menu for <b>Record properties</b>.<br><br>
+19. Drag and drop another <b>Create record</b> logic component into the logic canvas.
+Change the <b>Resource name<b> to <b>SendtoSPA</b>.						
+Open the binding menu for <b>Record</b> properties.<br><br>
 ![Submit](images/83.png)
 
 20. In the binding menu, select <b>Object with properties</b>.<br><br>
@@ -335,7 +334,7 @@ Open the binding menu for <b>Record properties</b>.<br><br>
 21. Open the binding menu for <b>filename</b>.<Br><br>
 ![Submit](images/85.png)
 
-22. In the binding menu, select <b>Data and Variables</b> and select <b>App variable</b> and select the variable <b>filename</b>.<br>
+22. In the binding menu, select <b>Data and Variables</b>, then choose <b>App variable</b> and finally the variable <b>filename</b>.<br>
 Click on <b>SAVE</b>.<br><br>
 ![Submit](images/86.png)
 
@@ -345,10 +344,10 @@ Click on <b>SAVE</b>.<br><br>
 24. Open the binding menu for the <b>employeename</b>.<br><br>
 ![Submit](images/88.png)
 
-25. In the binding menu select <b>Data and Variables</b>. Select <b>App variables</b> and then choose <b>name</b>.<br><br>
+25. In the binding menu, select <b>Data and Variables</b>. Select <b>App variables</b> and then choose <b>name</b>.<br><br>
 ![Submit](images/89.png)
 
-26. The employeemail will be static, enter the email provided to you "ad160-XXX@education.cloud.sap".  For example: "<i>ad160-087@education.cloud.sap</i>"<br><br>
+26. The <b>employeemail</b> will be static, enter the email provided to you "ad160-XXX@education.cloud.sap".  For example: "<i>ad160-087@education.cloud.sap</i>"<br><br>
 ![Submit](images/90.png)
 
 27. Save the bindings.<br><br>
@@ -358,7 +357,7 @@ Click on <b>SAVE</b>.<br><br>
 
   > This component displays a message.<br>
 
-  Connect the nodes of <b>Create record</b> and <b>toast</b>. Under properties of Toast component, enter "<i>Your Invoice has been submitted</i>" under toast message.<br><br>
+  Connect the nodes of the <b>Create record</b> component to the <b>Toast</b> component. Under the properties of the <b>Toast</b> component, enter "<i>Your Invoice has been submitted</i>" as the <b>Toast message</b>.<br><br>
 ![Submit](images/92.png)
 
 29. **Save** your work.
