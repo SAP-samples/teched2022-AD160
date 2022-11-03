@@ -88,7 +88,7 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 21. Select <b>App variable</b>.<br><br>
 ![app variables](images/20.png)
 
-22. Now select <b>Invoicescan</b> under the list of available app variables and click on <b>SAVE</b> to save the binding to the image component.<br><br>
+22. Now select <b>Invoicescan</b> under the list of available app variables and click on <b>SAVE</b> to save the binding to the <b>Image component</b>.<br><br>
 ![variable](images/21.png)
 
 23. Drag and drop another <b>Button</b> component from the component library into the canvas and rename the <b>Label</b> to <i>Submit</i>.<br><br>
