@@ -33,7 +33,7 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 2. Click on “<i>Headline</i>” on the canvas to select the <b>Title</b> component.
 Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties of the <b>Title</b> component where you can modify it.<br> Under <b>Content</b>, enter “<i>Invoice Approval.</i>”<br><br>![Title component](images/02%202.png)
 
-3. Select the <b>Text</b> component, modify the content under the <b>PROPERTIES</b> tab on the right-hand side to "<i>Enter your name and upload your invoice</i>".<br><br>![text component](images/03.png)
+3. Select the <b>Text</b> component, modify the <b>Content</b> under the <b>PROPERTIES</b> tab on the right-hand side to "<i>Enter your name and upload your invoice</i>".<br><br>![text component](images/03.png)
 
 4. Drag and drop an <b>Input field</b> from the <b>UI Component</b> library into the canvas. <br><br>![input component](images/04.png)
 
