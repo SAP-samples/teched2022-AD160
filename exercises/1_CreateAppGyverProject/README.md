@@ -45,9 +45,10 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 ![Image](images/07.png)
 
 8. Switch to <b>Variables</b> view.
-> In <b>Variables view</b>, you can create variables which can store information temporarily.<br><br>
 
-![Variables](images/08.png)
+  > In <b>Variables view</b>, you can create variables which can store information temporarily.
+
+  ![Variables](images/08.png)
 
 9. Create an <b>App Variable</b> by clicking on <b>ADD APP VARIABLE</b> and rename it to "<i>name</i>".<br><br>
 ![create variable](images/09.png)
@@ -101,13 +102,13 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 
 26. In the formula bar enter the following formula:
 
-<pre>IF(IS_EMPTY(appVars.Invoicescan),false,true)</pre>
+  <pre>IF(IS_EMPTY(appVars.Invoicescan),false,true)</pre>
 
-> This formula checks if the <b>InvoiceScan</b> page variable is empty, then the output will be false and component will be disabled. If the <b>InvoiceScan</b> page variable has some value, the output will change to true, and the component will be displayed.<br>
+  > This formula checks if the <b>InvoiceScan</b> page variable is empty, then the output will be false and component will be disabled. If the <b>InvoiceScan</b> page variable has some value, the output will change to true, and the component will be displayed.
 
-Click on <b>SAVE</b>.
+  Click on <b>SAVE</b>.
 
-![](images/25.png)
+  ![](images/25.png)
 
 26. Click on <b>SAVE</b>.<br><br>
 ![](images/26.png)
@@ -125,13 +126,13 @@ Now, your application will be connected to Document Management System and SAP Pr
 2. Select <b>Enable Authentication</b>.<br><br>
 ![](images/37.png)
 
-3. Select <b>SAP BTP authentication</b>.
+3. Select <b>SAP BTP authentication</b>.<br><br>
 ![](images/38.png)
 
-4. Click on the <b>OK</b> button to enable the BTP authentication to your application.
+4. Click on the <b>OK</b> button to enable the BTP authentication to your application. <br><br>
 ![](images/39.png)
 
-5. Click on <b>DATA</b> tab.
+5. Click on <b>DATA</b> tab.<br><br>
 ![](images/40.png)
 
 6. Click on <b>CREATE DATA ENTITY</b> and select <b>SAP BTP destination REST API integration</b>.<br><br>
@@ -170,17 +171,17 @@ Now, your application will be connected to Document Management System and SAP Pr
     - <b>Header name</b>: <i> Content-Type</i><br>
     - <b>Header value</b>:<i> application/json</i><br><br>
     Click on <b>SAVE</b>.<br><br>
-    ![](images/49.png)
 
+    ![](images/49.png)
 
 15. <b>Request body mapper</b> value will be binded after creating the process using SAP BUILD PROCESS AUTOMATION.
 
-    Click on <b>SAVE DATA RESOURCE</b>. The connection between your Application and Process is created using Destinations.
+    Click on <b>SAVE DATA RESOURCE</b>. The connection between your Application and Process is created using Destinations. <br><br>
     ![](images/53.png)
 
 
 16. Add another data entity to store the invoice in Document Management Service.
-    > For this data connection, Destinations are not used because, the response from Document Management Service is in XML format. AppGyver can only read JSON responses.<br> Because of this reason Document Management Service is connected using DIRECT REST API. <br><br>
+    > For this data connection, Destinations are not used because, the response from Document Management Service is in XML format. AppGyver can only read JSON responses.<br> Because of this reason Document Management Service is connected using DIRECT REST API.
 
   Click on <b> CREATE DATA ENTITY</b> and now select <b>REST API direct integration</b>.
 
@@ -189,8 +190,9 @@ Now, your application will be connected to Document Management System and SAP Pr
 17. In the <b>BASE</b> tab of the API configuration enter the following values:
   - <b>Resource ID</b> : Documentupload
   - <b>Resource URL</b>: https://end-to-end-demo-lcnc-trial.integrationsuitetrial-apim.eu10.hana.ondemand.com/end-to-end-demo-lcnc/httpjsonv2/docrepouploadteched
+  <br><br>
 
-  ![](images/55.png)
+    ![](images/55.png)
 
 18. Select the <b>CREATE RECORD</b> tab and enable it.<br><br>
 ![](images/56.png)
@@ -233,7 +235,7 @@ from library</b> component. <br>
 
   > To do so, select the node of the <b>Pick image from library</b> component. This will create a line that you can link to the node of the <b>Component tap</b> logic component.
 
-![](images/32.png)
+  ![](images/32.png)
 
 6. From the <b>CORE</b> tab of the component library drag and drop the <b>Set app variable</b> component into the canvas. In the same way, connect the node of <b>Pick image from library</b> component to <b>Set app variable</b> component.<br><br>
 ![](images/33.png)
