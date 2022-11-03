@@ -144,7 +144,7 @@ Now, your application will be connected to Document Management System and SAP Pr
 8.  Under <b> Data resource name</b>, a name can be given to this data connection, like "<i>SendtoSPA</i>".<br><br>
 ![](images/43.png)
 
-9. Under <b>Resource schema</b>, click on <b>+ ADD NEW</b> to create a schema. Name the new schema to "<i>filename</i>" and select the field type as <b>Text</b>.
+9. Under <b>Resource schema</b>, click on <b>+ ADD NEW</b> to create a schema. Name the new schema to "<i>filename</i>" and select the <b>Field type</b> as <b>Text</b>.
 
     > Schema is structure of the data. A schema is created which is similar to the Data base. In this scenario the data base is Document Management System (DMS), and schema should be created matching the schema in DMS.
 
@@ -155,7 +155,7 @@ Now, your application will be connected to Document Management System and SAP Pr
   - "<i>employeename</i>"
   - "<i>employeemail</i>"
 
-    Select the field type for all of them as <b>Text</b>.<br><br>
+    Select the <b>Field type</b> for all of them as <b>Text</b>.<br><br>
     ![](images/newdata.png)
 
 11. Select the <b>create</b> tab, and enable it.<br><br>
