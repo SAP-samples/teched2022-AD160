@@ -19,29 +19,32 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
 ## Create a Build Apps Project <a name="buildapps"></a>
 
-1. Within the <b>Application Development</b> lobby, click on <b>Create</b> and then select <b>Build Apps Project</b>.<br>
+1. Within <b>Application Development>Lobby</b>, click on <b>Create</b> and then select <b>Build Apps Project</b>.<br>
 <br>![Create the project](images/011.png)
 
-2. Under Project Name, enter <b><i>"Invoice AD160-XXX"</b></i>, replace XXX with your user ID. For example, <i>"Invoice AD160-087"</i>.<br>Click on <b>Create</b> to start building your application.
+2. Under <b>Project Name</b>, enter <b><i>"Invoice AD160-XXX"</b></i>, replace XXX with your user ID. For example, <i>"Invoice AD160-087"</i>.<br>Click on <b>Create</b> to start building your application.
 <br><br>![Name the project](images/New%20project.png)
 
 
 ## Create UI <a name="UI"></a>
+<<<<<<< Updated upstream
 1. You will be redirected to Build Apps Composer, which is like an IDE for SAP Build Apps. In the canvas, you can see a <b>Title</b> and <b>Text</b> components.<br><br>![home page](images/01.png)
+=======
+1. You will be redirected to <b>Build Apps Composer</b>, which is like an IDE for SAP Build Apps. On the canvas, you can already see a <b>Title</b> and <b>Text</b> component.<br><br>![home page](images/01.png)
+>>>>>>> Stashed changes
 
 2. Click on “<i>Headline</i>” on the canvas to select the <b>Title</b> component.
-Now, the properties tab on the right-hand side will show the properties of the Title component
-where you can modify this component.<br> Under <b>Content</b>, enter “<i>Invoice Approval</i>”<br><br>![Title component](images/02%202.png)
+Now, the <b>Properties</b> tab on the right-hand side will show the properties of the <b>Title</b> component where you can modify it.<br> Under <b>Content</b>, enter “<i>Invoice Approval.</i>”<br><br>![Title component](images/02%202.png)
 
-3. Select the <b>Text</b>, modify the content of the component under the properties on right-hand side to "<i>Enter your name and upload your invoice</i>".<br><br>![text component](images/03.png)
+3. Select the <b>Text</b> component, modify the content under the <b>Properties</b> tab on the right-hand side to "<i>Enter your name and upload your invoice</i>".<br><br>![text component](images/03.png)
 
-4. Drag and drop a <b>Input field</b> from the <b>UI Component</b> library to the canvas. <br><br>![input component](images/04.png)
+4. Drag and drop an <b>Input field</b> from the <b>UI Component</b> library to the canvas. <br><br>![input component](images/04.png)
 
-5. Under the properties of the Input field, clear the <b>Label</b> and change the placeholder text to "<i>Enter your name</i>".<br><br>![input properties](images/05.png)
+5. Under the <b>Properties</b> tab of the <b>Input field</b>, clear the <b>Label</b> and change the placeholder text to "<i>Enter your name</i>".<br><br>![input properties](images/05.png)
 
-6. Drag and drop a <b>Button</b> component from the component library on the left-hand side to the canvas. <br>Change the <b>Label</b> on the button in the properties tab of the button component to “<i>Upload your Invoice</i>”.<br><br>![Button](images/06.png)
+6. Drag and drop a <b>Button</b> component from the component library on the left-hand side to the canvas. <br>Change the <b>Label</b> on the button in the <b>Properties</b> of the button component to “<i>Upload your Invoice</i>”.<br><br>![Button](images/06.png)
 
-7. Drag and drop an <b>Image</b> component, to the canvas.<br><br>
+7. Drag and drop an <b>Image</b> component into the canvas.<br><br>
 ![Image](images/07.png)
 
 8. Switch to <b>Variables</b> view.
@@ -49,13 +52,13 @@ where you can modify this component.<br> Under <b>Content</b>, enter “<i>Invoi
 
   <br><br>![Variables](images/08.png)
 
-9. Create an App Variable by clicking on <b>ADD APP VARIABLE</b> and rename it to "<i>name</i>".<br><br>
+9. Create an <b>App Variable</b> by clicking on <b>ADD APP VARIABLE</b> and rename it to "<i>name</i>".<br><br>
 ![create variable](images/09.png)
 
 10. Add another <b>App Variable</b> and rename it to "<i>Invoicescan</i>".<br><br>
 ![create another variable](images/10.png)
 
-11. Change the <b>Variable Value Type</b> of <b>Invoicescan</b> to <b>Local filesystem path</b>.<br><br>
+11. Change the <b>Variable value type</b> of <b>Invoicescan</b> to <b>Local filesystem path</b>.<br><br>
 ![variable type](images/11.png)
 
 12. Add another <b>App variable</b> and rename it to <b>filename</b>.<br><br>
@@ -65,39 +68,38 @@ where you can modify this component.<br> Under <b>Content</b>, enter “<i>Invoi
 13. Switch back to <b>VIEW</b>. <br><br>
 ![View](images/VIEW.png)
 
-14. Under the properties tab of <b>Input field component</b>, open the binding menu for <b>Value</b> by clickin on "<b>X</b>" icon.<br><br>
+14. Under the <b>Properties</b> tab of the <b>Input field</b> component, open the binding menu for <b>Value</b> by clicking on the "<b>X</b>" icon.<br><br>
 ![bind menu](images/13.png)
 
 15. The binding menu will pop-up. Select <b> Data and Variables</b>.<br><br>![binding menu ](images/14.png)
 
-16. Select <b> App Variable</b>.<br><br>
+16. Select <b>App variable</b>.<br><br>
 ![app variable inbind menu](images/15.png)
 
-17. Now, select <b>name</b> in the list of App variables available.<br><br>
+17. Now, select <b>name</b> in the list of <b>App variable</b> available.<br><br>
 ![name of app vairble](images/16.png)
 
-18. Click on <b>SAVE</b> button to the save the binding to the component value.<br><br>
+18. Click on the <b>SAVE</b> button to save the binding to the component value.<br><br>
 ![SAVE button](images/17.png)
 
-19. A variable can be binded to this image component. Open the binding menu of the image under properties on the right-hand side.<br><br>
+19. A variable can be binded to this image component. Open the binding menu of the image under <b>Properties</b> on the right-hand side.<br><br>
 ![bind menu](images/18.png)
 
-20. The binding menu will be pop-up. Select <b>Data and Variables</b>.<br><br>
+20. The binding menu will pop-up. Select <b>Data and Variables</b>.<br><br>
 ![bind image](images/19.png)
 
-21. Select <b>App Variables</b>.<br><br>
+21. Select <b>App variable</b>.<br><br>
 ![app variables](images/20.png)
 
 22. Now select <b>Invoicescan</b> under the list of available app variables and click on <b>SAVE</b> to save the binding to the image component.<br><br>
 ![variable](images/21.png)
 
-23. Drag and drop another <b>Button</b> component from component library to the canvas and rename the label to <b>Submit</b>.<br><br>
+23. Drag and drop another <b>Button</b> component from the component library into the canvas and rename the <b>Label</b> to <i>Submit</i>.<br><br>
 ![Submit ](images/22.png)
 
-24. The submit button should be visible only after the invoice is selected. Click on <b>ADDVANCED PROPERTIES</b> to change the visibility properties of the button. Open the binding menu for the visibility properites.<br><br>
+24. The submit button should be visible only after the invoice is selected. Click on <b>ADVANCED PROPERTIES</b> to change the visibility properties of the button. Open the binding menu for the visibility properties.<br><br>
 ![](images/23.png)
 
-25. Select the <b>Formula</b>.<br><br>
 ![](images/24.png)
 
 26. In the formula bar enter the following formula:
@@ -105,7 +107,7 @@ where you can modify this component.<br> Under <b>Content</b>, enter “<i>Invoi
 
   <pre>IF(IS_EMPTY(appVars.Invoicescan),false,true)</pre>
 
-  > This formula checks if the <b>InvoiceScan</b> page variable is empty, then the output will be false and component will be disabled. If the <b>InvoiceScan</b> page variable have some value, the output will change to true, and component will be displayed.<br>
+  > This formula checks if the <b>InvoiceScan</b> page variable is empty, then the output will be false and component will be disabled. If the <b>InvoiceScan</b> page variable has some value, the output will change to true, and the component will be displayed.<br>
 
   Click on <b>SAVE</b>.
 
@@ -114,7 +116,7 @@ where you can modify this component.<br> Under <b>Content</b>, enter “<i>Invoi
 26. Click on <b>SAVE</b>.<br><br>
 ![](images/26.png)
 
-27. Click on <b>SAVE</b> on the top right corner to the save the UI created so far.<br><br>
+27. Click on <b>SAVE</b> on the top right corner to save the UI created so far.<br><br>
 ![](images/27.png)
 
 ## Data Connection <a name="Data"></a>
