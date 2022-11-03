@@ -19,7 +19,7 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
 ## Create a Build Apps Project <a name="buildapps"></a>
 
-1. Within the application development lobby, click <b>Create</b> and then select <b>Build Apps Project</b>.<br>
+1. Within the <b>Application Development</b> lobby, click on <b>Create</b> and then select <b>Build Apps Project</b>.<br>
 <br>![Create the project](images/011.png)
 
 2. Under Project Name, enter <b><i>"Invoice AD160-XXX"</b></i>, replace XXX with your user ID. For example, <i>"Invoice AD160-087"</i>.<br>Click on <b>Create</b> to start building your application.
