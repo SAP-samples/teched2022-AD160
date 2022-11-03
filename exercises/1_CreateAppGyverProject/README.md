@@ -100,6 +100,7 @@ Now, the <b>Properties</b> tab on the right-hand side will show the properties o
 24. The submit button should be visible only after the invoice is selected. Click on <b>ADVANCED PROPERTIES</b> to change the visibility properties of the button. Open the binding menu for the visibility properties.<br><br>
 ![](images/23.png)
 
+25. Select <b>Formula</b>.<br><br>
 ![](images/24.png)
 
 26. In the formula bar enter the following formula:
