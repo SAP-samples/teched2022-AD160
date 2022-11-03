@@ -298,7 +298,7 @@ The overall formula will look like the following: <br><pre>appVars.name+TIMESTAM
 Click on <b>SAVE</b>.
 <br><br>![Submit](images/75.png)
 
-12. Drag and drop <b>Create record</b> logic component into the logic canvas. In the <b>PROPERTIES</b> tab of the logic component check if the <b>Resource name</b> is <b>Documentupload</b>. Open the binding menu of <b>Record properties</b>.<br><br>
+12. Drag and drop <b>Create record</b> logic component into the logic canvas and connect the nodes with <b>Set app variable</b>component. In the <b>PROPERTIES</b> tab of the logic component check if the <b>Resource name</b> is <b>Documentupload</b>. Open the binding menu of <b>Record properties</b>.<br><br>
 ![Submit](images/76.png)
 
 13. In the binding menu, select <b>Object with properties</b>.<br><br>
@@ -321,7 +321,7 @@ Click on <b>SAVE</b> button.<br><br>
 18. Save the bindings.<br><br>
 ![Submit](images/82.png)
 
-19. Drag and drop another <b>Create record</b> logic component into the logic canvas.
+19. Drag and drop another <b>Create record</b> logic component into the logic canvas and connect the nodes with <b>Create record</b> component.
 Change the <b>Resource name</b> to <b>SendtoSPA</b>.						
 Open the binding menu for <b>Record</b> properties.<br><br>
 ![Submit](images/83.png)
