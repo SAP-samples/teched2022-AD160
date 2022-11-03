@@ -228,7 +228,7 @@ Now you will download a new component from the <b>MARKETPLACE</b>.
 3. Click on the <b>MARKETPLACE</b> search bar. You may search for “<i>pick image</i>”. Select the <b>Pick image from library </b>component.<br><br>
 ![](images/30.png)
 
-4. Click on <b>Install</b> to install the logic component in the library.<br><br>
+4. Click on <b>INSTALL</b> to install the logic component in the library.<br><br>
 ![](images/31.png)
 
 5. Drag and drop the <b>Pick image from library</b> under the <b>INSTALLED</b> tab into the logic canvas. Connect output node of the <b>Component tap</b> logic component with the <b>Pick image
