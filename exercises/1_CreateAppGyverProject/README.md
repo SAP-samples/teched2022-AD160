@@ -146,17 +146,17 @@ Now, your application will be connected to Document Management System and SAP Pr
 
 9. Under <b>Resource schema</b>, click on <b>+ ADD NEW</b> to create a schema. Name the new schema to "<i>filename</i>" and select the field type as <b>Text</b>.
 
-  > Schema is structure of the data. A schema is created which is similar to the Data base. In this scenario the data base is Document Management System (DMS), and schema should be created matching the schema in DMS.
+    > Schema is structure of the data. A schema is created which is similar to the Data base. In this scenario the data base is Document Management System (DMS), and schema should be created matching the schema in DMS.
 
-  ![](images/44.png)<br><br>
+    ![](images/44.png)<br><br>
 
 10. Similarly, add three other schema with the following names:
   - "<i>foldername</i>"
   - "<i>employeename</i>"
   - "<i>employeemail</i>"
 
-  Select the field type for all of them as <b>Text</b>.<br><br>
-  ![](images/newdata.png)
+    Select the field type for all of them as <b>Text</b>.<br><br>
+    ![](images/newdata.png)
 
 11. Select the <b>create</b> tab, and enable it.<br><br>
 ![](images/46.png)
@@ -183,9 +183,9 @@ Now, your application will be connected to Document Management System and SAP Pr
 16. Add another data entity to store the invoice in Document Management Service.
     > For this data connection, Destinations are not used because, the response from Document Management Service is in XML format. AppGyver can only read JSON responses.<br> Because of this reason Document Management Service is connected using DIRECT REST API.
 
-  Click on <b> CREATE DATA ENTITY</b> and now select <b>REST API direct integration</b>.
+    Click on <b> CREATE DATA ENTITY</b> and now select <b>REST API direct integration</b>.
 
-  ![](images/54.png)<br><br>
+    ![](images/54.png)<br><br>
 
 17. In the <b>BASE</b> tab of the API configuration enter the following values:
   - <b>Resource ID</b> : Documentupload
@@ -219,10 +219,10 @@ Now, your application will be connected to Document Management System and SAP Pr
 2. By default, the trigger event will be <b>Component tap</b>.<br>
 Now you will download a new component from the <b>MARKETPLACE</b>.
 
-  > MARKETPLACE</b> contains hundreds of pre-built visual and logic components, which can be installed and used with minimum or no customisation.
+    > MARKETPLACE</b> contains hundreds of pre-built visual and logic components, which can be installed and used with minimum or no customisation.
   Find more information on <a href="https://docs.appgyver.com/docs/marketplace?highlight=Market%20place">MARKETPLACE here</a>.
 
-  ![](images/29.png)
+    ![](images/29.png)
 
 3. Select the <b>MARKETPLACE</b> search bar. You may search for “<i>pick image</i>”. Select the <b>Pick image from library </b>component.<br><br>
 ![](images/30.png)
@@ -233,9 +233,9 @@ Now you will download a new component from the <b>MARKETPLACE</b>.
 5. Drag and drop the <b>Pick image from library</b> under the <b>INSTALLED</b> tab into the logic canvas. Connect output node of the <b>Component tap</b> logic component with the <b>Pick image
 from library</b> component. <br>
 
-  > To do so, select the node of the <b>Pick image from library</b> component. This will create a line that you can link to the node of the <b>Component tap</b> logic component.
+    > To do so, select the node of the <b>Pick image from library</b> component. This will create a line that you can link to the node of the <b>Component tap</b> logic component.
 
-  ![](images/32.png)
+    ![](images/32.png)
 
 6. From the <b>CORE</b> tab of the component library drag and drop the <b>Set app variable</b> component into the canvas. In the same way, connect the node of <b>Pick image from library</b> component to <b>Set app variable</b> component.<br><br>
 ![](images/33.png)
@@ -352,10 +352,10 @@ Click on <b>SAVE</b>.<br><br>
 
 28. Drag and drop a <b>Toast</b> component.
 
-  > This component displays a message.<br>
+    > This component displays a message.<br>
 
-  Connect the nodes of the <b>Create record</b> component to the <b>Toast</b> component. Under the properties of the <b>Toast</b> component, enter "<i>Your Invoice has been submitted</i>" as the <b>Toast message</b>.<br><br>
-![Submit](images/92.png)
+    Connect the nodes of the <b>Create record</b> component to the <b>Toast</b> component. Under the properties of the <b>Toast</b> component, enter "<i>Your Invoice has been submitted</i>" as the <b>Toast message</b>.<br><br>
+    ![Submit](images/92.png)
 
 29. **Save** your work.
 
