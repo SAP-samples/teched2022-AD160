@@ -124,38 +124,37 @@ Now, the <b>Properties</b> tab on the right-hand side will show the properties o
 
 Now, your application will be connected to Document Management System and SAP Process Automation. First, you should enable BTP authentication to connect your app to SAP Process Automation via Destinations.
 
-1. Chosse <b>AUTH</b> tab on the top of the screen.<br><br>
+1. Choose <b>AUTH</b> tab on the top of the screen.<br><br>
 ![](images/36.png)
 
-2. Select on <b>Enable Authentication</b>.<br><br>
+2. Select <b>Enable Authentication</b>.<br><br>
 ![](images/37.png)
 
 3. Select <b>SAP BTP authentication</b>.
 ![](images/38.png)
 
-4. Click on <b>OK</b> button to enable the BTP authentication to your application.
+4. Click on the <b>OK</b> button to enable the BTP authentication to your application.
 ![](images/39.png)
 
-5. Click on <b>DATA</b> tab now.
+5. Click on <b>DATA</b> tab.
 ![](images/40.png)
-
 
 6. Click on <b>CREATE DATA ENTITY</b> and select <b>SAP BTP destination REST API integration</b>.<br><br>
 ![](images/41.png)
 
-7. In <b>BTP destination name</b>, select <b>AppgGyver_SPA</b>.<br><br>
+7. As the <b>BTP destination name</b>, select <b>AppgGyver_SPA</b>.<br><br>
 ![](images/Destination.png)
 
 8.  Under <b> Data resource name</b>, a name can be given to this data connection, like "<i>SendtoSPA</i>".<br><br>
 ![](images/43.png)
 
-9. Under <b>Resource schema</b>, click on <b>+ ADD NEW</b> to create a schema. Name the new schema as "<i>filename</i>" and select the field type to <b>Text</b>.
+9. Under <b>Resource schema</b>, click on <b>+ ADD NEW</b> to create a schema. Name the new schema to "<i>filename</i>" and select the field type as <b>Text</b>.
 
-  > Schema is structure of the data. A schema is created which is similar to the Data base. In this scenerio the data base is Document Management System(DMS), and schema should be created matching the schema in DMS.
+  > Schema is structure of the data. A schema is created which is similar to the Data base. In this scenario the data base is Document Management System (DMS), and schema should be created matching the schema in DMS.
 
   ![](images/44.png)<br><br>
 
-10. Similarily, add three other schema with the following names:
+10. Similarly, add three other schema with the following names:
   - "<i>foldername</i>"
   - "<i>employeename</i>"
   - "<i>employeemail</i>"
@@ -166,7 +165,7 @@ Now, your application will be connected to Document Management System and SAP Pr
 11. Select the <b>create</b> tab, and enable it.<br><br>
 ![](images/46.png)
 
-12. Open the binding menu for <b>Request Headers</b> by clicking on <b>X</b> icon.<br><br>
+12. Open the binding menu for <b>Request headers</b> by clicking on the <b>X</b> icon.<br><br>
 ![](images/47.png)
 
 13. In the binding menu, select <b>List of values</b>.<br><br>
@@ -179,13 +178,13 @@ Now, your application will be connected to Document Management System and SAP Pr
     ![](images/49.png)
 
 
-15. <b>Request body mapper</b> value will be binded after creating the process using SAP BUILD PROCEESS AUTOMATION.
+15. <b>Request body mapper</b> value will be binded after creating the process using SAP BUILD PROCESS AUTOMATION.
 
-    Click on <b>SAVE DATA RESOURCE</b>. The a connection between your Application and Process is created using Destinations.
+    Click on <b>SAVE DATA RESOURCE</b>. The connection between your Application and Process is created using Destinations.
     ![](images/53.png)
 
 
-16. Add another Data entity to store the invoice in Document Management Service.
+16. Add another data entity to store the invoice in Document Management Service.
     > For this data connection, Destinations are not used because, the response from Document Management Service is in XML format. AppGyver can only read JSON responses.<br> Because of this reason Document Management Service is connected using DIRECT REST API. <br><br>
 
   Click on <b> CREATE DATA ENTITY</b> and now select <b>REST API direct integration</b>.
@@ -201,14 +200,14 @@ Now, your application will be connected to Document Management System and SAP Pr
 18. Select the <b>CREATE RECORD</b> tab and enable it.<br><br>
 ![](images/56.png)
 
-19. Switch to <b>SCHEMA</b> tab.<br>
+19. Switch to the <b>SCHEMA</b> tab.<br>
  Under <b>Create record (POST) request schema</b> use the drop down list and select <b>Custom schema</b>.<br><br>
 ![](images/57.png)
 
-20. Click on <b>ADD PROPERTY</b>. Rename the key in the property to “<i>base64</i>”.<br><br>
+20. Click on <b>ADD PROPERTY</b>. Rename the <b>Key</b> in <b>PROPERTIES</b> to “<i>base64</i>”.<br><br>
 ![](images/58.png)
 
-21.  Add another property and rename it to “<i>fileName</i>”. and click on <b>SAVE DATA ENTITY</b>. <br><br>
+21.  Add another property and rename it to “<i>fileName</i>” and click on <b>SAVE DATA ENTITY</b>. <br><br>
 ![](images/59.png)
 
 22. Click on <b>SAVE</b> on the top right corner of the screen.<br><br>
