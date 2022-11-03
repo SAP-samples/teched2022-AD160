@@ -123,7 +123,7 @@ Now, your application will be connected to Document Management System and SAP Pr
 1. Choose <b>AUTH</b> tab on the top of the screen.<br><br>
 ![](images/36.png)
 
-2. Select <b>ENABLE AUTHENTIFICATION</b>.<br><br>
+2. Select <b>ENABLE AUTHENTICATION</b>.<br><br>
 ![](images/37.png)
 
 3. Select <b>SAP BTP authentication</b>.<br><br>
