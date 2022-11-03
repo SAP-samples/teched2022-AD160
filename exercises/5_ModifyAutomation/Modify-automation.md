@@ -52,7 +52,7 @@ The pre-built automation extracts the data from the Invoice document using AI.
     ![05](./images/099.png)
 
 9. The **outputPath** needs to hard-coded:
-<pre> "C:\\Users\\Public\\" + Step0.fileName </pre>
+    <pre> "C:\\Users\\Public\\" + Step0.fileName </pre>
 
     ![05](./images/096.png)
 
