@@ -79,7 +79,7 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 18. Click on the <b>SAVE</b> button to save the binding to the component value.<br><br>
 ![SAVE button](images/17.png)
 
-19. A variable can be binded to this image component. Open the binding menu of the <b>image</b> component under <b>PROPERTIES</b> on the right-hand side.<br><br>
+19. A variable can be binded to this image component. Open the binding menu of the <b>Image</b> component under <b>PROPERTIES</b> on the right-hand side.<br><br>
 ![bind menu](images/18.png)
 
 20. The binding menu will pop-up. Select <b>Data and Variables</b>.<br><br>
