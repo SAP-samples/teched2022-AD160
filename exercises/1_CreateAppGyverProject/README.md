@@ -50,10 +50,10 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 
   ![Variables](images/08.png)
 
-9. Create an <b>App Variable</b> by clicking on <b>ADD APP VARIABLE</b> and rename it to "<i>name</i>".<br><br>
+9. Create an <b>App variable</b> by clicking on <b>ADD APP VARIABLE</b> and rename it to "<i>name</i>".<br><br>
 ![create variable](images/09.png)
 
-10. Add another <b>App Variable</b> and rename it to "<i>Invoicescan</i>".<br><br>
+10. Add another <b>App variable</b> and rename it to "<i>Invoicescan</i>".<br><br>
 ![create another variable](images/10.png)
 
 11. Change the <b>Variable value type</b> of <b>Invoicescan</b> to <b>Local filesystem path</b>.<br><br>
