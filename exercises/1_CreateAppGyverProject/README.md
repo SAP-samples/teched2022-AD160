@@ -238,7 +238,7 @@ from library</b> component. <br>
 
     ![](images/32.png)
 
-6. From the <b>CORE</b> tab of the component library drag and drop the <b>Set app variable</b> component into the canvas. In the same way, connect the node of <b>Pick image from library</b> component to <b>Set app variable</b> component.<br><br>
+6. From the <b>CORE</b> tab of the component library drag and drop the <b>Set app variable</b> component into the canvas. In the same way, connect the node of the <b>Pick image from library</b> component to the <b>Set app variable</b> component.<br><br>
 ![](images/33.png)
 
 7. In the <b>PROPERTIES</b> tab of the <b>Set app variable</b>, select the variable <b>Invoicescan</b>.<br><br>
