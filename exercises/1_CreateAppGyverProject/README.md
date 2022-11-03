@@ -102,13 +102,13 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 
 26. In the formula bar enter the following formula:
 
-  <pre>IF(IS_EMPTY(appVars.Invoicescan),false,true)</pre>
+    <pre>IF(IS_EMPTY(appVars.Invoicescan),false,true)</pre>
 
-  > This formula checks if the <b>InvoiceScan</b> page variable is empty, then the output will be false and component will be disabled. If the <b>InvoiceScan</b> page variable has some value, the output will change to true, and the component will be displayed.
+    > This formula checks if the <b>InvoiceScan</b> page variable is empty, then the output will be false and component will be disabled. If the <b>InvoiceScan</b> page variable has some value, the output will change to true, and the component will be displayed.
 
-  Click on <b>SAVE</b>.
+    Click on <b>SAVE</b>.
 
-  ![](images/25.png)
+    ![](images/25.png)
 
 26. Click on <b>SAVE</b>.<br><br>
 ![](images/26.png)
