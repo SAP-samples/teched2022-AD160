@@ -94,7 +94,7 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 23. Drag and drop another <b>Button</b> component from the component library into the canvas and rename the <b>Label</b> to <i>Submit</i>.<br><br>
 ![Submit ](images/22.png)
 
-24. The submit button should be visible only after the invoice is selected. Click on <b>ADVANCED PROPERTIES</b> to change the visibility properties of the button. Open the binding menu for the visibility properties.<br><br>
+24. The <b>Submit</b> button should be visible only after the invoice is selected. Click on <b>ADVANCED PROPERTIES</b> to change the visibility properties of the button. Open the binding menu for the visibility properties.<br><br>
 ![](images/23.png)
 
 25. Select <b>Formula</b>.<br><br>
