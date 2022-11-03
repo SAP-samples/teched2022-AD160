@@ -323,7 +323,7 @@ Click on <b>SAVE</b> button.<br><br>
 
 19. Drag and drop another <b>Create record</b> logic component into the logic canvas.
 Change the <b>Resource name</b> to <b>SendtoSPA</b>.						
-Open the binding menu for <b>Record properties</b>.<br><br>
+Open the binding menu for <b>Record</b> properties.<br><br>
 ![Submit](images/83.png)
 
 20. In the binding menu, select <b>Object with properties</b>.<br><br>
