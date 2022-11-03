@@ -37,7 +37,7 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 
 4. Drag and drop an <b>Input field</b> from the <b>UI Component</b> library into the canvas. <br><br>![input component](images/04.png)
 
-5. Under the <b>PROPERTIES</b> tab of the <b>Input field</b>, clear the <b>Label</b> and change the placeholder text to "<i>Enter your name</i>".<br><br>![input properties](images/05.png)
+5. Under the <b>PROPERTIES</b> tab of the <b>Input field</b>, clear the <b>Label</b> and change the <b>Placeholder text</b> to "<i>Enter your name</i>".<br><br>![input properties](images/05.png)
 
 6. Drag and drop a <b>Button</b> component from the component library on the left-hand side into the canvas. <br>Change the <b>Label</b> on the button in the <b>PROPERTIES</b> tab of the button component to “<i>Upload your Invoice</i>”.<br><br>![Button](images/06.png)
 
