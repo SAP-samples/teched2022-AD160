@@ -27,7 +27,7 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
 
 ## Create UI <a name="UI"></a>
-1. You will be redirected to Build Apps Composer, which is like an IDE for SAP Build Apps. In the canvas, you can already see a <b>Title</b> and <b>Text</b> component.<br><br>![home page](images/01.png)
+1. You will be redirected to Build Apps Composer, which is like an IDE for SAP Build Apps. In the canvas, you can see a <b>Title</b> and <b>Text</b> components.<br><br>![home page](images/01.png)
 
 2. Click on “<i>Headline</i>” on the canvas to select the <b>Title</b> component.
 Now, the properties tab on the right-hand side will show the properties of the Title component
