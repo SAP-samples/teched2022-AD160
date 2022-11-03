@@ -145,6 +145,7 @@ Now, your application will be connected to Document Management System and SAP Pr
 ![](images/43.png)
 
 9. Under <b>Resource schema</b>, click on <b>+ ADD NEW</b> to create a schema. Name the new schema to "<i>filename</i>" and select the <b>Field type</b> as <b>Text</b>.
+Choose <b>ADD</b>
 
     > Schema is structure of the data. A schema is created which is similar to the Data base. In this scenario the data base is Document Management System (DMS), and schema should be created matching the schema in DMS.
 
