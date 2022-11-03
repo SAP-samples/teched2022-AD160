@@ -45,7 +45,7 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 ![Image](images/07.png)
 
 8. Switch to <b>Variables</b> view.
-  > In <b>Variables view</b>, you can create variables which can store information temporarily.<br><br>
+> In <b>Variables view</b>, you can create variables which can store information temporarily.<br><br>
 
 ![Variables](images/08.png)
 
@@ -60,7 +60,6 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 
 12. Add another <b>App variable</b> and rename it to <b>filename</b>.<br><br>
 ![variable type](images/71.png)
-
 
 13. Switch back to <b>VIEW</b>. <br><br>
 ![View](images/VIEW.png)
@@ -101,15 +100,14 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 ![](images/24.png)
 
 26. In the formula bar enter the following formula:
-<br>
 
-  <pre>IF(IS_EMPTY(appVars.Invoicescan),false,true)</pre>
+<pre>IF(IS_EMPTY(appVars.Invoicescan),false,true)</pre>
 
-  > This formula checks if the <b>InvoiceScan</b> page variable is empty, then the output will be false and component will be disabled. If the <b>InvoiceScan</b> page variable has some value, the output will change to true, and the component will be displayed.<br>
+> This formula checks if the <b>InvoiceScan</b> page variable is empty, then the output will be false and component will be disabled. If the <b>InvoiceScan</b> page variable has some value, the output will change to true, and the component will be displayed.<br>
 
-  Click on <b>SAVE</b>.
+Click on <b>SAVE</b>.
 
-  ![](images/25.png)
+![](images/25.png)
 
 26. Click on <b>SAVE</b>.<br><br>
 ![](images/26.png)
