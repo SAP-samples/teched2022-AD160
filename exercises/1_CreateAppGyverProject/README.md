@@ -220,12 +220,12 @@ Choose <b>ADD.</b>
 2. By default, the trigger event will be <b>Component tap</b>.<br>
 Now you will download a new component from the <b>MARKETPLACE</b>.
 
-    > MARKETPLACE</b> contains hundreds of pre-built visual and logic components, which can be installed and used with minimum or no customisation.
+    > MARKETPLACE</b> contains hundreds of pre-built visual and logic components, which can be installed and used with minimum or no customization.
   Find more information on <a href="https://docs.appgyver.com/docs/marketplace?highlight=Market%20place">MARKETPLACE here</a>.
 
     ![](images/29.png)
 
-3. Select the <b>MARKETPLACE</b> search bar. You may search for “<i>pick image</i>”. Select the <b>Pick image from library </b>component.<br><br>
+3. Click on the <b>MARKETPLACE</b> search bar. You may search for “<i>pick image</i>”. Select the <b>Pick image from library </b>component.<br><br>
 ![](images/30.png)
 
 4. Click on <b>Install</b> to install the logic component in the library.<br><br>
