@@ -214,7 +214,7 @@ Choose <b>ADD.</b>
 
 ## Create Logic for Upload button <a name="upload"></a>
 
-1. Go to the **UI Canvas**. Select the <b>Upload your Invoice</b> button and click on the grey bar on the bottom to open the logic composer. <br><br>
+1. Go to the **UI CANVAS**. Select the <b>Upload your Invoice</b> button and click on the grey bar on the bottom to open the logic composer. <br><br>
 ![](images/28.png)
 
 2. By default, the trigger event will be <b>Component tap</b>.<br>
