@@ -266,7 +266,7 @@ path</b>.<br><br>
 ![](images/64.png)
 
 3. In the search bar, search for “<i>base64</i>” and select <b>Convert file to base64</b>
-and <b>Install</b> it. <br><br>
+and install it. <br><br>
 ![](images/65.png)
 
 4. Drag and drop <b>Convert file to base64</b> into the logic canvas.<br><br>
