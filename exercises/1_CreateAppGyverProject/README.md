@@ -31,23 +31,23 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 1. You will be redirected to <b>Build Apps Composer</b>, which is like an IDE for SAP Build Apps. On the canvas, you can already see a <b>Title</b> and a <b>Text</b> component.<br><br>![home page](images/01.png)
 
 2. Click on “<i>Headline</i>” on the canvas to select the <b>Title</b> component.
-Now, the <b>Properties</b> tab on the right-hand side will show the properties of the <b>Title</b> component where you can modify it.<br> Under <b>Content</b>, enter “<i>Invoice Approval.</i>”<br><br>![Title component](images/02%202.png)
+Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties of the <b>Title</b> component where you can modify it.<br> Under <b>Content</b>, enter “<i>Invoice Approval.</i>”<br><br>![Title component](images/02%202.png)
 
-3. Select the <b>Text</b> component, modify the content under the <b>Properties</b> tab on the right-hand side to "<i>Enter your name and upload your invoice</i>".<br><br>![text component](images/03.png)
+3. Select the <b>Text</b> component, modify the content under the <b>PROPERTIES</b> tab on the right-hand side to "<i>Enter your name and upload your invoice</i>".<br><br>![text component](images/03.png)
 
-4. Drag and drop an <b>Input field</b> from the <b>UI Component</b> library to the canvas. <br><br>![input component](images/04.png)
+4. Drag and drop an <b>Input field</b> from the <b>UI Component</b> library into the canvas. <br><br>![input component](images/04.png)
 
-5. Under the <b>Properties</b> tab of the <b>Input field</b>, clear the <b>Label</b> and change the placeholder text to "<i>Enter your name</i>".<br><br>![input properties](images/05.png)
+5. Under the <b>PROPERTIES</b> tab of the <b>Input field</b>, clear the <b>Label</b> and change the placeholder text to "<i>Enter your name</i>".<br><br>![input properties](images/05.png)
 
-6. Drag and drop a <b>Button</b> component from the component library on the left-hand side to the canvas. <br>Change the <b>Label</b> on the button in the <b>Properties</b> of the button component to “<i>Upload your Invoice</i>”.<br><br>![Button](images/06.png)
+6. Drag and drop a <b>Button</b> component from the component library on the left-hand side into the canvas. <br>Change the <b>Label</b> on the button in the <b>PROPERTIES</b> tab of the button component to “<i>Upload your Invoice</i>”.<br><br>![Button](images/06.png)
 
 7. Drag and drop an <b>Image</b> component into the canvas.<br><br>
 ![Image](images/07.png)
 
 8. Switch to <b>Variables</b> view.
-> In <b>Variables view</b>, you can create variables which can store information temporarily.
+  > In <b>Variables view</b>, you can create variables which can store information temporarily.<br><br>
 
-  <br><br>![Variables](images/08.png)
+![Variables](images/08.png)
 
 9. Create an <b>App Variable</b> by clicking on <b>ADD APP VARIABLE</b> and rename it to "<i>name</i>".<br><br>
 ![create variable](images/09.png)
@@ -65,7 +65,7 @@ Now, the <b>Properties</b> tab on the right-hand side will show the properties o
 13. Switch back to <b>VIEW</b>. <br><br>
 ![View](images/VIEW.png)
 
-14. Under the <b>Properties</b> tab of the <b>Input field</b> component, open the binding menu for <b>Value</b> by clicking on the "<b>X</b>" icon.<br><br>
+14. Under the <b>PROPERTIES</b> tab of the <b>Input field</b> component, open the binding menu for <b>Value</b> by clicking on the "<b>X</b>" icon.<br><br>
 ![bind menu](images/13.png)
 
 15. The binding menu will pop-up. Select <b> Data and Variables</b>.<br><br>![binding menu ](images/14.png)
@@ -79,7 +79,7 @@ Now, the <b>Properties</b> tab on the right-hand side will show the properties o
 18. Click on the <b>SAVE</b> button to save the binding to the component value.<br><br>
 ![SAVE button](images/17.png)
 
-19. A variable can be binded to this image component. Open the binding menu of the image under <b>Properties</b> on the right-hand side.<br><br>
+19. A variable can be binded to this image component. Open the binding menu of the image under <b>PROPERTIES</b> on the right-hand side.<br><br>
 ![bind menu](images/18.png)
 
 20. The binding menu will pop-up. Select <b>Data and Variables</b>.<br><br>
@@ -101,7 +101,7 @@ Now, the <b>Properties</b> tab on the right-hand side will show the properties o
 ![](images/24.png)
 
 26. In the formula bar enter the following formula:
-<br><br>
+<br>
 
   <pre>IF(IS_EMPTY(appVars.Invoicescan),false,true)</pre>
 
