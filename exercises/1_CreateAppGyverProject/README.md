@@ -44,7 +44,7 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 7. Drag and drop an <b>Image</b> component into the canvas.<br><br>
 ![Image](images/07.png)
 
-8. Switch to <b>Variables</b> view.
+8. Switch to <b>VARIABLES</b> view.
 
   > In <b>Variables view</b>, you can create variables which can store information temporarily.
 
