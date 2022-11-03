@@ -282,7 +282,7 @@ Open the binding menu for <b>Source file URL</b> of the <b>Convert file to base6
 7. Select <b>Invoicescan</b> and click on <b>SAVE</b>.<br><br>
 ![Submit](images/70.png)
 
-8. Drag and drop <b>Set app variable component</b> from the component library and connect the node with <b>Convert file to base64</b>.
+8. From the <b>CORE</b> tab, drag and drop <b>Set app variable </b> component from the component library and connect the node with <b>Convert file to base64</b>.
 <br>In the <b>PROPERTIES</b> tab, make sure the variable is <b>filename</b>, and now open the binding menu for the <b>Assigned value.</b><br><br>
 ![Submit](images/72.png)
 
