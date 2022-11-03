@@ -234,7 +234,7 @@ Now you will download a new component from the <b>MARKETPLACE</b>.
 ![](images/31.png)
 
 5. Drag and drop the <b>Pick image from library</b> under the <b>INSTALLED</b> tab into the logic canvas. Connect output node of the <b>Component tap</b> logic component with the <b>Pick image
-from library</b> component. <br><br>
+from library</b> component. <br>
 
   > To do so, select the node of the <b>Pick image from library</b> component. This will create a line that you can link to the node of the <b>Component tap</b> logic component.
 
