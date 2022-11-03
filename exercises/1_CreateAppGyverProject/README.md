@@ -46,9 +46,9 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 
 8. Switch to <b>VARIABLES</b> view.
 
-  > In <b>Variables view</b>, you can create variables which can store information temporarily.
+    > In <b>Variables view</b>, you can create variables which can store information temporarily.
 
-  ![Variables](images/08.png)
+    ![Variables](images/08.png)
 
 9. Create an <b>App variable</b> by clicking on <b>ADD APP VARIABLE</b> and rename it to "<i>name</i>".<br><br>
 ![create variable](images/09.png)
