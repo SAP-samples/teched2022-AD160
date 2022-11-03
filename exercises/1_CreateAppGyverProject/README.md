@@ -216,7 +216,7 @@ Now, your application will be connected to Document Management System and SAP Pr
 
 ## Create Logic for Upload button <a name="upload"></a>
 
-1. Go to the **UI Canvas**. Select the <b>upload</b> button and click on the grey bar in the bottom to open the logic composer. <br><br>
+1. Go to the **UI Canvas**. Select the <b>Upload your Invoice</b> button and click on the grey bar on the bottom to open the logic composer. <br><br>
 ![](images/28.png)
 
 2. By default, the trigger event will be <b>Component tap</b>.<br>
@@ -227,20 +227,23 @@ Now you will download a new component from the <b>MARKETPLACE</b>.
 
   ![](images/29.png)
 
-3. In the search bar, search for “<i>pick image</i>”. Select the <b>Pick image from library </b>component.<br><br>
+3. Select the <b>MARKETPLACE</b> search bar. You may search for “<i>pick image</i>”. Select the <b>Pick image from library </b>component.<br><br>
 ![](images/30.png)
 
 4. Click on <b>Install</b> to install the logic component in the library.<br><br>
 ![](images/31.png)
 
-5. Drag and drop the <b>Pick image from library</b> under Installed tab to the logic canvas. Connect output node of the <b>Component tap</b> logic component with the <b>Pick image
-from library</b>.<br><br>
+5. Drag and drop the <b>Pick image from library</b> under the <b>INSTALLED</b> tab into the logic canvas. Connect output node of the <b>Component tap</b> logic component with the <b>Pick image
+from library</b> component. <br><br>
+
+  > To do so, select the node of the <b>Pick image from library</b> component. This will create a line that you can link to the node of the <b>Component tap</b> logic component.
+
 ![](images/32.png)
 
-6. From the Core tab of the component library drag and drop the <b>Set app variable</b> component and connect the node of <b>Pick image from library</b> and <b>Set app variable</b>.<br><br>
+6. From the <b>CORE</b> tab of the component library drag and drop the <b>Set app variable</b> component into the canvas. In the same way, connect the node of <b>Pick image from library</b> component to <b>Set app variable</b> component.<br><br>
 ![](images/33.png)
 
-7. In the properties tab of the <b>Set app variable</b>, select the variable <b>Invoicescan</b>.<br><br>
+7. In the <b>PROPERTIES</b> tab of the <b>Set app variable</b>, select the variable <b>Invoicescan</b>.<br><br>
 ![](images/34.png)
 
 8. Now open the binding menu for <b>Assigned Value</b>. <br><br>
@@ -253,11 +256,8 @@ from library</b>.<br><br>
 path</b>.<br><br>
 ![](images/103.png)
 
-11. Click on <b>Save</b>.<br><br>
+11. Click on <b>SAVE</b>.<br><br>
 ![](images/104.png)
-
-
-
 
 ## Create logic for Submit button. <a name="submit"></a>
 
