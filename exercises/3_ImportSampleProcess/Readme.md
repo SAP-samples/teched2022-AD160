@@ -24,7 +24,7 @@ This sample process includes the following:
 1. Open [SAP Process Automation - Application Development Workbench Lobby](https://da160-96ork4sc-applicationdevelopment.lcnc.cfapps.eu10.hana.ondemand.com/lobby).
   Navigate to the store in your Tenant, to find sample content.
 
-  ![03](./images/001.png)
+    ![03](./images/001.png)
 
 ## Acquire a Project <a name="section3"></a>
 
@@ -33,7 +33,7 @@ This sample process includes the following:
   - Search for **Invoice Approval Process - Sample**.
   - Select **Create from Template** button.
 
-  ![03](./images/002.png)
+    ![03](./images/002.png)
 
 2.	Create a Business Process Project from the template.
 
@@ -41,11 +41,11 @@ This sample process includes the following:
   - Under Short Description: Invoice Approval Process.
   - Choose **Create**.
 
-  ![03](./images/003.png)
+    ![03](./images/003.png)
 
 4. To see the newly created project, navigate back to the **Lobby** from the top menu.
 
-  ![03](./images/004.png)
+    ![03](./images/004.png)
 
 ## Summary<a name="summary"></a>
 
