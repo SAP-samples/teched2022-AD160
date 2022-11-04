@@ -93,4 +93,4 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
 You have now modified the project.
 
-Continue to - [Exercise 6 - Release and Deploy Process](../6_ReleaseDeployProcess/run-release-deploy.md)
+Continue to - [Exercise 6 - Release and Deploy Process](../6_ReleaseDeployProcess/Readme.md)

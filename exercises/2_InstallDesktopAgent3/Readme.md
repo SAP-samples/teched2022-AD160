@@ -110,4 +110,4 @@ Once the installation steps of the SAP Robotic Process Automation setup wizard a
 
 You have now have successfully installed and configured your Desktop Agent 3.
 
-Continue to - [Exercise 3 - Import Sample Process from SAP Build Process Automation Store](../3_ImportSampleProcess/Acquire-project-store.md)
+Continue to - [Exercise 3 - Import Sample Process from SAP Build Process Automation Store](../3_ImportSampleProcess/Readme.md)
