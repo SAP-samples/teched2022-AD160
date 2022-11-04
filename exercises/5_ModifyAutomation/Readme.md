@@ -7,39 +7,39 @@
 ### Overview <a name="overview"></a>
 
 In this exercise you will learn:
-- How to modify and add an automation as a dependency.
 
+- How to modify and add an automation as a dependency.
 
 The pre-built automation extracts the data from the Invoice document using AI.
 
-## 1. Modify the Automation <a name="modifyAutomation"></a>
-
+## Modify the Automation <a name="modifyAutomation"></a>
 
 1. Once the dependency is completed, go to **Extract Invoice Data**, select three dots, and choose **Open Editor**
 
   ![05](./images/010a.png)
 
-2. Modify parameters in **Input/Output**.
-- Rename **FilePath** to **fileName**
-- Select **Add new input parameter** and name it **folderName**
+2. In **Automation Details**, go to **Input/Output** to modify the parameters.
+
+- Rename **FilePath** to **fileName**.
+- Select **Add new input parameter** and name it **folderName**.
 
   ![05](./images/016a.png)
 
-    After changes the parameters should look like this:
+    After the changes the parameters should look like this:
 
   ![05](./images/017.png)
 
-3. Go to the **Tools**, select **Automations** and drag and drop **Download document**.
+3. Now go **Tools**, select **Automations** and drag and drop the **Download document** automation into the canvas.
 
   ![05](./images/018.png)
 
-4. Select Download Document automation and Map Input Parameters.
+4. Select **Download document** automation.
 
-5. Select **Edit Expression** next to **uploadedFileName** field.
+5. You will now map the **Input Parameters**. Select **Edit Expression** next to **uploadedFileName** field.
 
   ![05](./images/019.png)
 
-6. Map with Variable **fileName** and select **Save Expression**.
+6. Map with variable **fileName** and select **Save Expression**.
 
   ![05](./images/098.png)
 
@@ -47,11 +47,11 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
     ![05](./images/097.png)
 
-8. Map with Variable **folderName** and select **Save Expression**.
+8. Map with variable **folderName** and select **Save Expression**.
 
     ![05](./images/099.png)
 
-9. The **outputPath** needs to hard-coded:
+9. The **outputPath** needs to be hard-coded:
     <pre> "C:\\Users\\Public\\" + Step0.fileName </pre>
 
     ![05](./images/096.png)
@@ -60,27 +60,27 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
   ![05](./images/021.png)
 
-11. Under **Tools** search for the Activity **Delete File**, drag and drop it.
+11. Under **Tools** search for the activity **Delete File**, drag and drop it into the canvas, just below **Log Message** activity.
 
   ![05](./images/022.png)
 
-12. Select the Activity **Delete File**.
+12. Select the activity **Delete File**.
 
   ![05](./images/095.png)
 
-13. Under **Delete File** Step edit Input Parameters:
+13. Under **Delete File**, edit the **Input Parameters** as follows:
 - Map **fileName** with **fileName**
 - under **remotePath** type: C:\Users\Public\
 
   ![05](./images/023a.png)
 
-14. Go to the process Tab **Get Invoice Details**.
+14. Go to the process tab **Get Invoice Details**.
 
   ![05](./images/094.png)
 
-## 3. Map Automation parameters to Process parameters <a name="mapParameters"></a>
+## Map Automation parameters to Process parameters <a name="mapParameters"></a>
 
-1. Select **Extract Invoice Data** and map Inputs:
+1. Select **Extract Invoice Data** and map the following inputs:
 
 - Map **fileName** with **fileName**.
 - Map **folderName** with **folderName**.
