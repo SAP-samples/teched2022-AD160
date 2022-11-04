@@ -30,9 +30,11 @@ In this exercise you will learn:
     ![04](./images//029.png)
 
 2. In the Create API Trigger window:
-- Enter the name: API Trigger.
-- Choose **Create**.
-> The identifier is generated based on the name.
+
+    - Enter the name: API Trigger.
+    - Choose **Create**.
+
+    > The identifier is generated based on the name.
 
     ![04](./images//030.png)
 
