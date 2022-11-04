@@ -1,6 +1,7 @@
-- [Overview](#overview)
-- [Release and deploy Business Process](#releaseDeploy)
-- [Summary](#summary)
+## Table of Contents
+ - [Overview](#overview)
+ - [Release and deploy Business Process](#releaseDeploy)
+ - [Summary](#summary)
 
 ### Overview <a name="overview"></a>
 
