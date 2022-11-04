@@ -32,34 +32,40 @@ Follow this tutorial on [Agent Management Settings](https://developers.sap.com/t
 
 ## Enter the Definition ID in SAP Build Apps. <a name="build"></a>
 
-1. Open your AppGyver Project and click on <b>DATA</b> tab. <br><br>
+1. Go back to the **Lobby** and open your AppGyver Project. Choose **SAP BTP Authentication** to go back to your project.
+![](images/01.png)
+
+2. Choose **Empty page** to view your project.
+![](images/02.png)
+
+3. Click on <b>DATA</b> tab. <br><br>
 ![](images/ss4.png)
 
-2. Select the <b>SendtoSPA</b> data entity.<br><br>
+4. Select the <b>SendtoSPA</b> data entity.<br><br>
 ![](images/ss5.png)
 
-3. In the <b>create</b> tab, open the binding menu for <b> Request body mapper</b>.<br><br>
+5. In the <b>create</b> tab, open the binding menu for <b> Request body mapper</b>.<br><br>
 ![](images/ss6.png)
 
-4. Open the formula editor. Enter the following formula: <br><pre>ENCODE_JSON({  "definitionId": "<b>Your Definition ID copied from SPA</b> ",  "context":  query.record })  </pre>
+6. Open the formula editor. Enter the following formula: <br><pre>ENCODE_JSON({  "definitionId": "<b>Your Definition ID copied from SPA</b> ",  "context":  query.record })  </pre>
 Click on <b>SAVE</b>.<br><br>
 ![](images/ss7.png)
 
-5. Click on <b>SAVE</b>.<br><br>
+7. Click on <b>SAVE</b>.<br><br>
 ![](images/ss8.png)
 
-6. You can test if this Data connection is working. Switch to <b>TEST</b> tab.<br>
+8. You can test if this Data connection is working. Switch to <b>TEST</b> tab.<br>
 Enter the below values in the following fields to test the connection:
     - filename: <i>Test1666861993010.png</i>
     - foldername: <i>Invoices</i>
     - employeemail: <i>Test</i>
     - employeename: <i>Test</i><br>
 
-    Click on <b>RUN TEST</b>.
+9. Click on <b>RUN TEST</b>.
 
     ![](images/Test1.png)
 
-7. Scroll down and check the Status of the Response.
+10. Scroll down and check the Status of the Response.
 
     > If you are getting any error please recheck the steps 1-6, else request help from the presenters.
 If you get the response as <b>Status:OK</b>, then the connection is successful.<br>
@@ -69,7 +75,7 @@ If you get the response as <b>Status:OK</b>, then the connection is successful.<
     ![](images/Test2.png)
 
 
-8. Click on <b>SAVE</b> on the top right corner to save the changes.
+11. Click on <b>SAVE</b> on the top right corner to save the changes.
 
     ![](images/ss10.png)
 
