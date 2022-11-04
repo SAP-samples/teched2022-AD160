@@ -39,6 +39,6 @@ After completing Modify Automation exercise your process looks like this:
 
 You have now successfully released and deployed your project and completed the below steps in your process.
 
-    ![Summary](./images/Summary.png)
+![Summary](./images/Summary.png)
 
 Continue to - [Exercise 7 - Test End to End Scenario](../7_TestingEndToEndScenario/README.md)
