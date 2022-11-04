@@ -14,7 +14,7 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
 ## Modify the Automation <a name="modifyAutomation"></a>
 
-1. Once the dependency is completed, go to **Extract Invoice Data**, select three dots, and choose **Open Editor**
+1. Once the dependency is completed, choose **Extract Invoice Data**, select three dots, and then **Open Editor**.
 
     ![05](./images/010a.png)
 
@@ -29,7 +29,7 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
     ![05](./images/017.png)
 
-3. Now go **Tools**, select **Automations** and drag and drop the **Download document** automation into the canvas.
+3. Now go **Tools**, select **Automations** and drag and drop the **Download document** automation into the canvas, just before **Extract Data** activity.
 
     ![05](./images/018.png)
 
@@ -54,27 +54,36 @@ The pre-built automation extracts the data from the Invoice document using AI.
 9. The **outputPath** needs to be hard-coded:
     <pre> "C:\\Users\\Public\\" + Step0.fileName </pre>
 
+    > To do so please do not copy and paste the code directly in the **outputPath** field but open the expression editor where you can edit the expression.
+
+10. Open the expression editor and copy the code.
+
+11. Choose **Save Expression**
+
+    ![05](./images/096bis.png)
+
+
     ![05](./images/096.png)
 
-10. Click on the **Canvas** in the background.
+12. Click on the **Canvas** in the background.
 
     ![05](./images/021.png)
 
-11. Under **Tools** search for the activity **Delete File**, drag and drop it into the canvas, just below **Log Message** activity.
+13. Under **Tools** search for the activity **Delete File**, drag and drop it into the canvas, just below **Log Message** activity.
 
     ![05](./images/022.png)
 
-12. Select the activity **Delete File**.
+14. Select the activity **Delete File**.
 
     ![05](./images/095.png)
 
-13. Under **Delete File**, edit the **Input Parameters** as follows:
+15. Under **Delete File**, edit the **Input Parameters** as follows:
 - Map **fileName** with **fileName**
 - under **remotePath** type: C:\Users\Public\
 
     ![05](./images/023a.png)
 
-14. Go to the process tab **Get Invoice Details**.
+16. Go to the process tab **Get Invoice Details**.
 
     ![05](./images/094.png)
 
