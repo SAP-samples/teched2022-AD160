@@ -52,13 +52,18 @@ The pre-built automation extracts the data from the Invoice document using AI.
     ![05](./images/099.png)
 
 9. The **outputPath** needs to be hard-coded:
-    - Open the expression editor.
-        ![05](./images/080.png)
-    - In the Edit Expression window paste following value:
-    <pre> "C:\\Users\\Public\\" + Step0.fileName </pre>
-        ![05](./images/081.png)
 
-        > To check if the Expression is correct, click on Test button. If it is highlighted in green, it means the expression is correct.
+    - Open the expression editor.
+
+    ![05](./images/080.png)
+
+    - In the Edit Expression window paste following value:
+
+    <pre> "C:\\Users\\Public\\" + Step0.fileName </pre>
+
+    ![05](./images/081.png)
+
+    > To check if the Expression is correct, click on Test button. If it is highlighted in green, it means the expression is correct.
 
 10. Choose **Save Expression**.
 
