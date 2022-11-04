@@ -15,6 +15,8 @@ After completing Modify Automation exercise your process looks like this:
 
 ![06](./images/301a.png)
 
+> Before releasing your project, please make sure there are no error messages in the Design Console indicating that your project contains errors.
+
 1. Choose **Release** to release the project.
 
     ![06](./images/302a.png)
