@@ -19,7 +19,7 @@ In this exercise you will learn:
 
     ![04](./images//005.png)
 
-2. Go to the **Invoice Request Form**, choose 3 dots and select **Remove** to delete the form.
+2. Select the **Invoice Request Form**, choose the 3 dots and then **Remove** to delete the form.
 
     ![04](./images//006.png)
 
@@ -29,7 +29,7 @@ In this exercise you will learn:
 
     ![04](./images//029.png)
 
-2. In the Create API Trigger window:
+2. In the Create API Trigger window do the following:
 
 - Enter the name: API Trigger.
 - Choose **Create**.
@@ -42,7 +42,7 @@ In this exercise you will learn:
 
     ![04](./images/007b.png)
 
-4. In the **Process Details** side panel, choose **Inputs** and then **Configure** to configure inputs.
+4. In the **Process Details** side panel, choose **Inputs/Outputs** and then **Configure** to configure inputs.
 
     ![04](./images/008a.png)
 
@@ -67,7 +67,7 @@ In this exercise you will learn:
 
     ![04](./images/012a.png)
 
-8. Choose **Dependencies** and select **Add Dependency** button.
+8. Choose **Dependencies** and select **Add Dependency**>**Add a Business Process project dependency**.
 
     ![04](./images/013.png)
 
