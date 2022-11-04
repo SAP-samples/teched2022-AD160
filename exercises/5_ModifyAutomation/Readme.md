@@ -16,32 +16,32 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
 1. Once the dependency is completed, go to **Extract Invoice Data**, select three dots, and choose **Open Editor**
 
-  ![05](./images/010a.png)
+    ![05](./images/010a.png)
 
 2. In **Automation Details**, go to **Input/Output** to modify the parameters.
 
 - Rename **FilePath** to **fileName**.
 - Select **Add new input parameter** and name it **folderName**.
 
-  ![05](./images/016a.png)
+    ![05](./images/016a.png)
 
     After the changes the parameters should look like this:
 
-  ![05](./images/017.png)
+    ![05](./images/017.png)
 
 3. Now go **Tools**, select **Automations** and drag and drop the **Download document** automation into the canvas.
 
-  ![05](./images/018.png)
+    ![05](./images/018.png)
 
 4. Select **Download document** automation.
 
 5. You will now map the **Input Parameters**. Select **Edit Expression** next to **uploadedFileName** field.
 
-  ![05](./images/019.png)
+    ![05](./images/019.png)
 
 6. Map with variable **fileName** and select **Save Expression**.
 
-  ![05](./images/098.png)
+    ![05](./images/098.png)
 
 7. Select **Edit Expression** next to **folderFileName** field.
 
@@ -58,25 +58,25 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
 10. Click on the **Canvas** in the background.
 
-  ![05](./images/021.png)
+    ![05](./images/021.png)
 
 11. Under **Tools** search for the activity **Delete File**, drag and drop it into the canvas, just below **Log Message** activity.
 
-  ![05](./images/022.png)
+    ![05](./images/022.png)
 
 12. Select the activity **Delete File**.
 
-  ![05](./images/095.png)
+    ![05](./images/095.png)
 
 13. Under **Delete File**, edit the **Input Parameters** as follows:
 - Map **fileName** with **fileName**
 - under **remotePath** type: C:\Users\Public\
 
-  ![05](./images/023a.png)
+    ![05](./images/023a.png)
 
 14. Go to the process tab **Get Invoice Details**.
 
-  ![05](./images/094.png)
+    ![05](./images/094.png)
 
 ## Map Automation parameters to Process parameters <a name="mapParameters"></a>
 
@@ -85,7 +85,7 @@ The pre-built automation extracts the data from the Invoice document using AI.
 - Map **fileName** with **fileName**.
 - Map **folderName** with **folderName**.
 
-  ![05](./images/024.png)
+    ![05](./images/024.png)
 
 2. **Save** your work.
 
