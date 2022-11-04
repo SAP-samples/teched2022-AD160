@@ -32,10 +32,10 @@ Follow this tutorial on [Agent Management Settings](https://developers.sap.com/t
 
 ## Enter the Definition ID in SAP Build Apps. <a name="build"></a>
 
-1. Go back to the **Lobby** and open your AppGyver Project. Choose **SAP BTP Authentication** to go back to your project.
+1. Go back to the **Lobby** and open your AppGyver Project. Choose **SAP BTP Authentication** to go back to your project.<br><br>
 ![](images/01.png)
 
-2. Choose **Empty page** to view your project.
+2. Choose **Empty page** to view your project.<br><br>
 ![](images/02.png)
 
 3. Click on <b>DATA</b> tab. <br><br>
