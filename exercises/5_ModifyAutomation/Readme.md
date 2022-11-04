@@ -83,7 +83,9 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
     ![05](./images/023a.png)
 
-16. Go to the process tab **Get Invoice Details**.
+16. Save your work.
+
+17. Go to the process tab **Get Invoice Details**.
 
     ![05](./images/094.png)
 
