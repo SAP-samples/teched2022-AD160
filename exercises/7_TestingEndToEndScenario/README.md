@@ -6,25 +6,25 @@
 - [Testing the app](#Test)
 - [Monitoring and approving the process](#name)
 
-## Testing the End to End Scnerio. <a name="overview"></a>
-Although, your application is connected to SAP Build Process Automation service, it is not connected to the process you created yet. In this stage, you will see how to connect your app and process.
+## Testing the End to End Scenario <a name="overview"></a>
+Although, your application is connected to SAP Build Process Automation service, it is not connected to the process you created yet. At this stage, you will see how to connect your app and process.
 
 
 ## Desktop Agent Management Settings <a name="AgentSettings"></a>
-Follow below steps to execute the process with an automation with specific registered Desktop Agent.
-You will create an **Agent Attribute** in the tenant to add it to your agent and project
+Follow the below steps to execute the process with an automation with a specific registered Desktop Agent.
+You will create an **Agent Attribute** in the tenant to add it to your agent and project.
 **Agent attributes** allow you to sort agents registered within the same tenant and make sure that a specific agent executes the job of your choice.
 
 Follow this tutorial on [Agent Management Settings](https://developers.sap.com/tutorials/spa-run-agent-settings.html).
 
 ## Copy Definition ID from SAP Build Process Automation <a name="SPA"></a>
-1. Open the <b>Application lobby</b> again. Open the <b>Monitor</b> tab.<br><br>
+1. Open the <b>Application Development</b> lobby again. Open the <b>Monitor</b> tab.<br><br>
 ![](images/ss1.png)
 
 2. Click on <b>Process and Workflow</b> under the <b>Manage </b> section.<br><br>
 ![](images/Processes%20and%20Workflows.png)
 
-3. Search for your project name under <b>Project</b>. Select the project you created with the ID provided to you. For exmaple: <b>Invoice Process AD160-XXX</b>.<br><br>
+3. Search for your project name under <b>Project</b>. Select the project you created with the ID provided to you. For example: <b>Invoice Process AD160-XXX</b>.<br><br>
 ![](images/Search%20invoice.png)
 
 4. After you find your process, copy its <b>Definition ID</b>.<br><br>
@@ -38,7 +38,7 @@ Follow this tutorial on [Agent Management Settings](https://developers.sap.com/t
 2. Select the <b>SendtoSPA</b> data entity.<br><br>
 ![](images/ss5.png)
 
-3. In the <b>create</b> tab, open the bindng menu for <b> Request body mapper</b>.<br><br>
+3. In the <b>create</b> tab, open the binding menu for <b> Request body mapper</b>.<br><br>
 ![](images/ss6.png)
 
 4. Open the formula editor. Enter the following formula: <br><pre>ENCODE_JSON({  "definitionId": "<b>Your Definition ID copied from SPA</b> ",  "context":  query.record })  </pre>
@@ -69,7 +69,7 @@ If you get the response as <b>Status:OK</b>, then the connection is successful.<
     ![](images/Test2.png)
 
 
-8. Click on <b>SAVE</b> on the top right corner to the save the changes.
+8. Click on <b>SAVE</b> on the top right corner to save the changes.
 
     ![](images/ss10.png)
 
@@ -93,7 +93,7 @@ The invoice can be downloaded <a href="https://github.com/SAP-samples/teched2022
 5. After uploading the invoice, click on **Submit** button.<br><br>
 ![](images/Submit%20.png)
 
-6. If the invoice is submitted succesfully, you should recieve a success toast message.<br><br>
+6. If the invoice is submitted successfully, you should receive a success toast message.<br><br>
 ![](images/Successs%20s.png)
 
 
