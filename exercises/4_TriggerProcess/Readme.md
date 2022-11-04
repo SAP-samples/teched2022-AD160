@@ -67,7 +67,7 @@ In this exercise you will learn:
 
     ![04](./images/012a.png)
 
-8. Choose **Dependencies** and select **Add Dependency**>**Add a Business Process project dependency**.
+8. Choose **Dependencies** and select **Add Dependency**.
 
     ![04](./images/013.png)
 
@@ -88,12 +88,10 @@ In this exercise you will learn:
 ## Map API parameters to Process parameters <a name="mapParameters"></a>
 
 1. Map parameters for **Invoice Approval form**. Select **Invoice Approval Form** and map:
-- Under **General**, map **employeeMail** with Users.
-
+    - Under **General**, map **employeeMail** with Users.
     ![05](./images/025.png)
 
-- Under **Inputs**, map **Employee Name** with **employeeName**.
-
+    - Under **Inputs**, map **Employee Name** with **employeeName**.
     ![05](./images/025a.png)
 
 2. Map parameters for **Invoice Approval Notification Form**. Select **Invoice Approval Notification Form**, under **General**, map **employeeMail** with Users.

@@ -29,7 +29,7 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
     ![05](./images/017.png)
 
-3. Now go **Tools**, select **Automations** and drag and drop the **Download document** automation into the canvas, just before **Extract Data** activity.
+3. Go to **Tools**, select **Automations** and drag and drop the **Download document** automation into the canvas, just before **Extract Data** activity.
 
     ![05](./images/018.png)
 
@@ -52,29 +52,34 @@ The pre-built automation extracts the data from the Invoice document using AI.
     ![05](./images/099.png)
 
 9. The **outputPath** needs to be hard-coded:
+    - Open the expression editor.
+        ![05](./images/080.png)
+    - In the Edit Expression window paste following value:
+    <pre> "C:\\Users\\Public\\" + Step0.fileName </pre>
+        ![05](./images/081.png)
+
+    > To check if the Expression is correct, click on Test button. If it is highlighted in green, it means the expression is correct.
+
+10. Choose **Save Expression**.
+
+11. Select **Extract Data**. In Input Parameters, next to **documentPath** open the Expression Editor.
+
+    ![05](./images/082.png)
+
+12. Once the **Edit Expression** window opens, replace the value with:
+
     <pre> "C:\\Users\\Public\\" + Step0.fileName </pre>
 
-    > To do so please do not copy and paste the code directly in the **outputPath** field but open the expression editor where you can edit the expression.
+    > To check if the Expression is correct, click on Test button. If it is highlighted in green, it means the expression is correct.
 
-10. Open the expression editor and copy: <pre> "C:\\Users\\Public\\" </pre>
+13. Choose **Save Expression**.
 
-11. Select **Operators** and choose **+ Add**.
-
-    ![05](./images/096.png)
-
-12. Now select **Variables** and choose **FileName**.
-
-13. You may test the expression, if it is highlighted in green this means your expression is correct.
-
-14. Choose **Save Expression**.
-
-    ![05](./images/096bis.png)
-
-15. Click on the **Canvas** in the background.
+***
+14. Click on the **Canvas** in the background.
 
     ![05](./images/021.png)
 
-16. Under **Tools** search for the activity **Delete File**, drag and drop it into the canvas, just below **Log Message** activity.
+16. Under **Tools**, search for the activity **Delete File**, drag and drop it into the canvas, below **Log Message** activity.
 
     ![05](./images/022.png)
 
@@ -87,16 +92,13 @@ The pre-built automation extracts the data from the Invoice document using AI.
 - Under **remotePath** type: C:\Users\Public\
 
     ![05](./images/023a.png)
+***
 
-19. Save your work.
-
-20. Go to the process tab **Get Invoice Details**.
-
-    ![05](./images/094.png)
+19. **Save** your work.
 
 ## Map Automation parameters to Process parameters <a name="mapParameters"></a>
 
-1. Select **Extract Invoice Data** and map the following inputs:
+1. Go to the process tab **Get Invoice Details**. Select **Extract Invoice Data** and map the following inputs:
 
 - Map **fileName** with **fileName**.
 - Map **folderName** with **folderName**.

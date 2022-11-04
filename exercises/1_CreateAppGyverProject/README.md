@@ -19,7 +19,7 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
 ## Create a Build Apps Project <a name="buildapps"></a>
 
-1. From <b>Application Development>Lobby</b>, click on <b>Create</b> and then select <b>Build Apps Project</b>.<br>
+1. From <b>Application Development Lobby</b>, click on <b>Create</b> and then select <b>Build Apps Project</b>.<br>
 <br>![Create the project](images/011.png)
 
 2. Under <b>Project Name</b>, enter <b><i>"Invoice AD160-XXX"</b></i>, replace XXX with your user ID. For example, <i>"Invoice AD160-087"</i>.<br>Click on <b>Create</b> to start building your application.
@@ -73,7 +73,7 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 16. Select <b>App variable</b>.<br><br>
 ![app variable inbind menu](images/15.png)
 
-17. Now, select <b>name</b> in the list of <b>App variable</b> available.<br><br>
+17. Select <b>name</b> in the list of <b>App variable</b> available.<br><br>
 ![name of app vairble](images/16.png)
 
 18. Click on the <b>SAVE</b> button to save the binding to the component value.<br><br>
@@ -88,7 +88,7 @@ Now, the <b>PROPERTIES</b> tab on the right-hand side will show the properties o
 21. Select <b>App variable</b>.<br><br>
 ![app variables](images/20.png)
 
-22. Now select <b>Invoicescan</b> under the list of available app variables and click on <b>SAVE</b> to save the binding to the <b>Image</b> component.<br><br>
+22. Select <b>Invoicescan</b> under the list of available app variables and click on <b>SAVE</b> to save the binding to the <b>Image</b> component.<br><br>
 ![variable](images/21.png)
 
 23. Drag and drop another <b>Button</b> component from the component library into the canvas and rename the <b>Label</b> to <i>Submit</i>.<br><br>
@@ -244,7 +244,7 @@ from library</b> component. <br>
 7. In the <b>PROPERTIES</b> tab of the <b>Set app variable</b>, select the variable <b>Invoicescan</b>.<br><br>
 ![](images/34.png)
 
-8. Now open the binding menu for <b>Assigned Value</b>. <br><br>
+8. Open the binding menu for <b>Assigned Value</b>. <br><br>
 ![](images/101.png)
 
 9. Select <b>Output value of another node</b>.<br><br>
@@ -257,7 +257,7 @@ path</b>.<br><br>
 11. Click on <b>SAVE</b>.<br><br>
 ![](images/104.png)
 
-## Create Logic for Submit button. <a name="submit"></a>
+## Create Logic for Submit button <a name="submit"></a>
 
 1. Select the <b>Submit</b> button and click on the grey bar on the bottom to open the logic composer.<br><br>
 ![](images/63.png)

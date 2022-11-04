@@ -29,9 +29,10 @@ After completing Modify Automation exercise your process looks like this:
 
 4. Once you have successfully [configured Document Management Repository and Destination in SAP BTP Cockpit](https://help.sap.com/docs/PROCESS_AUTOMATION/a331c4ef0a9d48a89c779fd449c022e7/3da3846d0da94d96a4f38688cd2e936a.html?locale=en-US&version=Cloud) in the **Deploy a project** window do the following:
 
-    - Under **Set Variables**, choose **No trigger creation**,
-    - Under **Destination** choose `SPA_DMS`,
-    - Choose **Confirm** and then **Deploy** to deploy your project.
+    - Under **Set Variables**, choose **No trigger creation**.
+    - Under **Destination** choose **SPA_DMS**.
+    - Choose **Confirm**.
+    - Select **Deploy** to deploy your project.
 
     ![07](./images/305.png)
 

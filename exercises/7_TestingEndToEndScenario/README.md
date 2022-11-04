@@ -11,9 +11,9 @@ Although, your application is connected to SAP Build Process Automation service,
 
 
 ## Desktop Agent Management Settings <a name="AgentSettings"></a>
-Follow the below steps to execute the process with an automation with a specific registered Desktop Agent.
-You will create an **Agent Attribute** in the tenant to add it to your agent and project.
-**Agent attributes** allow you to sort agents registered within the same tenant and make sure that a specific agent executes the job of your choice.
+Follow the steps, to execute the process with an automation with a specific registered Desktop Agent.
+You will create an **Agent Attribute** in the tenant, to add it to your agent and project.
+**Agent attributes** allows you to sort agents registered within the same tenant and make sure that a specific agent executes the job of your choice.
 
 Follow this tutorial on [Agent Management Settings](https://developers.sap.com/tutorials/spa-run-agent-settings.html).
 
