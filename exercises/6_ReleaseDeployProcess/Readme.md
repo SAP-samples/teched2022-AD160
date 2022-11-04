@@ -7,8 +7,6 @@
 In this exercise you will learn:
 - How to Release and deploy Business Process
 
-
-
 ## Release and deploy Business Process <a name="releaseDeploy"></a>
 
 After completing Modify Automation exercise your process looks like this:
