@@ -107,7 +107,7 @@ The invoice can be downloaded <a href="https://github.com/SAP-samples/teched2022
 
 ## Monitoring and approving the Process <a name="name"></a>
 
-1. Navigate back to the **Application Development** and choose the **Monitor** tab and choose **Process and Workflow Instances**.
+1. Navigate back to the **Application Development** and choose the **Monitor** tab and then **Process and Workflow Instances**.
 
     ![Monitor](images/01_Monitor.png)
 
