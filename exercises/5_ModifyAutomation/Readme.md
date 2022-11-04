@@ -58,7 +58,7 @@ The pre-built automation extracts the data from the Invoice document using AI.
     <pre> "C:\\Users\\Public\\" + Step0.fileName </pre>
         ![05](./images/081.png)
 
-    > To check if the Expression is correct, click on Test button. If it is highlighted in green, it means the expression is correct.
+        > To check if the Expression is correct, click on Test button. If it is highlighted in green, it means the expression is correct.
 
 10. Choose **Save Expression**.
 
@@ -74,7 +74,6 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
 13. Choose **Save Expression**.
 
-***
 14. Click on the **Canvas** in the background.
 
     ![05](./images/021.png)
@@ -92,7 +91,6 @@ The pre-built automation extracts the data from the Invoice document using AI.
 - Under **remotePath** type: C:\Users\Public\
 
     ![05](./images/023a.png)
-***
 
 19. **Save** your work.
 
