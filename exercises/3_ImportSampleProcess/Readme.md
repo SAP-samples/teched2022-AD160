@@ -7,17 +7,17 @@
 
 ### Overview <a name="section1"></a>
 
-In this exercise, you will  acquire Invoice Sample Process and from SAP Process Automation Store.
+In this exercise, you will  acquire Invoice Sample Process from SAP Process Automation Store.
 This sample content helps users to get started in automating a simple invoice approval process that includes the extraction of data from documents and approval steps required to approve the invoice.
-Included in this sample process is the following:
-- Sample request form to start the invoice processing
-- An automation (and respective data types) to extract the data from an invoice
+This sample process includes the following:
+- Sample request form to start the invoice processing.
+- An automation (and respective data types) to extract the data from an invoice.
 - An approval step to decide for approval or rejection of the invoice.
-- Confirmation and rejection forms to notify the requester about the decision
+- Confirmation and rejection forms to notify the requester about the decision.
 
     ![Process](./images/BusinessProcess.png)
 
-## 1. Explore the store <a name="section2"></a>
+## Explore the store <a name="section2"></a>
 
 >The Store offers predefined content for your automation. Packages are categorized by catalog which let you choose between Business Content, Learning Content and Automation SDK.
 
@@ -26,24 +26,24 @@ Included in this sample process is the following:
 
   ![03](./images/001.png)
 
-## 2. Acquire a Project <a name="section3"></a>
+## Acquire a Project <a name="section3"></a>
 
-1. Acquire the Invoice Approval Process - Sample application package:
+1. Acquire the **Invoice Approval Process - Sample** application package:
 
-  - Search for **Invoice Approval Process - Sample**,
+  - Search for **Invoice Approval Process - Sample**.
   - Select **Create from Template** button.
 
   ![03](./images/002.png)
 
 2.	Create a Business Process Project from the template.
 
-  - Under Project Name field type: **Invoice Approval Process AD160-XXX** (replace `XXX` with your User ID to identify project later),
-  - Under Short Description: Invoice Approval Process
+  - Under Project Name field type: **Invoice Approval Process AD160-XXX** (replace `XXX` with your User ID to identify the project later).
+  - Under Short Description: Invoice Approval Process.
   - Choose **Create**.
 
   ![03](./images/003.png)
 
-4. To see the newly created project, navigate back to Lobby from the top menu.
+4. To see the newly created project, navigate back to the **Lobby** from the top menu.
 
   ![03](./images/004.png)
 
