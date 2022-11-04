@@ -37,7 +37,7 @@ This sample process includes the following:
 
 2.	Create a Business Process Project from the template.
 
-  - Under **Project Name** field, type: **Invoice Approval Process AD160-XXX** (replace `XXX` with your User ID to identify the project later).
+  - Under **Project Name** field, type: Invoice Approval Process AD160-XXX (replace `XXX` with your User ID to identify the project later).
   - Under **Short Description** field, type: Invoice Approval Process.
   - Choose **Create**.
 
