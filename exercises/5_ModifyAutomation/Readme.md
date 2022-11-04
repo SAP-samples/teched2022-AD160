@@ -62,9 +62,6 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
     ![05](./images/096bis.png)
 
-
-    ![05](./images/096.png)
-
 12. Click on the **Canvas** in the background.
 
     ![05](./images/021.png)
