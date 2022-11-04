@@ -56,41 +56,41 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
     > To do so please do not copy and paste the code directly in the **outputPath** field but open the expression editor where you can edit the expression.
 
-10. Open the expression editor and copy <pre> "C:\\Users\\Public\\" </pre>.
+10. Open the expression editor and copy: <pre> "C:\\Users\\Public\\" </pre>
 
-12. Select **Operators** and choose **+ Add**.
+11. Select **Operators** and choose **+ Add**.
 
     ![05](./images/096.png)
 
-13. Now select **Variables** and choose FileName.
+12. Now select **Variables** and choose **FileName**.
 
-14. You may test the expression, if it is highlighted in green this means your expression is correct.
+13. You may test the expression, if it is highlighted in green this means your expression is correct.
 
-15. Choose **Save Expression**.
+14. Choose **Save Expression**.
 
     ![05](./images/096bis.png)
 
-12. Click on the **Canvas** in the background.
+15. Click on the **Canvas** in the background.
 
     ![05](./images/021.png)
 
-13. Under **Tools** search for the activity **Delete File**, drag and drop it into the canvas, just below **Log Message** activity.
+16. Under **Tools** search for the activity **Delete File**, drag and drop it into the canvas, just below **Log Message** activity.
 
     ![05](./images/022.png)
 
-14. Select the activity **Delete File**.
+17. Select the activity **Delete File**.
 
     ![05](./images/095.png)
 
-15. In the **Delete File** side panel, edit the **Input Parameters** as follows:
+18. In the **Delete File** side panel, edit the **Input Parameters** as follows:
 - Map **fileName** with **fileName**
 - Under **remotePath** type: C:\Users\Public\
 
     ![05](./images/023a.png)
 
-16. Save your work.
+19. Save your work.
 
-17. Go to the process tab **Get Invoice Details**.
+20. Go to the process tab **Get Invoice Details**.
 
     ![05](./images/094.png)
 
