@@ -18,7 +18,7 @@ You will create an **Agent Attribute** in the tenant, to add it to your agent an
 Follow this tutorial on [Agent Management Settings](https://developers.sap.com/tutorials/spa-run-agent-settings.html).
 
 ## Copy Definition ID from SAP Build Process Automation <a name="SPA"></a>
-1. Open the <b>Application Development</b> lobby again. Open the <b>Monitor</b> tab.<br><br>
+1. Open the <b>Application Development</b> lobby again. Choose the <b>Monitor</b> tab.<br><br>
 ![](images/ss1.png)
 
 2. Click on <b>Process and Workflow</b> under the <b>Manage </b> section.<br><br>
@@ -107,7 +107,7 @@ The invoice can be downloaded <a href="https://github.com/SAP-samples/teched2022
 
 ## Monitoring and approving the Process <a name="name"></a>
 
-1. Navigate to the **Monitor** tab and choose **Process and Workflow Instances**.
+1. Navigate back to the **Application Development** and choose the **Monitor** tab and then **Process and Workflow Instances**.
 
     ![Monitor](images/01_Monitor.png)
 
