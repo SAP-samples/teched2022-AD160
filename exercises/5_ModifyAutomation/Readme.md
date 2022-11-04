@@ -56,9 +56,17 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
     > To do so please do not copy and paste the code directly in the **outputPath** field but open the expression editor where you can edit the expression.
 
-10. Open the expression editor and copy the code.
+10. Open the expression editor and copy <pre> "C:\\Users\\Public\\" </pre>.
 
-11. Choose **Save Expression**
+12. Select **Operators** and choose **+ Add**.
+
+    ![05](./images/096.png)
+
+13. Now select **Variables** and choose FileName.
+
+14. You may test the expression, if it is highlighted in green this means your expression is correct.
+
+15. Choose **Save Expression**.
 
     ![05](./images/096bis.png)
 
@@ -74,9 +82,9 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
     ![05](./images/095.png)
 
-15. Under **Delete File**, edit the **Input Parameters** as follows:
+15. In the **Delete File** side panel, edit the **Input Parameters** as follows:
 - Map **fileName** with **fileName**
-- under **remotePath** type: C:\Users\Public\
+- Under **remotePath** type: C:\Users\Public\
 
     ![05](./images/023a.png)
 
