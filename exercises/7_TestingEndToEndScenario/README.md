@@ -18,7 +18,8 @@ You will create an **Agent Attribute** in the tenant, to add it to your agent an
 Follow this tutorial on [Agent Management Settings](https://developers.sap.com/tutorials/spa-run-agent-settings.html).
 
 ## Copy Definition ID from SAP Build Process Automation <a name="SPA"></a>
-1. Open the <b>Application Development</b> lobby again. Choose the <b>Monitor</b> tab.<br><br>
+
+1. Open the <b>Application Development</b> lobby. Choose the <b>Monitor</b> tab.<br><br>
 ![](images/ss1.png)
 
 2. Click on <b>Process and Workflow</b> under the <b>Manage </b> section.<br><br>
@@ -47,21 +48,23 @@ Follow this tutorial on [Agent Management Settings](https://developers.sap.com/t
 5. In the <b>create</b> tab, open the binding menu for <b> Request body mapper</b>.<br><br>
 ![](images/ss6.png)
 
-6. Open the formula editor. Enter the following formula: <br><pre>ENCODE_JSON({  "definitionId": "<b>Your Definition ID copied from SPA</b> ",  "context":  query.record })  </pre>
-Click on <b>SAVE</b>.<br><br>
-![](images/ss7.png)
+6. Open the formula editor. Enter the following formula:
 
-7. Click on <b>SAVE</b>.<br><br>
-![](images/ss8.png)
+    <pre>ENCODE_JSON({  "definitionId": "<b>Your Definition ID copied from SPA</b> ",  "context":  query.record })  </pre>
 
-8. You can test if this Data connection is working. Switch to <b>TEST</b> tab.<br>
-Enter the below values in the following fields to test the connection:
+    Click on <b>SAVE</b>.<br><br>
+    ![](images/ss7.png)
+
+7. Click on <b>SAVE</b>.
+    ![](images/ss8.png)
+
+8. You can test if this Data connection is working.<br>Switch to <b>TEST</b> tab and enter the below values in the following fields to test the connection:
     - filename: <i>Test1666861993010.png</i>
     - foldername: <i>Invoices</i>
     - employeemail: <i>Test</i>
-    - employeename: <i>Test</i><br>
+    - employeename: <i>Test</i>
 
-9. Click on <b>RUN TEST</b>.
+    Click on <b>RUN TEST</b>.
 
     ![](images/Test1.png)
 
@@ -88,7 +91,7 @@ If you get the response as <b>Status:OK</b>, then the connection is successful.<
 2. Click on <b> OPEN APP PREVIEW PORTAL</b>.<br><br>
 ![](images/ss12.png)
 
-3. Select the AppGyver project you created.<br><br>
+3. Select the AppGyver project you have created.<br><br>
 ![](images/App.png)
 
 4. Enter the name and upload the invoice to test the process.
@@ -103,23 +106,21 @@ The invoice can be downloaded <a href="https://github.com/SAP-samples/teched2022
 ![](images/Successs%20s.png)
 
 
-
-
 ## Monitoring and approving the Process <a name="name"></a>
 
-1. Navigate back to the **Application Development** and choose the **Monitor** tab and then **Process and Workflow Instances**.
+1. Navigate back to the **Application Development**, choose the **Monitor** tab, and then **Process and Workflow Instances**.
 
     ![Monitor](images/01_Monitor.png)
 
-2. Choose **Get Invoice Details** instance to check the status of the **CONTEXT** to see the details of approval request and **EXECUTION LOG** to see the steps executed by the process.
+2. Choose **Get Invoice Details** instance, to check the status of the **CONTEXT** to see the details of approval request, and **EXECUTION LOG** to see the steps executed by the process.
 
     ![Monitor](images/BB1.png)
 
-    In the **EXECUTION LOG**, you can see how the process instance progresses further to the approval step in the business process.
+    > In the **EXECUTION LOG**, you can see how the process instance progresses further to the approval step in the business process.
 
     ![Monitor](images/BB2.png)
 
-3. Open the **My Inbox** application by selecting the button at the top right corner.
+3. Open **My Inbox** application by selecting the button at the top right corner.
 
     ![Lobby](images/BB3.png)
 
@@ -128,8 +129,9 @@ The invoice can be downloaded <a href="https://github.com/SAP-samples/teched2022
     ![My Inbox Actions](images/03_MyInbox_Actions.png)
 
 5. Move on with one of the actions:
-      - **Approve**, **Reject**, **Show Log** (to see what has been done so far),
-      - **Claim** (to reserve this task for you) or
+      - **Approve**, **Reject**,
+      - **Show Log** (to see what has been done so far),
+      - **Claim** (to reserve this task for you),
       - **Mail** (to forward this task via email).
 
       ![Task Actions](images/04_TaskActions.png)
