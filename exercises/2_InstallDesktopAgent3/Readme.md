@@ -23,7 +23,7 @@ The setup program is provided in the form of an industry standard Windows MSI in
 
     ![07](./images/agent3-a031.png)
 
-2. Download the file.
+2. Download the file. 
 
     ![07](./images/agent3-a004.png)
 
