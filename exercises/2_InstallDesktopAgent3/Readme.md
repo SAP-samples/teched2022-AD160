@@ -19,7 +19,7 @@ In this exercise you will learn:
 
 The setup program is provided in the form of an industry standard Windows MSI installer.
 
-1. You can install the Desktop Agent 3 from SAP Application Development. Navigate to the **Settings** on your tenant, choose **Agent Update** under **Agents**. Select **Go to Download Page** button.
+1.. You can install the Desktop Agent 3 from SAP Application Development. Navigate to the **Settings** on your tenant, choose **Agent Update** under **Agents**. Select **Go to Download Page** button.
 
     ![07](./images/agent3-a031.png)
 
