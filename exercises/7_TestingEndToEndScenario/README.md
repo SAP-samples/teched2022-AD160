@@ -91,7 +91,7 @@ If you get the response as <b>Status:OK</b>, then the connection is successful.<
 2. Click on <b> OPEN APP PREVIEW PORTAL</b>.<br><br>
 ![](images/ss12.png)
 
-3. Select the AppGyver project you have created.<br><br>
+3. Select the AppGyver project you created.<br><br>
 ![](images/App.png)
 
 4. Enter the name and upload the invoice to test the process.
