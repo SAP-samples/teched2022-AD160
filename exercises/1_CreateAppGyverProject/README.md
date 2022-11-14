@@ -364,7 +364,7 @@ Click on <b>SAVE</b>.<br><br>
 
 ## Summary <a name="summary"></a>
 
-You have build app and completed the below steps.
+You have build an app and completed the below steps.
 
 ![Summary](images/Scenario_summary.png)
 
