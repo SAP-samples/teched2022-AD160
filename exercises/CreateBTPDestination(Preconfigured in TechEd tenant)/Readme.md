@@ -1,6 +1,6 @@
 Two destinations have been used in this scenario.<br>
 - One destination to connect SAP Build Process Automation with SAP Build Apps.
-- The other to retrieve document from SAP Document Management Service to SAP Process Automation Service. <br><br>
+- The other to retrieve document from SAP Document Management Service to SAP Process Automation Service.
 
 Due to time constraints, destinations have been pre-configured in this tenant. Below you can find the configuration settings <br>
 
