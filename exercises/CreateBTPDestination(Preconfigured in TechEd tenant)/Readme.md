@@ -6,7 +6,7 @@ Due to time constraints, destinations have been pre-configured in this tenant. B
 
 Destination to connect SAP Build Process Automation with SAP Build Apps.
 
-Enter this value under URL: <pre>https://spa-api-gateway-bpi-eu-prod.cfapps.eu10.hana.ondemand.com/public/workflow/rest/v1/workflow-instances</pre>.
+Enter this value under URL: <pre>https://spa-api-gateway-bpi-eu-prod.cfapps.eu10.hana.ondemand.com/public/workflow/rest/v1/workflow-instances</pre>
 
 Change the authentication to <b>OAuth2ClientCredentials</b>. Client ID, Client Secret and Token Service URL can be retrieved from the SAP Build Process Automation Instance from your tenant.
 
