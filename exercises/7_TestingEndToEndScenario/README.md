@@ -55,7 +55,7 @@ Follow this tutorial on [Agent Management Settings](https://developers.sap.com/t
     Click on <b>SAVE</b>.<br><br>
     ![](images/ss7.png)
 
-7. Click on <b>SAVE</b><br>.
+7. Click on <b>SAVE.</b><br>
     ![](images/ss8.png)
 
 8. You can test if this Data connection is working.<br>Switch to <b>TEST</b> tab and enter the below values in the following fields to test the connection:
