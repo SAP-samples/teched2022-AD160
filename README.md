@@ -17,7 +17,7 @@ Scenario: Invoice Approval with SAP Build Apps & SAP Build Process Automation
 
 There are no dedicated requirement for this exercise. But in case you want to gain some further knowledge around SAP Build Process Automation, please feel free to attend these virtual SAP TechEd workshops:
 - Learn how to build a process, decisions and RPA bots from scratch in [AD182 - Build Process Automations and Extensions to SAP Solutions](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198036950001EHbd)
-- Learn how to build a process, decisions and extract the data from documents with RPA bots in [AI180 - Automate Your Invoice Processing with SAP Build Process Automation (https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198041428001ExKO)
+- Learn how to build a process, decisions and extract the data from documents with RPA bots in [AI180 - Automate Your Invoice Processing with SAP Build Process Automation](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198041428001ExKO)
 
 ## Exercises
 
