@@ -298,7 +298,7 @@ The overall formula will look like the following: <br><pre>appVars.name+TIMESTAM
 Click on <b>SAVE</b>.
 <br><br>![Submit](images/75.png)
 
-12. Drag and drop <b>Create record</b> logic component into the logic canvas and connect the nodes with <b>Set app variable</b>component. In the <b>PROPERTIES</b> tab of the logic component check if the <b>Resource name</b> is <b>Documentupload</b>. Open the binding menu of <b>Record properties</b>.<br><br>
+12. Drag and drop <b>Create record</b> logic component into the logic canvas and connect the nodes with <b>Set app variable</b> component. In the <b>PROPERTIES</b> tab of the logic component check if the <b>Resource name</b> is <b>Documentupload</b>. Open the binding menu of <b>Record properties</b>.<br><br>
 ![Submit](images/76.png)
 
 13. In the binding menu, select <b>Object with properties</b>.<br><br>

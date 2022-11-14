@@ -83,21 +83,7 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
     ![05](./images/021.png)
 
-16. Under **Tools**, search for the activity **Delete File**, drag and drop it into the canvas, below **Log Message** activity.
-
-    ![05](./images/022.png)
-
-17. Select the activity **Delete File**.
-
-    ![05](./images/095.png)
-
-18. In the **Delete File** side panel, edit the **Input Parameters** as follows:
-- Map **fileName** with **fileName**
-- Under **remotePath** type: C:\Users\Public\
-
-    ![05](./images/023a.png)
-
-19. **Save** your work.
+15. **Save** your work.
 
 ## Map Automation parameters to Process parameters <a name="mapParameters"></a>
 
