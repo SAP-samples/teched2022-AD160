@@ -15,7 +15,9 @@ Scenario: Invoice Approval with SAP Build Apps & SAP Build Process Automation
 
 ## Requirements
 
-The requirement to follow the exercises in this repository is to know basics of SAP Build Process Automation. Attend this virtual workshop to learn how to build  process, decisions and extract the data from documents with RPA bots from scratch [AI180 - Automate Your Invoice Processing with SAP Build Process Automation](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198041428001ExKO).
+There are no dedicated requirement for this exercise. But in case you want to gain some further knowledge around SAP Build Process Automation, please feel free to attend these virtual SAP TechEd workshops:
+- Learn how to build a process, decisions and RPA bots from scratch in [AD182 - Build Process Automations and Extensions to SAP Solutions](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198036950001EHbd)
+- Learn how to build a process, decisions and extract the data from documents with RPA bots in [AI180 - Automate Your Invoice Processing with SAP Build Process Automation](https://go3.events.sap.com/sapteched/hybrid/2022/reg/flow/sap/saptech2022/sapteched2022catalog/page/catalog/session/1661198041428001ExKO)
 
 ## Exercises
 
@@ -26,7 +28,6 @@ The requirement to follow the exercises in this repository is to know basics of 
 - [Exercise 5 - Modify Automation](/exercises/5_ModifyAutomation)
 - [Exercise 6 - Release, Deploy and Test Business Process](/exercises/6_ReleaseDeployProcess)
 - [Exercise 7 - Test SAP Build Apps and Business Process](/exercises/7_TestingEndToEndScenario)
-
 
 ## How to obtain support
 
