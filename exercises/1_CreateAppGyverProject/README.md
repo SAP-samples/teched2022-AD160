@@ -138,7 +138,7 @@ Now, your application will be connected to Document Management System and SAP Pr
 6. Under <b>SAP AppGyver classic data entities</b>, click on <b>CREATE DATA ENTITY</b> and select <b>SAP BTP destination REST API integration</b>.<br><br>
 ![](images/41.png)
 
-7. As the <b>BTP destination name</b>, select <b>AppgGyver_SPA</b>.<br><br>
+7. As the <b>BTP destination name</b>, select <b>AppGyver_SPA</b>.<br><br>
 ![](images/Destination.png)
 
 8.  Under <b> Data resource name</b>, a name can be given to this data connection, like "<i>SendtoSPA</i>".<br><br>
@@ -244,7 +244,7 @@ from library</b> component. <br>
 7. In the <b>PROPERTIES</b> tab of the <b>Set app variable</b>, select the variable <b>Invoicescan</b>.<br><br>
 ![](images/34.png)
 
-8. Open the binding menu for <b>Assigned Value</b>. <br><br>
+8. Open the binding menu for <b>Assigned value</b>. <br><br>
 ![](images/101.png)
 
 9. Select <b>Output value of another node</b>.<br><br>
