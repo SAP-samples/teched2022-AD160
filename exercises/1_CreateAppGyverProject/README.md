@@ -295,7 +295,7 @@ Open the binding menu for <b>Source file URL</b> of the <b>Convert file to base6
 
 11. Add the following values.
 <br><pre>+TIMESTAMP()+".png"</pre>
-The overall formula will look like the following:
+The overall formula will look like the following: <br>
 <br><pre>appVars.name+TIMESTAMP()+".png"</pre>
 Click on <b>SAVE</b>.<br><br>
 ![Submit](images/75.png)
