@@ -170,8 +170,9 @@ Choose <b>ADD.</b>
 
 14. Click on <b>Add value</b>, and enter the following values:
     - <b>Header name</b>: <i> Content-Type</i><br>
-    - <b>Header value</b>:<i> application/json</i><br><br>
-    Click on <b>SAVE</b>.<br><br>
+    - <b>Header value</b>:<i> application/json</i>
+
+  Click on <b>SAVE</b>.
 
     ![](images/49.png)
 
