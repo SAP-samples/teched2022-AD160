@@ -79,11 +79,7 @@ The pre-built automation extracts the data from the Invoice document using AI.
 
 13. Choose **Save Expression**.
 
-14. Click on the **Canvas** in the background.
-
-    ![05](./images/021.png)
-
-15. **Save** your work.
+14. **Save** your work.
 
 ## Map Automation parameters to Process parameters <a name="mapParameters"></a>
 
