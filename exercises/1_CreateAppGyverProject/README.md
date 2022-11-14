@@ -172,7 +172,7 @@ Choose <b>ADD.</b>
     - <b>Header name</b>: <i> Content-Type</i><br>
     - <b>Header value</b>:<i> application/json</i>
 
-  Click on <b>SAVE</b>.
+    Click on <b>SAVE</b>.
 
     ![](images/49.png)
 
