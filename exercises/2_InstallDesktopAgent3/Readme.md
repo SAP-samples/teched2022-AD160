@@ -23,7 +23,7 @@ The setup program is provided in the form of an industry standard Windows MSI in
 
     ![07](./images/agent3-a031.png)
 
-2. Download the file. 
+2. Download the file.
 
     ![07](./images/agent3-a004.png)
 
@@ -108,6 +108,6 @@ Once the installation steps of the SAP Robotic Process Automation setup wizard a
 
 ## Summary <a name="summary"></a>
 
-You have now have successfully installed and configured your Desktop Agent 3.
+You have now successfully installed and configured your Desktop Agent 3.
 
 Continue to - [Exercise 3 - Import Sample Process from SAP Build Process Automation Store](../3_ImportSampleProcess/Readme.md)
