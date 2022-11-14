@@ -294,15 +294,10 @@ Open the binding menu for <b>Source file URL</b> of the <b>Convert file to base6
 ![Submit](images/74.png)
 
 11. Add the following values.
-
-<pre>+TIMESTAMP()+".png"</pre>
-
+<br><pre>+TIMESTAMP()+".png"</pre>
 The overall formula will look like the following:
-
-<pre>appVars.name+TIMESTAMP()+".png"</pre>
-
-Click on <b>SAVE</b>.
-
+<br><pre>appVars.name+TIMESTAMP()+".png"</pre>
+Click on <b>SAVE</b>.<br><br>
 ![Submit](images/75.png)
 
 12. Drag and drop <b>Create record</b> logic component into the logic canvas and connect the nodes with <b>Set app variable</b> component. In the <b>PROPERTIES</b> tab of the logic component check if the <b>Resource name</b> is <b>Documentupload</b>. Open the binding menu of <b>Record properties</b>.<br><br>
