@@ -23,7 +23,7 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
 
    | Username | Password    |
     | :------------- | :------------- |
-    | AD261_XXX <br> where XXX is the user number <br> like AD261_000, AD261_001 etc.       | Acce$$teched22     |
+    | AD160_XXX <br> where XXX is the user number <br> like AD160_000, AD160_001 etc.       | Acce$$teched22     |
     
 <br>![Create the project](images/011.png)
 
