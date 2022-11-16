@@ -25,10 +25,11 @@ In this exercise, you will build your app in SAP Build Apps to upload invoices.
     | :------------- | :------------- |
     | AD160_XXX <br> where XXX is the user number <br> like AD160_000, AD160_001 etc.       | Acce$$teched22     |
     
-<br>![Create the project](images/011.png)
+<br>![Create the project](images/01a.png)
+<br>![Create the project](images/01b.png)
 
 2. Under <b>Project Name</b>, enter <b><i>"Invoice AD160-XXX"</b></i>, replace XXX with your user ID. For example, <i>"Invoice AD160-087"</i>.<br>Click on <b>Create</b> to start building your application.
-<br><br>![Name the project](images/New%20project.png)
+<br><br>![Name the project](images/01c.png)
 
 
 ## Create UI <a name="UI"></a>
